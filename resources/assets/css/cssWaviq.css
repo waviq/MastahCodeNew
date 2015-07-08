@@ -1,0 +1,76 @@
+/*Title v4*/
+.title-v4 {
+    font-size: 18px;
+    margin: 0 0 20px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    border-bottom: 3px solid #333;
+}
+
+.title-v4 {
+    color: #e74c3c;
+}
+
+.blog-thumb-v3 h3 a:hover {
+    color: #27d7e7;
+}
+
+hr.hr-xs {
+    margin: 10px 0;
+}
+
+/*end title v4*/
+
+/*Source List*/
+.source-list {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.source-list li {
+    padding-bottom: 3px;
+}
+
+
+.bg-color-dark, .bg-color-darker, .bg-color-sea, .bg-color-red, .bg-color-aqua, .bg-color-blue, .bg-color-grey, .bg-color-light, .bg-color-green, .bg-color-brown, .bg-color-orange, .bg-color-green1, .bg-color-purple, .bg-color-dark-blue, .bg-color-light-grey, .bg-color-light-green {
+    color: inherit;
+}
+.form-control {
+    height: auto;
+}
+
+/*Blog Grid Tags*/
+.blog-grid-tags {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.blog-grid-tags li {
+    padding: 2px;
+    display: inline-block;
+}
+
+.blog-grid-tags li.head {
+    color: #fff;
+    display: inline;
+    font-size: 12px;
+    background: #333;
+    padding: 3px 10px;
+    text-transform: uppercase;
+}
+
+.blog-grid-tags li a {
+    color: #fff;
+    font-size: 12px;
+    background: #999;
+    padding: 3px 10px;
+    text-transform: uppercase;
+}
+
+.blog-grid-tags li a:hover {
+    background: #e74c3c;
+    text-decoration: none;
+}

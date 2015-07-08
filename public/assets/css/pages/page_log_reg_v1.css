@@ -1,0 +1,113 @@
+
+
+/*Registration and Login Page v1
+------------------------------------*/
+.reg-page {
+	color: #555;
+	padding: 30px;
+	background: #fefefe;
+	border: solid 1px #eee;
+	box-shadow: 0 0 3px #eee;
+
+}
+
+/*Reg Header*/
+.reg-header {
+	color: #555;
+	text-align: center;
+	margin-bottom: 35px;
+	border-bottom: solid 1px #eee;
+}
+
+.reg-header h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+/*Reg Forms*/
+.reg-page label {
+	color: #777;
+}
+
+/**/
+/* submited state */
+/**/
+.reg-page .message {
+    display: none;
+    color: #6fb679;
+}
+.reg-page .message i {
+    display: block;
+    margin: 0 auto 20px;
+    width: 81px;
+    height: 81px;
+    border: 1px solid #6fb679;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 81px;
+}
+.reg-page.submited fieldset,
+.reg-page.submited footer {
+    display: none;
+}
+.reg-page.submited .message {
+    display: block;
+    padding: 25px 30px;
+    background: rgba(255,255,255,.9);
+    font: 300 18px/27px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/**/
+/* error state */
+/**/
+.reg-page .state-error input,
+.reg-page .state-error select,
+.reg-page .state-error select + i,
+.reg-page .state-error textarea,
+.reg-page .radio.state-error i,
+.reg-page .checkbox.state-error i,
+.reg-page .toggle.state-error i,
+.reg-page .toggle.state-error input:checked + i {
+    background: #fff0f0;
+}
+.reg-page .state-error + em {
+    display: block;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ee9393;
+}
+.reg-page .rating.state-error + em {
+    margin-top: -4px;
+    margin-bottom: 4px;
+}
+
+
+/**/
+/* success state */
+/**/
+.reg-page .state-success input,
+.reg-page .state-success select,
+.reg-page .state-success select + i,
+.reg-page .state-success textarea,
+.reg-page .radio.state-success i,
+.reg-page .checkbox.state-success i,
+.reg-page .toggle.state-success i,
+.reg-page .toggle.state-success input:checked + i {
+    background: #f0fff0;
+}
+.reg-page .state-success + em {
+    display: block;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ee9393;
+}
+.reg-page .note-success {
+    color: #6fb679;
+}
