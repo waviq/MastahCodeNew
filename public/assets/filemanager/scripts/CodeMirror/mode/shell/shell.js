@@ -25,7 +25,7 @@ CodeMirror.defineMode('shell', function() {
   define('keyword', 'if then do else elif while until for in esac fi fin ' +
     'fil done exit set unset export function');
 
-  // Jobs
+  // Commands
   define('builtin', 'ab awk bash beep cat cc cd chown chmod chroot clear cp ' +
     'curl cut diff echo find gawk gcc get git grep kill killall ln ls make ' +
     'mkdir openssl mv nc node npm ping ps restart rm rmdir sed service sh ' +

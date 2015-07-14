@@ -13,7 +13,18 @@
 
 //Route::get('/', 'WelcomeController@index');
 
-use App\Post;
+//Route::resource('image','ImageUserController');
+
+
+
+Route::resource('user','UserController');
+
+Route::group(array('middleware' => 'auth'), function ()
+{
+    Route::get('/laravel-filemanager', 'LfmController@show');
+    Route::post('/laravel-filemanager/upload', 'LfmControllerUpload@upload');
+    // list all lfm routes here...
+});
 
 Route::get('/','HalamanUtamaController@index');
 

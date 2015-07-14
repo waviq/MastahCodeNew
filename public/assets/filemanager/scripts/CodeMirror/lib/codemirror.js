@@ -4457,7 +4457,7 @@
 
   // STANDARD COMMANDS
 
-  // Jobs are parameter-less actions that can be performed on an
+  // Commands are parameter-less actions that can be performed on an
   // editor, mostly used for keybindings.
   var commands = CodeMirror.commands = {
     selectAll: function(cm) {cm.setSelection(Pos(cm.firstLine(), 0), Pos(cm.lastLine()), sel_dontScroll);},

@@ -58,6 +58,12 @@
     $('#flash-overlay-modal').modal();
 </script>
 
+<script src="{{asset('assets/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js')}}"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+
+</script>
+
 {{--
 <script>
     $(document).on('click','.pagination a', function(e){

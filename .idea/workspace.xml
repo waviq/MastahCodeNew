@@ -1,7 +1,391 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0454b5c5-6234-4496-9afd-2b84d23c6c30" name="Default" comment="" />
+    <list default="true" id="0454b5c5-6234-4496-9afd-2b84d23c6c30" name="Default" comment="">
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\animate.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\animated.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\larger.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\list.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\path.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\font-awesome\scss\font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\congruent_pentagon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\header-profile-skin-2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\otis_redding.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\patterns\triangular.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\angular-notify\angular-notify.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\css\blueimp-gallery-indicator.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\css\blueimp-gallery-video.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\css\blueimp-gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\css\blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\css\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\error.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\error.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\play-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\play-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\video-play.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\blueimp\img\video-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\bootstrap-rtl\bootstrap-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\bootstrap-rtl\bootstrap-rtl.css.map" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\bootstrap-rtl\bootstrap-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\chosen\chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\chosen\chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\chosen\chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\codemirror\ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\codemirror\codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\colorpicker\colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\dataTables\dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\datapicker\angular-datapicker.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\datapicker\datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\dropzone\basic.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\dropzone\dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fullcalendar\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\fullcalendar\fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\iCheck\custom.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\iCheck\green.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\iCheck\green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sort.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sprite-skin-flat2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sprite-skin-nice.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\sprite-skin-simple.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\images\spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\ionRangeSlider\ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\ionRangeSlider\ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\ionRangeSlider\ion.rangeSlider.skinNice.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\ionRangeSlider\ion.rangeSlider.skinSimple.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\jasny\jasny-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\ngImgCrop\ng-img-crop.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\nouslider\jquery.nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\social-buttons\social-buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\steps\jquery.steps.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\summernote\summernote-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\summernote\summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\switchery\switchery.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\plugins\uiTree\angular-ui-tree.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\css\style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\dashbard4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\dashbard4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\email_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\email_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\email_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\12s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\gallery\9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p_big1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p_big2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\p_big3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\profile_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\profile_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\InspiraTemplate\img\zender_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\af.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\bn.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\bs.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\cy.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\da.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\el.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\eu.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\fa.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\fo.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\gu.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\hi.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\hr.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\hu.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\is.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ka.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\km.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ku.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\lt.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\mk.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\mn.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ms.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\no.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ro.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\si.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sk.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sq.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sr.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\tt.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\ug.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\vi.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\lang\zh.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\plugins\about\dialogs\about.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\plugins\about\dialogs\logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\api.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\assets\inlineall\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\assets\outputxhtml\outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\assets\posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\assets\sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\assets\uilanguages\languages.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\inlinetextarea.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\dialog\assets\my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\dialog\dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\enterkey\enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\htmlwriter\outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\htmlwriter\outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\magicline\magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\toolbar\toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\plugins\wysiwygarea\fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\sample.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\sample.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\samples\xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\close.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\hidpi\close.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\hidpi\lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\hidpi\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\hidpi\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\images\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\public\assets\ckeditor\skins\moono\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="G:\PROJECT\PHP\MastahCodeNew\resources\views\Page\BackEnd\Template.blade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/icons.png" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MastahCodeNew.iml" afterPath="$PROJECT_DIR$/.idea/MastahCodeNew.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/blogController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/blogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/lib/codemirror.js" afterPath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/lib/codemirror.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/css.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/css.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/cssProfile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/cssProfile.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/mode/shell/shell.js" afterPath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/mode/shell/shell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/mode/sql/sql.js" afterPath="$PROJECT_DIR$/public/assets/filemanager/scripts/CodeMirror/mode/sql/sql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+    </list>
     <ignored path="MastahCodeNew.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,21 +414,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Blog.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php">
+      <file leaf-file-name="Profile.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4172">
-              <caret line="14" column="47" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1758" max-vertical-offset="2660">
+              <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/blogController.php">
+      <file leaf-file-name="jsProfile.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3104213" vertical-offset="0" max-vertical-offset="3584">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1960">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="4172">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -53,18 +447,58 @@
       <file leaf-file-name="BlogTemplate.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.793103" vertical-offset="219" max-vertical-offset="1092">
-              <caret line="19" column="85" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1092">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowArtikel.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php">
+      <file leaf-file-name="js.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/js.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9184">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1450" max-vertical-offset="2548">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codesnippet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/samples/old/codesnippet/codesnippet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="6776">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monokai.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77716184" vertical-offset="2799" max-vertical-offset="3724">
+              <caret line="125" column="14" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditArtikel.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1876">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/css.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1400">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,42 +514,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/CobaCoba/Angular.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ApiController.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/CreateArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/EditArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/Headers.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/KumpulanArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/css/cssWaviq.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/views/Page/partials/css.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/all.css" />
-        <option value="$PROJECT_DIR$/resources/assets/css/cssWaviq.css" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/app/Post.php" />
-        <option value="$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/partials/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/partials/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/BlogTemplate.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/LayoutBlogView.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/ShowArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/partials/Slide.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/HalamanUtama.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/Blog.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/Home.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HalamanUtamaController.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/footer.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/User/Login.blade.php" />
@@ -123,14 +521,50 @@
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/HalamanUtama.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/BlogRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/CobaCoba/ImageInput.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ImageUserController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_07_09_223235_ImageTabel.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_07_09_060829_ImageUserTabel.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_13_011605_FK_UsersRole_Table.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/CreateImage.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_07_09_224157_FkIdImageUser.php" />
+        <option value="$PROJECT_DIR$/app/ImageUser.php" />
+        <option value="$PROJECT_DIR$/app/Role.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Template.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/script.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/Template.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/backend/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" />
+        <option value="$PROJECT_DIR$/config/medias.php" />
+        <option value="$PROJECT_DIR$/config/ckfinder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/blogController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/ckfinder.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/public/assets/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LfmController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LfmControllerUpload.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/partials/cssProfile.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/dialogs/codesnippet.js" />
+        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" />
+        <option value="$PROJECT_DIR$/public/assets/ckeditor/samples/old/codesnippet/codesnippet.html" />
+        <option value="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Page/partials/css.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" />
       </list>
     </option>
   </component>
@@ -222,6 +656,10 @@
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown-extra" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/vendor/alfredo-ramos/parsedown-extra-laravel" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/tsawler/laravel-filemanager" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -230,7 +668,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -283,24 +721,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,36 +833,16 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemId" value="Page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="BackEnd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,15 +856,241 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BackEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Artikel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codesnippet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highlight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codesnippet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highlight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codesnippet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MastahCodeNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,16 +1103,16 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaravelFundamental" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="Blog&#9;FILE&#9;file://G:/PROJECT/PHP/MastahCodeNew/resources/views/Page/Blog.blade.php&#10;Paginati&#9;null&#9;null&#10;filter&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\PROJECT\PHP\MastahCodeNew\public\assets" />
+      <recent name="G:\PROJECT\PHP\MastahCodeNew\config" />
+      <recent name="G:\PROJECT\PHP\MastahCodeNew\public\assets\backend" />
       <recent name="G:\PROJECT\PHP\MastahCodeNew\resources\views\Page\FrontEnd\Home" />
       <recent name="G:\PROJECT\PHP\MastahCodeNew\app\Http\Controllers" />
-      <recent name="G:\PROJECT\PHP\MastahCodeNew\database\migrations" />
-      <recent name="G:\PROJECT\PHP\MastahCodeNew\app\Http\Requests" />
-      <recent name="G:\PROJECT\PHP\MastahCodeNew\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\PROJECT\PHP\MastahCodeNew\resources\views\Page\FrontEnd\User" />
@@ -559,17 +1185,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36555555" sideWeight="0.4483871" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30107528" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28494623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2782516" sideWeight="0.5516129" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5922175" sideWeight="0.5516129" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -603,413 +1229,373 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/cssProfile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03160271" vertical-offset="0" max-vertical-offset="886">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5354" max-vertical-offset="6076">
-          <caret line="199" column="81" selection-start-line="199" selection-start-column="81" selection-end-line="199" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/js.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2380">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28865978" vertical-offset="0" max-vertical-offset="174664">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1438" max-vertical-offset="2324">
-          <caret line="77" column="35" selection-start-line="24" selection-start-column="0" selection-end-line="77" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/cssWaviq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="2296">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3126385" vertical-offset="91540" max-vertical-offset="100828">
-          <caret line="3376" column="0" selection-start-line="3376" selection-start-column="0" selection-end-line="3376" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5259594" vertical-offset="682" max-vertical-offset="1568">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="34961" max-vertical-offset="354368">
-          <caret line="1265" column="31" selection-start-line="1265" selection-start-column="31" selection-end-line="1265" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95163107" vertical-offset="8282" max-vertical-offset="9296">
-          <caret line="326" column="11" selection-start-line="326" selection-start-column="11" selection-end-line="326" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/427a78ae9ef8af5ffefec32d396fa0a2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6752412" vertical-offset="756" max-vertical-offset="4676">
-          <caret line="42" column="78" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/Slide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="4648">
-          <caret line="109" column="59" selection-start-line="109" selection-start-column="59" selection-end-line="109" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/css.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="1232">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1120">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="902">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6895787" vertical-offset="274" max-vertical-offset="1176">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2172949" vertical-offset="0" max-vertical-offset="902">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18625277" vertical-offset="0" max-vertical-offset="4368">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="1316">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37915742" vertical-offset="190" max-vertical-offset="2100">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062084258" vertical-offset="0" max-vertical-offset="902">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/script.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2172949" vertical-offset="0" max-vertical-offset="5012">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main_back.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22047244" vertical-offset="0" max-vertical-offset="889">
+          <caret line="7" column="240" selection-start-line="7" selection-start-column="240" selection-end-line="7" selection-end-column="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33259425" vertical-offset="23920" max-vertical-offset="34832">
+          <caret line="865" column="22" selection-start-line="865" selection-start-column="22" selection-end-line="865" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/backend/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
+          <caret line="0" column="98100" selection-start-line="0" selection-start-column="98100" selection-end-line="0" selection-end-column="98100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="224">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/Template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27937916" vertical-offset="0" max-vertical-offset="10304">
+          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6208426" vertical-offset="0" max-vertical-offset="902">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/backend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14398201" vertical-offset="8104" max-vertical-offset="179928">
+          <caret line="294" column="18" selection-start-line="294" selection-start-column="18" selection-end-line="294" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1702" max-vertical-offset="2632">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62749445" vertical-offset="246" max-vertical-offset="1400">
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/filemanager/utils/minify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4345898" vertical-offset="0" max-vertical-offset="2548">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/kcfinder/core/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/kcfinder/js/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="902">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/kcfinder/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/kcfinder/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/medias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3104213" vertical-offset="0" max-vertical-offset="902">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ckfinder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/kcfinder/browse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/Headers.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9367946" vertical-offset="1270" max-vertical-offset="2548">
-          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.062084258" vertical-offset="0" max-vertical-offset="902">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/User/Login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="1288">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/User/Registrasi.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="1120">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="902">
-          <caret line="1" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="980">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/HalamanUtama.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
-          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37250555" vertical-offset="0" max-vertical-offset="980">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HalamanUtamaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="902">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259425" vertical-offset="7148" max-vertical-offset="25088">
-          <caret line="273" column="20" selection-start-line="273" selection-start-column="20" selection-end-line="273" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259425" vertical-offset="38032" max-vertical-offset="94416">
-          <caret line="1395" column="20" selection-start-line="1395" selection-start-column="20" selection-end-line="1395" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Kategori.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18625277" vertical-offset="0" max-vertical-offset="1036">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laracasts/flash/src/Laracasts/Flash/FlashNotifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259425" vertical-offset="1940" max-vertical-offset="3472">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2548">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="1792">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1848">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BlogRequest.php">
+    <entry file="file://$PROJECT_DIR$/vendor/tsawler/laravel-filemanager/src/LaravelFilemanagerServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="45" />
-          <folding />
+        <state vertical-scroll-proportion="0.28442436" vertical-offset="0" max-vertical-offset="1652">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/tsawler/laravel-filemanager/src/controllers/LfmController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="38" />
-          <folding />
+        <state vertical-scroll-proportion="0.6593407" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/tsawler/laravel-filemanager/src/controllers/UploadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8625277" vertical-offset="0" max-vertical-offset="2548">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="3080">
+          <caret line="30" column="64" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/ckfinder.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3720565" vertical-offset="190" max-vertical-offset="1484">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52747256" vertical-offset="0" max-vertical-offset="637">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/lfm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53846157" vertical-offset="679" max-vertical-offset="1316">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LfmControllerUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="3164">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3276" max-vertical-offset="6188">
+          <caret line="144" column="62" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LfmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="2016">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="1428">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="980">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.67627496" vertical-offset="610" max-vertical-offset="1512">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/blogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09312639" vertical-offset="0" max-vertical-offset="1876">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="3276">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="1848">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1848">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4172">
-          <caret line="14" column="47" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1876">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.793103" vertical-offset="219" max-vertical-offset="1092">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1092">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/dialogs/codesnippet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18897638" vertical-offset="0" max-vertical-offset="1288">
+          <caret line="6" column="98" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/cssProfile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37250555" vertical-offset="0" max-vertical-offset="902">
+          <caret line="12" column="0" selection-start-line="11" selection-start-column="91" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1758" max-vertical-offset="2660">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="4172">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9184">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="9240">
+          <caret line="51" column="30" selection-start-line="49" selection-start-column="24" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.894617" vertical-offset="0" max-vertical-offset="33096">
+          <caret line="745" column="80" selection-start-line="745" selection-start-column="80" selection-end-line="745" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/js.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1450" max-vertical-offset="2548">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/blogController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3104213" vertical-offset="0" max-vertical-offset="3584">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1960">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/samples/old/codesnippet/codesnippet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="6776">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2234764" vertical-offset="1970" max-vertical-offset="4452">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Page/partials/css.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1400">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77716184" vertical-offset="2799" max-vertical-offset="3724">
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="14" />
           <folding />
         </state>
       </provider>

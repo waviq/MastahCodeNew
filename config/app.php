@@ -141,6 +141,8 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         AlfredoRamos\ParsedownExtra\ParsedownExtraServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -198,6 +200,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Markdown'  => AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra::class,
+        'Image'     => Intervention\Image\Facades\Image::class,
+
 
 
 //        'Form' => Collective\Html\FormFacade::class,

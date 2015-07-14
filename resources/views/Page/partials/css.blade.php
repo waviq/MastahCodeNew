@@ -36,3 +36,9 @@
 {{--CSS Blog Page--}}
 <link rel="stylesheet" href="{{asset('assets/css/pages/blog.css')}}">
 
+{{--<link rel="stylesheet" href="{{asset('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css')}}">--}}
+<link rel="stylesheet" href="{{asset('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css')}}">
+
+{{--{!! HTML::style('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css') !!}--}}
+
+

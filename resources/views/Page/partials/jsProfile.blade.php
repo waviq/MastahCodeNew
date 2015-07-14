@@ -27,3 +27,38 @@
     $('#flash-overlay-modal').modal();
 </script>
 
+<script>
+
+    var config = {
+        codeSnippet_theme: 'Monokai',
+        language: '{{ config('app.locale') }}',
+        height: 100,
+
+        filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+        filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+        toolbarGroups: [
+            { name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
+            { name: 'editing',     groups: [ 'find', 'selection', 'spellchecker' ] },
+            { name: 'links' },
+            { name: 'insert' },
+            { name: 'forms' },
+            { name: 'tools' },
+            { name: 'document',	   groups: [ 'mode', 'document', 'doctools' ] },
+            { name: 'others' },
+            //'/',
+            { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+            { name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
+            { name: 'styles' },
+            { name: 'colors' }
+        ]
+    };
+
+    CKEDITOR.replace( 'ringkasan', config);
+
+    config['height'] = 400;
+
+    CKEDITOR.replace( 'kontenFull', config);
+
+
+</script>
+

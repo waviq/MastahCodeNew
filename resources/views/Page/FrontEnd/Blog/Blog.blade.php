@@ -24,10 +24,10 @@
                 @foreach($post as $posts)
 
                     <div class="row blog blog-medium margin-bottom-40">
-                        <div class="col-md-5">
-                            <img class="img-responsive" src="{{asset('assets/img/main/img22.jpg')}}" alt="">
-                        </div>
-                        <div class="col-md-7">
+                        {{--<div class="col-md-5">--}}
+                            {{--<img class="img-responsive" src="{{asset('assets/img/main/img22.jpg')}}" alt="">--}}
+                        {{--</div>--}}
+                        <div class="col-md-12">
                             <h2><a href="#"></a></h2>
                             <ul class="list-unstyled list-inline blog-info">
                                 <li><i class="fa fa-calendar"></i> {{$posts->created_at}}</li>

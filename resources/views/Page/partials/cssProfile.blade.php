@@ -9,7 +9,7 @@
 {{--<!-- GOOGLE FONTS-->--}}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-{!! HTML::style('ckeditor/plugins/codesnippet/lib/highlight/styles/default.css') !!}
+{!! HTML::style('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css') !!}
 
 {{--selectTagCss--}}
 <link href="{{asset('assets/css/select2.min.css')}}" rel="stylesheet" />

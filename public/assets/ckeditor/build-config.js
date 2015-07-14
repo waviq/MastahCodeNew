@@ -13,10 +13,10 @@
  * (1) http://ckeditor.com/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/e41bccb8290b6d530f8478ddafe95c48
+ * (2) http://ckeditor.com/builder/7ac90f97ff3b76736846dff12e138076
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/e41bccb8290b6d530f8478ddafe95c48
+ * (3) http://ckeditor.com/builder/download/7ac90f97ff3b76736846dff12e138076
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -25,7 +25,7 @@
  */
 
 var CKBUILDER_CONFIG = {
-	skin: 'moono',
+	skin: 'office2013',
 	preset: 'standard',
 	ignore: [
 		'.bender',
@@ -42,6 +42,7 @@ var CKBUILDER_CONFIG = {
 		'.jscsrc',
 		'.jshintignore',
 		'.jshintrc',
+		'less',
 		'.mailmap',
 		'node_modules',
 		'package.json',
@@ -50,17 +51,21 @@ var CKBUILDER_CONFIG = {
 	],
 	plugins : {
 		'a11yhelp' : 1,
-		'about' : 1,
 		'basicstyles' : 1,
 		'blockquote' : 1,
 		'clipboard' : 1,
+		'codemirror' : 1,
+		'codesnippet' : 1,
+		'colordialog' : 1,
 		'contextmenu' : 1,
 		'elementspath' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
 		'filebrowser' : 1,
 		'floatingspace' : 1,
+		'fontawesome' : 1,
 		'format' : 1,
+		'glyphicons' : 1,
 		'horizontalrule' : 1,
 		'htmlwriter' : 1,
 		'image' : 1,
@@ -76,6 +81,7 @@ var CKBUILDER_CONFIG = {
 		'scayt' : 1,
 		'showborders' : 1,
 		'sourcearea' : 1,
+		'sourcedialog' : 1,
 		'specialchar' : 1,
 		'stylescombo' : 1,
 		'tab' : 1,
@@ -84,74 +90,10 @@ var CKBUILDER_CONFIG = {
 		'toolbar' : 1,
 		'undo' : 1,
 		'wsc' : 1,
-		'wysiwygarea' : 1
+		'wysiwygarea' : 1,
+		'youtube' : 1
 	},
 	languages : {
-		'af' : 1,
-		'ar' : 1,
-		'bg' : 1,
-		'bn' : 1,
-		'bs' : 1,
-		'ca' : 1,
-		'cs' : 1,
-		'cy' : 1,
-		'da' : 1,
-		'de' : 1,
-		'el' : 1,
-		'en' : 1,
-		'en-au' : 1,
-		'en-ca' : 1,
-		'en-gb' : 1,
-		'eo' : 1,
-		'es' : 1,
-		'et' : 1,
-		'eu' : 1,
-		'fa' : 1,
-		'fi' : 1,
-		'fo' : 1,
-		'fr' : 1,
-		'fr-ca' : 1,
-		'gl' : 1,
-		'gu' : 1,
-		'he' : 1,
-		'hi' : 1,
-		'hr' : 1,
-		'hu' : 1,
-		'id' : 1,
-		'is' : 1,
-		'it' : 1,
-		'ja' : 1,
-		'ka' : 1,
-		'km' : 1,
-		'ko' : 1,
-		'ku' : 1,
-		'lt' : 1,
-		'lv' : 1,
-		'mk' : 1,
-		'mn' : 1,
-		'ms' : 1,
-		'nb' : 1,
-		'nl' : 1,
-		'no' : 1,
-		'pl' : 1,
-		'pt' : 1,
-		'pt-br' : 1,
-		'ro' : 1,
-		'ru' : 1,
-		'si' : 1,
-		'sk' : 1,
-		'sl' : 1,
-		'sq' : 1,
-		'sr' : 1,
-		'sr-latn' : 1,
-		'sv' : 1,
-		'th' : 1,
-		'tr' : 1,
-		'tt' : 1,
-		'ug' : 1,
-		'uk' : 1,
-		'vi' : 1,
-		'zh' : 1,
-		'zh-cn' : 1
+		'en' : 1
 	}
 };

@@ -2,7 +2,7 @@
 
 @section('title') {{$post->judul}}
 @endsection
-@section('content')
+
 
     @include('flash::message')
 
@@ -10,6 +10,8 @@
 @section('bredLinkTitle') {{URL::action('HalamanUtamaController@index')}} @endsection
 @section('bredTtitle2') Artikel @endsection
 @section('bredTtitle0') Detail Artikel @endsection
+
+@section('content')
 
     <!--=== Content Part ===-->
     <div class="container content">
@@ -45,9 +47,9 @@
                         </ul>
                     </div>--}}
 
-                    <div class="blog-img">
-                        <img class="img-responsive" src="{{asset('assets/img/sliders/11.jpg')}}" alt="">
-                    </div>
+                    {{--<div class="blog-img">--}}
+                        {{--<img class="img-responsive" src="{{asset('assets/img/sliders/11.jpg')}}" alt="">--}}
+                    {{--</div>--}}
 
                     <p>{!! Markdown::parse($post->kontenFull) !!}</p>
                 </div>

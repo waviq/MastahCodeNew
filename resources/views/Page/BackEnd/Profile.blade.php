@@ -46,6 +46,10 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
                     <a  href="{{url('/blog/create')}}"><i class="fa fa-edit fa-3x"></i> Tulis Artikel </a>
                 </li>
 
+                <li  >
+                    <a  href="{{url('/user')}}"><i class="fa fa-edit fa-3x"></i> User </a>
+                </li>
+
             </ul>
 
         </div>
