@@ -25,7 +25,7 @@ class BlogRequest extends Request
     {
         return [
             'judul' => 'required|unique:posts',
-            'ringkasan' => 'required|min:5',
+            //'ringkasan' => 'required|min:5',
             'kontenFull' => 'required|min:20',
             'kategori_list' => 'required'
         ];

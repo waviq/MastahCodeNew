@@ -30,7 +30,9 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
                 <li class="text-center">
-                    <img src="{{asset('assets/img/find_user.png')}}" class="user-image img-responsive"/>
+                    @if(($user = Auth::user()))
+                        <img src="/img/{{$user->imageUser->image}}" class="user-image img-responsive"/>
+                    @endif
                 </li>
 
 

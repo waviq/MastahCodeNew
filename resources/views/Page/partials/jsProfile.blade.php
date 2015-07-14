@@ -53,9 +53,9 @@
         ]
     };
 
-    CKEDITOR.replace( 'ringkasan', config);
+    /*CKEDITOR.replace( 'ringkasan', config);*/
 
-    config['height'] = 400;
+    config['height'] = 600;
 
     CKEDITOR.replace( 'kontenFull', config);
 

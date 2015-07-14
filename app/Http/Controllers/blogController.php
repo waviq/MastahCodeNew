@@ -54,7 +54,7 @@ class blogController extends Controller {
         $posts = new Post($request->all());
 
         $posts->judul = Input::get('judul');
-        $posts->ringkasan = Input::get('ringkasan');
+        //$posts->ringkasan = Input::get('ringkasan');
         $posts->kontenFull = Input::get('kontenFull');
         $posts->slug = Str::slug(Input::get('judul'));
         $posts->published_at = Carbon::now();

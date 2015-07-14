@@ -20,11 +20,11 @@
 
         <label>URL: {{url('/') . '/blog/'}}@{{ slug|spasi }}</label>
         
-        <!--Konten form input-->
+        {{--<!--Konten form input-->
         <div class="form-group">
             {!! Form::label('ringkasan','Ringkasan:') !!}
             {!! Form::textarea('ringkasan',null,['class'=>'ckeditor']) !!}
-        </div>
+        </div>--}}
 
         <!--Konten form input-->
         <div class="form-group">

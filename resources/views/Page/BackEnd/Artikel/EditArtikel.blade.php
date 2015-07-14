@@ -21,11 +21,11 @@
             {!! Form::text('judul',null,['class'=>'form-control']) !!}
         </div>
 
-        <!--Konten form input-->
+        {{--<!--Konten form input-->
         <div class="form-group">
             {!! Form::label('ringkasan','Ringkasan:') !!}
             {!! Form::textarea('ringkasan',null,['class'=>'ckeditor']) !!}
-        </div>
+        </div>--}}
 
         <!--Konten form input-->
         <div class="form-group">

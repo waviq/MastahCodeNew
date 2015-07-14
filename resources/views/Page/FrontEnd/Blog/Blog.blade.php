@@ -3,7 +3,7 @@
 @section('title') Home
 @endsection
 
-@section('content')
+
 
 
 
@@ -14,6 +14,7 @@
     @section('bredTtitle2') Artikel @endsection
     @section('bredTtitle0') Artikel @endsection
 
+@section('content')
     <!--=== Content Part ===-->
     <div class="container content">
 

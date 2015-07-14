@@ -9,7 +9,7 @@
 {{--<!-- GOOGLE FONTS-->--}}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-{!! HTML::style('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css') !!}
+<link rel="stylesheet" href="{{asset('assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css')}}">
 
 {{--selectTagCss--}}
 <link href="{{asset('assets/css/select2.min.css')}}" rel="stylesheet" />
