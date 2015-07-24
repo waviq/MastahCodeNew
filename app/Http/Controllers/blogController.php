@@ -44,9 +44,8 @@ class blogController extends Controller {
 
         $kategori = Kategori::lists('namaKategori','id');
 
-        $url = config('medias.url');
 
-        return view('Page.BackEnd.Artikel.CreateArtikel', compact('kategori','url'));
+        return view('Page.BackEnd.Artikel.CreateArtikel', compact('kategori'));
     }
 
     public function store(BlogRequest $request){

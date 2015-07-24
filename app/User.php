@@ -51,6 +51,12 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         return $this->hasOne('App\ImageUser');
     }
 
+    public function comments()
+    {
+        $this->hasMany('App\Comment');
+    }
+
+
 
 
 

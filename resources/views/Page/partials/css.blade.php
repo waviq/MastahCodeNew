@@ -11,7 +11,6 @@
 {{--CSS Implementasi dari Plugins--}}
 <link rel="stylesheet" href="{{'assets/plugins/animate.css'}}">
 <link rel="stylesheet" href="{{asset('assets/plugins/line-icons/line-icons.css')}}">
-<link rel="stylesheet" href="{{asset('assets/plugins/font-keren/css/font-keren.min.css')}}">
 <link rel="stylesheet" href="{{asset('assets/plugins/font-awesome/css/font-awesome.min.css')}}">
 <link rel="stylesheet" href="{{asset('assets/plugins/fancbox/source/jquery.fancybox.css')}}">
 <link rel="stylesheet" href="{{asset('assets/plugins/owl-carousel/owl-carousel/owl.carousel.css')}}">

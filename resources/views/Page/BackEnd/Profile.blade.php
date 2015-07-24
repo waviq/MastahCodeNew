@@ -30,8 +30,10 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
                 <li class="text-center">
-                    @if(($user = Auth::user()))
+                    @if(($user = Auth::user()) and Auth::user()->imageUser()->count())
                         <img src="/img/{{$user->imageUser->image}}" class="user-image img-responsive"/>
+                    @else
+                        <img src="{{asset('img/default.png')}}" class="user-image img-responsive"/>
                     @endif
                 </li>
 
@@ -41,16 +43,35 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
                 </li>
 
                 <li  >
-                    <a  href="{{url('/blog')}}"><i class="fa fa-edit fa-3x"></i>Artikel </a>
+                    <a  href="{{url('/blog')}}"><i class="fa fa-file-text-o  fa-3x"></i>Artikel </a>
                 </li>
 
                 <li  >
-                    <a  href="{{url('/blog/create')}}"><i class="fa fa-edit fa-3x"></i> Tulis Artikel </a>
+                    <a  href="{{url('/blog/create')}}"><i class="fa fa-edit fa-3x "></i> Tulis Artikel </a>
                 </li>
 
                 <li  >
-                    <a  href="{{url('/user')}}"><i class="fa fa-edit fa-3x"></i> User </a>
+                    <a  href="#"><i class="fa fa-users fa-3x"></i> Users<span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="{{url('/user')}}"><i class="fa fa-qq fa-2x"></i> Liat User </a>
+                        </li>
+                        <li>
+                            <a  href="{{url('/user/create')}}"><i class="fa  fa-user fa-2x"></i> Create User </a>
+                        </li>
+                        <li>
+                            <a  href="{{URL::action('UserController@gantiPassword')}}"><i class="fa   fa-unlock-alt  fa-2x"></i> Ganti Password </a>
+                        </li>
+                        <li>
+                            <a  href="{{URL::action('UserController@tambahFoto')}}"><i class="fa   fa-file-image-o  fa-2x"></i> Add|Edit Foto </a>
+                        </li>
+                    </ul>
                 </li>
+                <li  >
+                    <a  href="{{url('/blog/create')}}"><i class="fa  fa-comment-o  fa-3x "></i> Comment </a>
+                </li>
+
+
 
             </ul>
 

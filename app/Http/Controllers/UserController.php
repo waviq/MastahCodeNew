@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Http\Requests\GantiPasswordRequest;
+use App\Http\Requests\UserRequest;
 use App\ImageUser;
 use App\Role;
 use App\User;
+use Auth;
+use Hash;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -13,9 +18,10 @@ use Illuminate\Support\Facades\Redirect;
 use Input;
 use Intervention\Image\Facades\Image;
 
-class UserController extends Controller
-{
-    public function __construct(){
+class UserController extends Controller {
+
+    public function __construct()
+    {
         $this->middleware('auth');
         //parent::__construct();
     }
@@ -24,65 +30,110 @@ class UserController extends Controller
     {
         $user = User::with('role')->get();
         $role = Role::get();
-        return view('Page.BackEnd.Users.index', compact('user','role'));
+
+        return view('Page.BackEnd.Users.index', compact('user', 'role'));
+    }
+
+    public function create()
+    {
+        User::all();
+
+        return view('Page.BackEnd.Users.CreateImage');
     }
 
     public function show($id)
     {
         //$usere = User::whereName($name)->firstorFail();
-        $usere = User::where('id',$id)->firstOrFail();
+        $usere = User::where('id', $id)->firstOrFail();
+
         //$images = $user->get();
 
         return view('Page.BackEnd.Users.show', compact('usere'));
     }
 
-    public function store()
+    public function store(UserRequest $request)
     {
+        $cariId = Auth::user()->id;
+        $cariNama = Auth::user()->name;
+
         //buat ngambil image/gambar
         $images = Input::file('image');
-        $filename = time() . '.' . $images->getClientOriginalName();
-        $path = public_path('img/' .$filename);
+        $filename = $cariId . '.' . $images->getClientOriginalExtension();
+        $path = public_path('img/' . $filename);
+
 
         Image::make($images->getRealPath())->resize(300, 250)->save($path);
 
-        $imageSave = new ImageUser();
+        $imageSave = new ImageUser($request->all());
         $imageSave->title = Input::get('title');
         $imageSave->deskription = Input::get('deskription');
+        $imageSave->user_id = Input::user()->id;
 
         $imageSave->image = $filename;
+
+        Auth::user()->imageUser()->delete();
+
+        /*while(!$cek)
+        {
+            foreach($cek as $ceks){
+                $ceks->delete();
+            }
+        }*/
+
         $simpan = $imageSave->save();
 
-        if($simpan){
-            echo 'sukses menyimpan';
+        flash()->overlay('Photo berhasil ditambahkan','Horee');
+
+        return Redirect('user');
+
+    }
+
+    public function gantiPassword()
+    {
+        return view('Page.BackEnd.Users.GantiPassword');
+    }
+
+    public function savePassword(GantiPasswordRequest $request)
+    {
+        $newPassword = Input::get('passwordLama');
+        $oldPassword = Auth::user()->getAuthPassword();
+
+        $passwordBaru = Input::get('passwordBaru');
+
+        if(Hash::check($newPassword, $oldPassword)){
+
+            $user = User::find(Auth::user()->id);
+            $user->password = bcrypt($passwordBaru);
+            $user->save();
+
+            flash()->overlay('Password berhasil di ganti','Horee');
+
+            return redirect('user/gantipassword');
         }else{
-            return 'gagal menyimpan';
+            flash()->error('Gagal mengganti password, salah memasukan password lama !!');
+            return redirect::back();
         }
+    }
 
-        //var_dump(\Input::all());
-        /*$user = ImageUser::create([
-           'title' => \Input::get('title'),
-            'description' => \Input::get('deskription')
-        ]);*/
+    public function tambahFoto()
+    {
+        return view('Page.BackEnd.Users.tambahFoto');
+    }
 
-        //Image Upload crate n attach
-        //$images = Input::file('image');
+    public function editUser()
+    {
 
-
-        /*$move = $images->move('public/img', $images->getClientOriginalName());
-        if($move){
-            $imagedata = ImageUser::create([
-                'title' =>$images->getClientOriginalName(),
-                'filename' =>$images->getClientOriginalName()
-            ]);
-            var_dump('image uploaded');*/
-
-        }
-
+    }
     public function destroy($id)
     {
         User::find($id)->delete();
+
         return Redirect('user');
     }
+
+
+
+
 
 
 }

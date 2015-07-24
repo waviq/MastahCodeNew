@@ -20,7 +20,7 @@
     {!! Form::text('name',null,['class'=>'form-control margin-bottom-20']) !!}
 </div>
 
-<!--Kategori form input-->
+<!--gender form input-->
 <div class="form-group">
     {!! Form::label('jenisKelamin','Jenis Kelamin:') !!}
     {!! Form::select('jenisKelamin', array('0' => '--Pilih--', '1' => 'Pria', '2' => 'Wanita'), null, array('class' => 'form-control margin-bottom-20')) !!}

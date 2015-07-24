@@ -2,6 +2,8 @@
 
 @section('kontent')
 
+    @include('flash::message')
+
     @if($user->count())
         <h1>Artikel</h1>
         <div class="col-md-12">

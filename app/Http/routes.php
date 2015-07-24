@@ -15,9 +15,18 @@
 
 //Route::resource('image','ImageUserController');
 
+Route::group(array('before' => 'csrf'),function(){
+    Route::post('user/SavePassword','UserController@savePassword');
+});
+Route::get('user/gantipassword',[
+    'as' => 'ganti-password',
+    'uses' => 'UserController@gantiPassword'
+]);
 
 
+Route::get('user/tambahfoto','UserController@tambahFoto');
 Route::resource('user','UserController');
+
 
 Route::group(array('middleware' => 'auth'), function ()
 {
