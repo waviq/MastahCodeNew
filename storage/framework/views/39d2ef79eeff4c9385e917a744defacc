@@ -1,0 +1,43 @@
+<?php $__env->startSection('kontent'); ?>
+
+    <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
+        <?php echo Form::open(['url'=>'user','files'=>true]); ?>
+
+
+        <!--Title form input-->
+        <div class="form-group">
+            <?php echo Form::label('title','Title:'); ?>
+
+            <?php echo Form::text('title',null,['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--Image form input-->
+        <div class="form-group">
+            <?php echo Form::label('image','Image:'); ?>
+
+            <?php echo Form::file('image',null,['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--Deskription form input-->
+        <div class="form-group">
+            <?php echo Form::label('deskription','Deskription:'); ?>
+
+            <?php echo Form::textarea('deskription',null,['class'=>'form-control']); ?>
+
+        </div>
+        <!--submit Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('submit', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,72 @@
+<?php $__env->startSection('kontent'); ?>
+
+
+
+    <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
+        <?php echo Form::open(['url'=>'blog']); ?>
+
+
+        <?php /*<div  class="form-group">
+            <label>Judul :</label>
+            <input type="text" ng-model="slug" class="form-control">
+        </div>*/ ?>
+
+
+        <!--Judul form input-->
+        <div class="form-group">
+            <?php echo Form::label('Judul','Judul:'); ?>
+
+            <?php echo Form::text('judul',null,['class'=>'form-control', 'ng-model'=>'slug']); ?>
+
+        </div>
+
+        <label>URL: <?php echo e(url('/') . '/blog/'); ?>{{ slug|spasi }}</label>
+        
+        <?php /*<!--Konten form input-->
+        <div class="form-group">
+            <?php echo Form::label('ringkasan','Ringkasan:'); ?>
+
+            <?php echo Form::textarea('ringkasan',null,['class'=>'ckeditor']); ?>
+
+        </div>*/ ?>
+
+        <!--Konten form input-->
+        <div class="form-group">
+            <?php echo Form::label('kontenFull','Konten Lengkap:'); ?>
+
+            <?php echo Form::textarea('kontenFull',null,['class'=>'ckeditor']); ?>
+
+        </div>
+
+        <!--Kategori form input-->
+        <div class="form-group">
+            <?php echo Form::label('kategori','Kategori:'); ?>
+
+            <?php echo Form::select('kategori_list[]', $kategori, null,['id'=>'kategoriList', 'class'=>'form-control','multiple']); ?>
+
+        </div>
+
+
+
+        <!--Add Artikel Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('Simpan', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+
+    <?php /*AngularJs*/ ?>
+    <script src="<?php echo e(asset('assets/js/AngularJs.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/js/Angular/custom.js')); ?>"></script>
+
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

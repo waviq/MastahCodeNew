@@ -1,0 +1,45 @@
+<?php $__env->startSection('kontent'); ?>
+
+    <div class="col-md-12">
+        <?php echo Form::model($user,['method'=>'PATCH','action'=>['UserController@update', $user->id]]); ?>
+
+        <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+
+        <!--Nama form input-->
+        <div class="form-group">
+            <?php echo Form::label('nama','Nama:'); ?>
+
+            <?php echo Form::text('name',null,['class'=>'form-control']); ?>
+
+        </div>
+        
+        <!--Email form input-->
+        <div class="form-group">
+            <?php echo Form::label('email','Email:'); ?>
+
+            <?php echo Form::text('email',null,['class'=>'form-control']); ?>
+
+        </div>
+        
+        <!--Role form input-->
+        <div class="form-group">
+            <?php echo Form::label('role','Role:'); ?>
+
+            <?php echo Form::select('role',$select,$user->role_id,['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--save Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('Save', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

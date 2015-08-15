@@ -1,0 +1,34 @@
+<?php echo $__env->make('Page.FrontEnd.Blog.partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<div class="wrapper page-option-v1">
+
+    <?php echo $__env->make('Page.Headers', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+
+
+</div>
+
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs">
+    <div class="container">
+        <h1 class="pull-left"><?php echo $__env->yieldContent('bredTtitle0'); ?></h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="<?php echo $__env->yieldContent('bredLinkTitle'); ?>"><?php echo $__env->yieldContent('bredTtitle'); ?></a></li>
+            <li class="active"><?php echo $__env->yieldContent('bredTtitle2'); ?></li>
+            <?php /*<li><a href="<?php echo $__env->yieldContent('bredLinkTitle3'); ?>"><?php echo $__env->yieldContent('bredTtitle3'); ?></a></li>*/ ?>
+        </ul>
+    </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+
+<?php echo $__env->yieldContent('content'); ?>
+
+<?php echo $__env->make('Page.partials.Footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php echo $__env->make('Page.partials.js', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+<?php echo $__env->make('Page.FrontEnd.Blog.partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,86 @@
+<?php /*Header*/ ?>
+<div class="header">
+    <div class="container">
+
+        <?php /*Logo*/ ?>
+        <a class="logo" href="#">
+            <img src="<?php echo e(asset('assets/img/LogoOkeKecil.png')); ?>" alt="Logo">
+        </a>
+        <?php /*End Logo*/ ?>
+
+        <?php /*TopBar*/ ?>
+        <div class="topbar">
+            <ul class="loginbar pull-right">
+                <li class="hoverSelector">
+                    <i class="fa fa-globe"></i>
+                    <a>Languages</a>
+                    <ul class="languages hoverSelectorBlock">
+                        <li class="active">
+                            <a href="#">English <i class="fa fa-check"></i></a>
+                        </li>
+                        <li><a href="#">Indonesia</a></li>
+                        <li><a href="#">Jawa Tegal</a></li>
+                    </ul>
+                </li>
+
+                <li class="topbar-devider"></li>
+                <li><a href="#">Help</a></li>
+
+
+                <?php if(Auth::guest()): ?>
+                    <li class="topbar-devider"></li>
+                    <li><a href="<?php echo e(url(action('LoginUserController@getLogin'))); ?>">Login</a></li>
+                <?php else: ?>
+
+                    <li class="topbar-devider"></li>
+                    <li class="hoverSelector">
+
+
+                        <a><?php echo e(Auth::user()->name); ?></a>
+                        <ul class="languages hoverSelectorBlock">
+                            <li><a href="<?php echo e(url(action('LoginUserController@getLogout'))); ?>">Logout</a></li>
+                            <li><a href="<?php echo e(url('/profile')); ?>">Profile</a></li>
+                        </ul>
+                    </li>
+
+
+
+                <?php endif; ?>
+            </ul>
+        </div>
+        <?php /*End Topbar*/ ?>
+
+        <?php /*button auto keluar Agar tampilan di mobile lebih rapi n bagus*/ ?>
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+        </button>
+        <?php /*End toggle button*/ ?>
+    </div>
+    <?php /*End Container*/ ?>
+
+    <?php /*Kumpulan Nav Link, forms, slicing, dll*/ ?>
+    <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <?php /*Home*/ ?>
+                <li class="dropdown active">
+                    <a href="<?php echo e(url('/')); ?>">
+                        Home
+                    </a>
+
+                </li>
+
+                <li class="dropdown active">
+                    <a href="<?php echo e(url('/artikel')); ?>">
+                        Blog
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+<?php /*End Header*/ ?>

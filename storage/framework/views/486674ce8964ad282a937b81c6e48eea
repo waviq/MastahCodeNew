@@ -1,0 +1,45 @@
+<?php $__env->startSection('kontent'); ?>
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <div ng-app="MyAplications" ng-controller="MyController" class=" col-md-12">
+
+        <?php echo Form::open(['url'=>'user/SavePassword']); ?>
+
+        <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+        <!--PasswordLama form input-->
+        <div class="form-group">
+            <?php echo Form::label('passwordLama','Password Lama:'); ?>
+
+            <?php echo Form::password('passwordLama',['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--PasswordBaru form input-->
+        <div class="form-group">
+            <?php echo Form::label('passwordBaru','Password Baru:'); ?>
+
+            <?php echo Form::password('passwordBaru',['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--PasswordBaruLagi form input-->
+        <div class="form-group">
+            <?php echo Form::label('passwordBaru','Ulangi Password Baru:'); ?>
+
+            <?php echo Form::password('ulangiPasswordBaru',['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--simpan Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('simpan', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+
+        <?php echo Form::close(); ?>
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

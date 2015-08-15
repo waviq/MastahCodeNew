@@ -1,0 +1,4 @@
+<?php foreach($user as $users): ?>
+    <h1><?php echo e($users->name); ?></h1>
+    <h2>role: <?php echo e($users->role->slug); ?></h2>
+<?php endforeach; ?>

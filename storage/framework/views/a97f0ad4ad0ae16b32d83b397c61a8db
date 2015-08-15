@@ -1,0 +1,22 @@
+<?php echo $__env->make('Page.FrontEnd.Home.partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<div class="wrapper page-option-v1">
+    <?php echo $__env->make('Page.Headers', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+
+
+</div>
+
+
+
+<?php echo $__env->yieldContent('content'); ?>
+
+<?php echo $__env->make('Page.partials.Footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php echo $__env->make('Page.partials.js', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+<?php echo $__env->make('Page.FrontEnd.Home.partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

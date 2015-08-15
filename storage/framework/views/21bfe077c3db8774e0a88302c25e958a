@@ -1,0 +1,43 @@
+<?php $__env->startSection('content'); ?>
+
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <h1 class="pull-left">Login</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="">Pages</a></li>
+                <li class="active">Login</li>
+            </ul>
+        </div>
+        <!--/container-->
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
+
+    <!--=== Content Part ===-->
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+
+                <div class="reg-page">
+
+                    <?php echo $__env->make('Page.partials.alertValidasi', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                    <?php echo $__env->make('Page.FrontEnd.User.partials.formResentLinkAktif', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <!--/row-->
+    </div><!--/container-->
+    <!--=== End Content Part ===-->
+
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('Page.FrontEnd.Home.HalamanUtama', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,70 @@
+<?php $__env->startSection('kontent'); ?>
+
+    <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
+        <?php echo Form::open(['url'=>'user','files'=>true]); ?>
+
+        <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+
+        <!--nama form input-->
+        <div class="form-group input-group">
+            <span class="input-group-addon"><i class="icon-prepend fa fa-user"></i></span>
+            <?php echo Form::text('nama',null,['class'=>'form-control','placeholder'=>'Nama Lengkap']); ?>
+
+        </div>
+
+        <!--alamat form input-->
+        <div class="form-group input-group input-group">
+            <span class="input-group-addon"><i class="icon-prepend fa fa-car "></i></span>
+            <?php echo Form::text('alamat',null,['class'=>'form-control','placeholder'=>'Alamat Lengkap']); ?>
+
+        </div>
+
+        <!--telfon form input-->
+        <div class="form-group input-group input-group">
+            <span class="input-group-addon"><i class="icon-prepend fa  fa-mobile  "></i></span>
+            <?php echo Form::text('nomorTelfon',null,['class'=>'form-control','placeholder'=>'Nomor Telfon/hp']); ?>
+
+        </div>
+
+
+
+
+        <!--Title form input-->
+        <div class="form-group">
+            <?php echo Form::label('title','Title:'); ?>
+
+            <?php echo Form::text('title',null,['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--Image form input-->
+        <div class="form-group">
+            <?php echo Form::label('image','Image:'); ?>
+
+            <?php echo Form::file('image',null,['class'=>'form-control']); ?>
+
+        </div>
+        
+        <!--Deskription form input-->
+        <div class="form-group">
+            <?php echo Form::label('deskription','Deskription:'); ?>
+
+            <?php echo Form::textarea('deskription',null,['class'=>'form-control']); ?>
+
+        </div>
+        <!--submit Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('submit', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
