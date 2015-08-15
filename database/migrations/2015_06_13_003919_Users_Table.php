@@ -23,7 +23,7 @@ class UsersTable extends Migration
             $table->string('nomorTelfon')->unique();
             $table->string('email')->unique();
             $table->string('password', 60);
-            $table->integer('role_id')->unsigned();
+            $table->unsignedInteger('role_id')->nullable();
             $table->boolean('seen')->default(false);
             $table->boolean('valid')->default(false);
             $table->timestamps();

@@ -91,7 +91,7 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
 
             {{--Content--}}
 
-            @include('flash::message')
+
             @yield('kontent')
 
 

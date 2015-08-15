@@ -11,9 +11,18 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
+var htmlmin = require('gulp-htmlmin');
+var gulp = require('gulp');
 
-    mix.styles([
-        'cssWaviq.css'
-    ]);
+gulp.task('compress', function() {
+    var opts = {
+        collapseWhitespace:    true,
+        removeAttributeQuotes: true,
+        removeComments:        true,
+        minifyJS:              true
+    };
+
+    return gulp.src('./public/assets/plugins/**/*')
+        .pipe(htmlmin(opts))
+        .pipe(gulp.dest('./public/assets/plugins/'));
 });

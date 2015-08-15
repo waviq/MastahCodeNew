@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\GantiPasswordRequest;
 use App\Http\Requests\UserRequest;
+use App\Http\Requests\UserUpdateRequest;
 use App\ImageUser;
+use App\Repository\RoleRepository;
 use App\Role;
 use App\User;
 use Auth;
@@ -20,8 +22,12 @@ use Intervention\Image\Facades\Image;
 
 class UserController extends Controller {
 
-    public function __construct()
+    protected $role_repo;
+
+    public function __construct(RoleRepository $role_repo)
     {
+        $this->role_repo = $role_repo;
+
         $this->middleware('auth');
         //parent::__construct();
     }
@@ -41,10 +47,10 @@ class UserController extends Controller {
         return view('Page.BackEnd.Users.CreateImage');
     }
 
-    public function show($id)
+    public function show(User $usere)
     {
         //$usere = User::whereName($name)->firstorFail();
-        $usere = User::where('id', $id)->firstOrFail();
+        //$usere = User::where('id', $id)->firstOrFail();
 
         //$images = $user->get();
 
@@ -120,15 +126,25 @@ class UserController extends Controller {
         return view('Page.BackEnd.Users.tambahFoto');
     }
 
-    public function editUser()
+    public function destroy(User $user)
     {
-
-    }
-    public function destroy($id)
-    {
-        User::find($id)->delete();
+        $user->delete();
 
         return Redirect('user');
+    }
+
+    public function edit(User $user)
+    {
+        return view('Page.BackEnd.Users.editUser', array_merge(compact('user'), $this->role_repo->getAllSelect()));
+    }
+
+    public function update(User $user, UserUpdateRequest $request)
+    {
+        $user->update($request->all());
+        $user->role()->associate($request->input('role'))->save();
+        flash()->success('berhasil update');
+
+        return redirect('user');
     }
 
 

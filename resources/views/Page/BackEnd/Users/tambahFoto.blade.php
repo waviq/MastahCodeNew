@@ -1,6 +1,6 @@
 @extends('Page.BackEnd.Profile')
 @section('kontent')
-
+    @include('flash::message')
     <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
         {!! Form::open(['url'=>'user','files'=>true]) !!}
 

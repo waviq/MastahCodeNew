@@ -1,7 +1,6 @@
 @include('Page.FrontEnd.Home.partials.header')
 
 <div class="wrapper page-option-v1">
-
     @include('Page.Headers')
 
 

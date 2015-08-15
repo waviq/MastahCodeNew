@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use DB;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
@@ -57,7 +58,9 @@ class AuthController extends Controller
      * @return User
      */
     protected function create(array $data)
+
     {
+        $user_role = DB::table('roles')->select('id')->where('slug','user')->first()->id;
         return User::create([
             'username' => $data['username'],
             'name' => $data['name'],
@@ -67,6 +70,7 @@ class AuthController extends Controller
             'nomorTelfon'=>$data['nomorTelfon'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'role_id' => $user_role
         ]);
     }
 }

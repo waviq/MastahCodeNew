@@ -1,4 +1,4 @@
-{!! Form::open(['url'=>'/auth/login']) !!}
+{!! Form::open(['action'=>'LoginUserController@postLogin']) !!}
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 <div class="reg-header">
@@ -15,7 +15,7 @@
 <!-- form input Username-->
 <div class="input-group margin-bottom-20">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    {!! Form::email('email',null,['class'=>'form-control','placeholder'=>'Username']) !!}
+    {!! Form::text('username',null,['class'=>'form-control','placeholder'=>'Username or email']) !!}
 </div>
 
 <!-- form input password-->
@@ -27,7 +27,9 @@
 <!-- form input checkbox-->
 <div class="row">
     <div class="col-md-6 checkbox">
-        <label><input type="checkbox" name="remember"> Remember Me</label>
+        <label for="remember">
+            <input type="checkbox" name="remember"> Remember Me
+        </label>
     </div>
 
     <!-- Button Login-->
@@ -45,6 +47,7 @@
 <hr>
 
 <h4>Lupa password anda?</h4>
-<p>Gak usah khuatir, <a class="color-green" href="{{url('/password/email')}}">click here</a> untuk reset password anda.</p>
+<p>Gak usah khuatir, <a class="color-green" href="{{url(action('ResetPasswordController@getResetPassword'))}}">click here</a> untuk reset password anda.
+</p>
 
 {!! Form::close() !!}

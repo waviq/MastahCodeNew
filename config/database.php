@@ -46,6 +46,18 @@ return [
 
     'connections' => [
 
+        'mariaDb' => [
+            'driver'   => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'mastahcode',
+            'username'  => 'root',
+            'password'  => 'waviq',
+            'charset'  => 'utf8',
+            'prefix'   => '',
+            'port'      =>'1234',
+            'collation' => 'utf8_unicode_ci',
+        ],
+
         'sqlite' => [
             'driver'   => 'sqlite',
             'database' => storage_path('database.sqlite'),

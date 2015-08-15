@@ -143,6 +143,8 @@ return [
         AlfredoRamos\ParsedownExtra\ParsedownExtraServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
+        UxWeb\SweetAlert\SweetAlertServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -201,6 +203,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Markdown'  => AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra::class,
         'Image'     => Intervention\Image\Facades\Image::class,
+        'Alert'     => UxWeb\SweetAlert\SweetAlert::class,
 
 
 

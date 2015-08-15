@@ -11,14 +11,37 @@
 |
 */
 
-//Route::get('/', 'WelcomeController@index');
+Route::group(array('middleware'=>'guest'), function(){
+    Route::get('auth/login','LoginUserController@getLogin');
+    Route::post('auth/login','LoginUserController@postLogin');
 
-//Route::resource('image','ImageUserController');
+    Route::get('auth/register','RegisterUserController@getRegister');
+    Route::post('auth/register','RegisterUserController@postRegister');
+
+    Route::get('auth/actived/{code}','RegisterUserController@getActived');
+
+    Route::get('auth/reset-password','ResetPasswordController@getResetPassword');
+    Route::post('auth/reset-password','ResetPasswordController@postResetPassword');
+    Route::get('auth/recover-password/{code}', 'ResetPasswordController@getRecoverPassword');
+
+
+});
+
+Route::group(array('middleware'=>'cekAktif'), function(){
+
+});
+
+
+Route::group(array('middleware'=>'auth'), function(){
+    Route::get('auth/logout','LoginUserController@getLogout');
+});
+
 
 Route::group(array('before' => 'csrf'),function(){
     Route::post('user/SavePassword','UserController@savePassword');
 });
 Route::get('user/gantipassword',[
+    'middleware'    =>'role:Admin',
     'as' => 'ganti-password',
     'uses' => 'UserController@gantiPassword'
 ]);
@@ -39,14 +62,18 @@ Route::get('/','HalamanUtamaController@index');
 
 Route::get('home', 'HomeController@index');
 
-Route::controllers([
+/*Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
-]);
+]);*/
 
 
 Route::get('coba', function(){
-    return view('CobaCoba.Angular') ;
+
+    $user = \App\User::all();
+
+
+    return view('CobaCoba.coba', compact('user')) ;
 });
 Route::get('artikel','blogController@indexFront');
 Route::resource('blog', 'blogController');
@@ -58,6 +85,8 @@ Route::get('/ajax/artikel', function(){
    $post = Post::paginate(2);
     return view('Page.Blog', compact('post'))->render();
 });
+
+
 
 
 

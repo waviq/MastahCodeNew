@@ -24,9 +24,9 @@
                         <td>{{$users->name}}</td>
                         {{--<td>{!! substr($artikels->kontenFull, 0, 50). '[...]'!!}</td>--}}
                         <td>{{$users->role->title}}</td>
-                        <td></td>
                         <td>{{$users->seen}}</td>
-                        <td>{!!HTML::linkAction('UserController@show','View',array($users->id),['class' =>'btn btn-info'])!!}</td>
+                        <td>{!!HTML::linkAction('UserController@show','View',array($users->id),['class' =>'btn btn-success'])!!}</td>
+                        <td>{!!HTML::linkAction('UserController@edit','Edit',array($users->id),['class' =>'btn btn-info'])!!}</td>
                         {{--<td>{!!HTML::linkAction('blogController@edit','Edit', [$artikels->id],['class'=>'btn btn-warning'])!!}</td>--}}
                         <td>
                             {!! Form::open(array('action'=>array('UserController@destroy', $users->id), 'method'=>'delete')) !!}

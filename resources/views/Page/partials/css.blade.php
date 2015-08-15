@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="{{asset('assets/plugins/revolution-slider/rs-plugin/css/settings.css')}}" type="text/css"
       media="screen">
 
+
 <link rel="stylesheet" href="{{asset('assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css')}}" type="text/css"
       media="screen">
 

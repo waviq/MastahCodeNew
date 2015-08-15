@@ -24,6 +24,7 @@
                 <div class="reg-page">
 
                     @include('Page.partials.alertValidasi')
+                    @include('flash::message')
                     @include('Page.partials.loginForm')
 
 

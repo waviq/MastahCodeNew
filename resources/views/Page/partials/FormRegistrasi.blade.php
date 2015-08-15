@@ -5,7 +5,7 @@
 
 <div class="reg-header">
     <h2>Register a new account</h2>
-    <p>Already Signed Up? Click <a href="{{url('auth/masuk')}}" class="color-green">Sign In</a> to login your account.</p>
+    <p>Already Signed Up? Click <a href="{{url(action('LoginUserController@getLogin'))}}" class="color-green">Sign In</a> to login your account.</p>
 </div>
 
 <!--username form input-->
@@ -63,6 +63,8 @@
         {!! Form::password('password_confirmation',['class'=>'form-control margin-bottom-20']) !!}
     </div>
 </div>
+
+{!! app('captcha')->display() !!}
 
 <hr>
 

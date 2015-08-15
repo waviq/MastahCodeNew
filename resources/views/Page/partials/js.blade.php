@@ -16,6 +16,8 @@
 <script src="{{asset('assets/plugins/sky-forms-pro/skyforms/js/jquery.maskedinput.min.js')}}"></script>
 <script src="{{asset('assets/plugins/sky-forms-pro/skyforms/js/jquery-ui.min.js')}}"></script>
 <script src="{{asset('assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js')}}"></script>
+
+
 <!-- JS Customization -->
 <script type="text/javascript" src="{{asset('assets/js/custom.js')}}"></script>
 <!-- JS Page Level -->

@@ -13,7 +13,10 @@
         "laravelcollective/html": "5.1.*",
         "alfredo-ramos/parsedown-extra-laravel": "~0.2",
         "intervention/image": "2.3.0",
-        "tsawler/laravel-filemanager": "0.5.2"
+        "tsawler/laravel-filemanager": "0.5.2",
+        "anhskohbo/no-captcha": "2.0.5",
+        "uxweb/sweet-alert": "1.1.1",
+        "fitztrev/laravel-html-minify": "1.0.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

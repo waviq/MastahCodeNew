@@ -29,7 +29,7 @@
 
                 @if(Auth::guest())
                     <li class="topbar-devider"></li>
-                    <li><a href="{{url('/auth/login')}}">Login</a></li>
+                    <li><a href="{{url(action('LoginUserController@getLogin'))}}">Login</a></li>
                 @else
 
                     <li class="topbar-devider"></li>
@@ -38,7 +38,7 @@
 
                         <a>{{ Auth::user()->name }}</a>
                         <ul class="languages hoverSelectorBlock">
-                            <li><a href="{{url('/auth/logout')}}">Logout</a></li>
+                            <li><a href="{{url(action('LoginUserController@getLogout'))}}">Logout</a></li>
                             <li><a href="{{url('/profile')}}">Profile</a></li>
                         </ul>
                     </li>

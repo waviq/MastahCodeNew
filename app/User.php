@@ -30,7 +30,12 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         'alamat',
         'nomorTelfon',
         'email',
-        'password'];
+        'code',
+        'active',
+        'role_id',
+        'password',
+        'password_tmp'
+    ];
 
 	/**
 	 * The attributes excluded from the model's JSON form.
@@ -56,6 +61,19 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         $this->hasMany('App\Comment');
     }
 
+    public function getRolesListAttribute()
+    {
+        return $this->roles->lists('title','id');
+    }
+
+    public function hasRole($slug)
+    {
+
+        if($this->role->slug === $slug){
+            return true;
+        }
+        return false;
+    }
 
 
 
