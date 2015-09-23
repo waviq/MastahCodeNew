@@ -16,18 +16,13 @@
                     <div class="posts">
                         <div class="headline"><h2>Latest Posts</h2></div>
                         <ul class="list-unstyled latest-list">
-                            <li>
-                                <a href="#">Incredible content</a>
-                                <small>May 8, 2014</small>
-                            </li>
-                            <li>
-                                <a href="#">Best shoots</a>
-                                <small>June 23, 2014</small>
-                            </li>
-                            <li>
-                                <a href="#">New Terms and Conditions</a>
-                                <small>September 15, 2014</small>
-                            </li>
+                            @foreach($posting as $postings)
+                                <li>
+                                    <a href="{{url(action('blogController@show', $postings->slug))}}">{{$postings->judul}}</a>
+                                    <small>{{$postings->created_at}}</small>
+                                </li>
+                            @endforeach
+
                         </ul>
                     </div>
                 </div><!--/col-md-3-->

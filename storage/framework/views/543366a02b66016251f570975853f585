@@ -1,0 +1,38 @@
+
+<!--=== Content Part ===-->
+        <!-- Left Sidebar -->
+        <div id="search-result" class="col-md-9 md-margin-bottom-40">
+            <div class="col-md-12">
+                <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+                <?php foreach($postSearch as $cariPost): ?>
+                    <?php if(count($cariPost)): ?>
+                        <h2>
+                            <a href="<?php echo e(URL::action('blogController@show',$cariPost->slug)); ?>"><?php echo $cariPost->judul; ?></a>
+                        </h2>
+                        <p><?php echo Markdown::parse(str_limit($cariPost->kontenFull, 300)); ?></p>
+                        <p><a class="btn-u btn-u-sm" href="<?php echo e(URL::action('blogController@show',$cariPost->slug)); ?>">Read
+                                More <i class="fa fa-angle-double-right margin-left-5"></i></a></p>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+                    <?php if(count($postSearch)==0): ?>
+                    <div class="alert alert-info fade in">
+                        <strong>Ooopss, maaf...</strong> Keyword yang mastah cari tidak ada dalam database kami
+                    </div>
+                        <?php endif; ?>
+
+
+
+            </div>
+            <hr class="margin-bottom-40">
+            <!--Pagination-->
+            <div class="text-center">
+                <ul class="pagination">
+                    <?php echo $postSearch->render(); ?>
+
+                </ul>
+            </div>
+
+        </div>
+        <!-- End Left Sidebar -->
+

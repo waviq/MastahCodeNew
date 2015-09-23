@@ -78,6 +78,18 @@
                     </a>
                 </li>
 
+                <li class="dropdown active">
+                    <a href="{{url(action('KategoriController@indexFront'))}}">
+                        Kategori
+                    </a>
+                </li>
+
+                <li class="dropdown active">
+                    <a href="{{url(action('TutorialController@index'))}}">
+                        Tutorial
+                    </a>
+                </li>
+
 
             </ul>
         </div>

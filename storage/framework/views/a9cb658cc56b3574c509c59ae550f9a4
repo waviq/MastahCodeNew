@@ -1,0 +1,44 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Information Skills</h2>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <div class="col-md-9">
+
+        <?php echo Form::open(['url'=>'user/skill','files'=>true]); ?>
+
+
+        <!--Kategori form input-->
+        <div class="form-group">
+            <?php echo Form::label('skill','Skill List:'); ?>
+
+            <?php echo Form::select('namaSkill', $skill, null,['id'=>'namaSkill', 'class'=>'form-control']); ?>
+
+        </div>
+
+        <!--Value form input-->
+        <div class="form-group <?php echo e($errors->has('value')?'has-error':''); ?>">
+            <?php echo Form::label('value','Value:'); ?>
+
+            <?php echo Form::text('value',null,['class'=>'form-control','placeholder'=>'Besarnya kemampuan skill tersebut yang dikuasai [1-100%]']); ?>
+
+            <?php echo $errors->first('value','<span class="help-block">:message</span>'); ?>
+
+        </div>
+        <br>
+
+        <footer>
+
+            <button type="submit" name="save_next" class="btn-u btn-u-purple">Tambah Skill +</button>
+            <button type="submit" name="save_finish" class="btn-u btn-u-red">Finish & Save</button>
+
+            <?php echo Form::close(); ?>
+
+            <?php echo $__env->make('Page.BackEnd.Users.Skills.addSkill', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        </footer>
+        <br>
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

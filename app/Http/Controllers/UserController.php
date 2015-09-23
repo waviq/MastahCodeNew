@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 
 use App\Http\Requests\GantiPasswordRequest;
+use App\Http\Requests\TambahJobRequest;
 use App\Http\Requests\UserRequest;
 use App\Http\Requests\UserUpdateRequest;
 use App\ImageUser;
+use App\Job;
 use App\Repository\RoleRepository;
 use App\Role;
 use App\User;
@@ -29,6 +31,7 @@ class UserController extends Controller {
         $this->role_repo = $role_repo;
 
         $this->middleware('auth');
+        $this->middleware('role:admin',['only'=>['index']]);
         //parent::__construct();
     }
 
@@ -49,11 +52,6 @@ class UserController extends Controller {
 
     public function show(User $usere)
     {
-        //$usere = User::whereName($name)->firstorFail();
-        //$usere = User::where('id', $id)->firstOrFail();
-
-        //$images = $user->get();
-
         return view('Page.BackEnd.Users.show', compact('usere'));
     }
 
@@ -78,13 +76,6 @@ class UserController extends Controller {
         $imageSave->image = $filename;
 
         Auth::user()->imageUser()->delete();
-
-        /*while(!$cek)
-        {
-            foreach($cek as $ceks){
-                $ceks->delete();
-            }
-        }*/
 
         $simpan = $imageSave->save();
 
@@ -146,10 +137,5 @@ class UserController extends Controller {
 
         return redirect('user');
     }
-
-
-
-
-
 
 }

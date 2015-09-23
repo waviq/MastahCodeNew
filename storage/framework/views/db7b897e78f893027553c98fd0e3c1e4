@@ -1,0 +1,126 @@
+<!-- Left Sidebar -->
+<div class="col-md-9 md-margin-bottom-60">
+    <!--Blog Post-->
+    <div class="blog margin-bottom-40">
+        <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <h2><?php echo $post->judul; ?></h2>
+
+        <div class="overflow-h margin-bottom-10">
+            <div class="pull-right">
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_sharing_toolbox"></div>
+            </div>
+        </div>
+
+
+        <p><?php echo $post->kontenFull; ?></p>
+    </div>
+    <div class="row">
+        <div class="margin-bottom-40">
+            <div id="testimonials-1" class="carousel slide testimonials testimonials-v1">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="<?php echo e(url(action('ProfileController@indexFront',$post->user->username))); ?>">
+                            <div class="testimonial-info">
+                                <?php if(count($post->user->imageUser)): ?>
+                                    <img class="rounded-x"
+                                         src="<?php echo e(asset('/img/users/'.$post->user->imageUser->image)); ?>"
+                                         alt="">
+                                <?php else: ?>
+                                    <img class="rounded-x" src="<?php echo e(asset('/img/users/default.png')); ?>" alt="">
+                                <?php endif; ?>
+
+                                <span class="testimonial-author">
+                                        <?php echo e($post->user->name); ?>
+
+                                    <?php if(count($post->user->jobs)): ?>
+                                        <em><?php echo e($post->user->jobs->Job); ?>, <?php echo e($post->user->jobs->position); ?></em>
+                                    <?php else: ?>
+                                        Information job: N/A
+                                    <?php endif; ?>
+
+                                    </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Blog Grid Tagds -->
+    <ul class="blog-grid-tags">
+        <li class="head">Tags</li>
+        <?php foreach($post->kategori as $kategori): ?>
+            <li><a href="#"><?php echo e($kategori->namaKategori); ?></a></li>
+        <?php endforeach; ?>
+
+    </ul>
+    <!-- End Blog Grid Tagds -->
+    <!--End Blog Post-->
+
+    <?php /*Related Post*/ ?>
+    <div class="margin-bottom-50">
+        <h2 class="title-v4">Related Posts</h2>
+
+        <div class="row margin-bottom-50">
+            <?php foreach($recentPost as $recentPos): ?>
+                <div class="col-sm-3 col-xs-6 sm-margin-bottom-30">
+                    <!-- Blog Thumb v4 -->
+                    <div class="blog-thumb-v4">
+                        <div class="blog-thumb-item">
+                            <img class="img-responsive margin-bottom-10"
+                                 src="<?php echo e(asset('img/artikel/'.$recentPos->image)); ?>"
+                                 alt="<?php echo e($recentPos->judul); ?>">
+                            <!--/end center wrap-->
+                        </div>
+                        <h3>
+                            <a href="<?php echo e(URL::action('blogController@show',$recentPos->slug)); ?>"><?php echo e($recentPos->judul); ?></a>
+                        </h3>
+                    </div>
+                    <!-- End Blog Thumb v4 -->
+                </div>
+            <?php endforeach; ?>
+
+
+        </div>
+        <!--/end row-->
+    </div>
+
+    <?php /*End Related Post*/ ?>
+
+    <hr>
+
+
+    <?php /*Comment Start*/ ?>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'mastahcode';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                                                      rel="nofollow">comments powered by Disqus.</a>
+    </noscript>
+    <?php /*Comment End*/ ?>
+
+
+    <hr>
+
+</div>
+<!-- End Left Sidebar -->
+
+
+

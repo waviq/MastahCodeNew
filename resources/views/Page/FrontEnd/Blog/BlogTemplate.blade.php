@@ -23,7 +23,17 @@
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->
 
-@yield('content')
+
+
+<div class="container content">
+
+    <div class="row blog-page">
+        @yield('content')
+        @yield('barKanan')
+
+    </div>
+
+</div>
 
 @include('Page.partials.Footer')
 

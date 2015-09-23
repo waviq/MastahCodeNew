@@ -21,10 +21,10 @@
     <link rel="shortcut icon" href="{{asset('icon/icon.ico')}}">
 
     {{--Web Font--}}
-    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+    <link rel='stylesheet' type='text/css' href='{{asset('//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin')}}'>
 
     @include('Page.partials.css')
 
 </head>
 
-<body>
+<body onload="prettyPrint()">

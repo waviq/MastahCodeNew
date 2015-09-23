@@ -2,35 +2,22 @@
 @section('kontent')
 
     @include('flash::message')
-
-    <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
+    <div class="col-md-12">
 
         <h1>Edit: {!! $post->judul !!}</h1>
 
-        {!! Form::model($post,['method' => 'PATCH', 'action'=>['blogController@update', $post->id]]) !!}
-
-        {{--<div  class="form-group">
-            <label>Judul :</label>
-            <input type="text" ng-model="slug" class="form-control">
-        </div>--}}
+        {!! Form::model($post,['method' => 'PATCH', 'action'=>['blogController@update', $post->id],'files'=>true]) !!}
 
 
         <!--Judul form input-->
         <div class="form-group">
             {!! Form::label('Judul','Judul:') !!}
-            {!! Form::text('judul',null,['class'=>'form-control']) !!}
+            {!! Form::text('judul',null,['class'=>'form-control','readonly']) !!}
         </div>
 
-        {{--<!--Konten form input-->
-        <div class="form-group">
-            {!! Form::label('ringkasan','Ringkasan:') !!}
-            {!! Form::textarea('ringkasan',null,['class'=>'ckeditor']) !!}
-        </div>--}}
-
-        <!--Konten form input-->
         <div class="form-group">
             {!! Form::label('kontenFull','Konten Lengkap:') !!}
-            {!! Form::textarea('kontenFull',null,['class'=>'ckeditor']) !!}
+            {!! Form::textarea('kontenFull',null,['class'=>'form-control']) !!}
         </div>
 
         <!--Kategori form input-->
@@ -38,8 +25,6 @@
             {!! Form::label('kategori','Kategori:') !!}
             {!! Form::select('kategori_list[]', $kategori, null,['id'=>'kategoriList', 'class'=>'form-control','multiple']) !!}
         </div>
-
-
 
         <!--Add Artikel Button Submit-->
         <div class="form-group">
@@ -49,6 +34,7 @@
         {!! Form::close() !!}
 
         @include('Page.BackEnd.Partials.ErrorMessage')
+
 
     </div>
 

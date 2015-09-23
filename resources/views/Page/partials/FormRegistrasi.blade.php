@@ -71,7 +71,7 @@
 <div class="row">
     <div class="col-lg-6 checkbox">
         <label>
-            <input type="checkbox">
+            {!! Form::checkbox('agree', 1, null) !!}
             I read <a href="page_terms.html" class="color-green">Terms and Conditions</a>
         </label>
     </div>

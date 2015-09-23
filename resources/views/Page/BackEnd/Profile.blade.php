@@ -23,7 +23,7 @@
         <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logout')}}" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+font-size: 16px;"> Last access : {{auth()->user()->lastLogin}} &nbsp; <a href="{{url('/auth/logout')}}" class="btn btn-danger square-btn-adjust">Logout</a> </div>
     </nav>
     <!-- /. NAV TOP  -->
     <nav class="navbar-default navbar-side" role="navigation">
@@ -31,7 +31,7 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
             <ul class="nav" id="main-menu">
                 <li class="text-center">
                     @if(($user = Auth::user()) and Auth::user()->imageUser()->count())
-                        <img src="/img/{{$user->imageUser->image}}" class="user-image img-responsive"/>
+                        <img src="{{asset('/img/'.$user->imageUser->image)}}" class="user-image img-responsive"/>
                     @else
                         <img src="{{asset('img/default.png')}}" class="user-image img-responsive"/>
                     @endif
@@ -42,19 +42,33 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
                     <a  href="{{url('profile')}}"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                 </li>
 
-                <li  >
-                    <a  href="{{url('/blog')}}"><i class="fa fa-file-text-o  fa-3x"></i>Artikel </a>
+                <li>
+                    <a  href="#"><i class="fa  fa-paper-plane fa-3x"></i> Artikel<span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="{{url(action('blogController@index'))}}"><i class="fa fa-file-text-o  fa-3x"></i>Lihat Artikel </a>
+                        </li>
+
+                        @if(Auth::user()->hasRole('admin'))
+                        <li>
+                            <a  href="{{url(action('blogController@SeeAllArtikel'))}}"><i class="fa fa-file-text-o  fa-3x"></i>Lihat Semua Artikel </a>
+                        </li>
+                        @endif
+
+                        <li>
+                            <a  href="{{url(action('blogController@create'))}}"><i class="fa fa-edit fa-3x "></i> Tulis Artikel </a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li  >
-                    <a  href="{{url('/blog/create')}}"><i class="fa fa-edit fa-3x "></i> Tulis Artikel </a>
-                </li>
 
-                <li  >
+                <li>
                     <a  href="#"><i class="fa fa-users fa-3x"></i> Users<span class="fa arrow"></span> </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a  href="{{url('/user')}}"><i class="fa fa-qq fa-2x"></i> Liat User </a>
+                            @if(Auth::user()->hasRole('admin'))
+                            <a  href="{{url('/user')}}"><i class="fa fa-qq fa-2x"></i> Liat Semua User </a>
+                            @endif
                         </li>
                         <li>
                             <a  href="{{url('/user/create')}}"><i class="fa  fa-user fa-2x"></i> Create User </a>
@@ -65,8 +79,30 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
                         <li>
                             <a  href="{{URL::action('UserController@tambahFoto')}}"><i class="fa   fa-file-image-o  fa-2x"></i> Add|Edit Foto </a>
                         </li>
+                        <li>
+                            <a  href="{{URL::action('JobUserController@create')}}"><i class="fa   fa-gavel   fa-2x"></i> Add Job </a>
+                        </li>
+                        <li>
+                            <a  href="{{URL::action('SosialMediaController@create')}}"><i class="fa   fa-reddit   fa-2x"></i> Add Sosial Contacts </a>
+                        </li>
+                        <li>
+                            <a  href="{{URL::action('SkillController@create')}}"><i class="fa    fa-terminal    fa-2x"></i> Add Skill Information </a>
+                        </li>
                     </ul>
                 </li>
+
+                <li>
+                    <a  href="#"><i class="fa fa-users fa-3x"></i> Kategori<span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="{{url(action('KategoriController@index'))}}"><i class="fa fa-qq fa-2x"></i>Kategori </a>
+                        </li>
+                        <li>
+                            <a  href="{{url(action('KategoriController@create'))}}"><i class="fa fa-qq fa-2x"></i> create kategori </a>
+                        </li>
+                    </ul>
+                </li>
+
                 <li  >
                     <a  href="{{url('/blog/create')}}"><i class="fa  fa-comment-o  fa-3x "></i> Comment </a>
                 </li>
@@ -83,15 +119,14 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="{{url('/auth/logo
         <div id="page-inner">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Welcome {{Auth::user()->name}} , Love to see you back</h2>
+                    @yield('header')
+                    {{--<h2>Welcome {{Auth::user()->name}} , Love to see you back</h2>--}}
                 </div>
             </div>
             <!-- /. ROW  -->
             <hr />
 
             {{--Content--}}
-
-
             @yield('kontent')
 
 

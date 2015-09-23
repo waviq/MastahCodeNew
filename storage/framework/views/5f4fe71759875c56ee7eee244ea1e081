@@ -1,0 +1,49 @@
+<?php $__env->startSection('kontent'); ?>
+
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <?php if($kategori->count()): ?>
+        <h1>Kategori</h1>
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered tex">
+                <thead>
+                <?php /*<th>Deskripsi</th>*/ ?>
+                <th>Nama Kategori</th>
+                <th>Avaible Image</th>
+                <th>Liat</th>
+                <th>Edit</th>
+                <th>Hapus</th>
+                </thead>
+
+                <tbody>
+                <?php foreach($kategori as $kategorise): ?>
+                    <tr>
+                        <td><?php echo e($kategorise->namaKategori); ?></td>
+                        <?php if(empty($kategorise->image)): ?>
+                            <td>No</td>
+                        <?php else: ?>
+                            <td>Yes</td>
+                        <?php endif; ?>
+                        <td><?php echo HTML::linkAction('KategoriController@show','View',array($kategorise->id),['class' =>'btn btn-success']); ?></td>
+                        <td><?php echo HTML::linkAction('KategoriController@edit','Edit',array($kategorise->id),['class' =>'btn btn-info']); ?></td>
+                        <td>
+                            <?php echo Form::open(array('action'=>array('KategoriController@destroy', $kategorise->id), 'method'=>'delete')); ?>
+
+                                    <?php echo Form::submit('delete', ['class' =>'btn btn-danger']); ?>
+
+                            <?php echo Form::close(); ?>
+
+                        </td>
+
+
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+
+        </div>
+    <?php else: ?>
+        <div class="alert alert-info col-md-12">Tidak ada User</div>
+    <?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

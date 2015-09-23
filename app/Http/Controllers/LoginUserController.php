@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\LoginUserRequest;
 use App\User;
 use Auth;
+use DateTime;
 use Illuminate\Foundation\Auth\RedirectsUsers;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
@@ -34,10 +35,20 @@ class LoginUserController extends Controller
             if(Auth::attempt([
                 'username'  =>  $request->username,
                 'password'  =>  $request->password,
-                'active'    =>  1
             ],$remember)){
-                flash()->overlay('Selamat sukses login');
-                return Redirect::intended('home');
+
+                if(Auth::check() && Auth::user()->active == 1){
+
+                    Auth::user()->lastLogin = new DateTime();
+                    Auth::user()->save();
+
+                    flash()->overlay('Selamat sukses login');
+                    return Redirect::intended('profile');
+                }else{
+                    flash()->overlay('Akun anda belum aktif, cek email anda dan segera aktifkan');
+                    Auth::logout();
+                    return Redirect::back();
+                }
             }
 
             elseif(Auth::attempt([
@@ -46,6 +57,10 @@ class LoginUserController extends Controller
             ],$remember)){
 
                 if(Auth::check() && Auth::user()->active == 1){
+
+                    Auth::user()->lastLogin = new DateTime();
+                    Auth::user()->save();
+
                     flash()->overlay('Selamat sukses login');
                     return Redirect::intended('profile');
                 }else{

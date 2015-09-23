@@ -23,7 +23,17 @@
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->
 
-<?php echo $__env->yieldContent('content'); ?>
+
+
+<div class="container content">
+
+    <div class="row blog-page">
+        <?php echo $__env->yieldContent('content'); ?>
+        <?php echo $__env->yieldContent('barKanan'); ?>
+
+    </div>
+
+</div>
 
 <?php echo $__env->make('Page.partials.Footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 

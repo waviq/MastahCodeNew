@@ -1,0 +1,62 @@
+<?php $__env->startSection('title'); ?> Home
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php $__env->startSection('bredTtitle'); ?> Home <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredLinkTitle'); ?> <?php echo e(URL::action('HalamanUtamaController@index')); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle2'); ?> Artikel <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle0'); ?> Artikel <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+    <!--=== Content Part ===-->
+    <div class="blog_masonry_3col">
+        <div class="container content grid-boxes">
+
+            <?php foreach($post as $posts): ?>
+                <div class="grid-boxes-in linkMension">
+                    <?php if(!empty($posts->image)): ?>
+                        <img class="img-responsive" src="<?php echo e(asset('/img/artikel/'.$posts->image)); ?>"
+                             alt="">
+                    <?php else: ?>
+                        <img class="img-responsive" src="<?php echo e(asset('/img/artikel/mastah code tutorial.png')); ?>"
+                             alt="">
+                    <?php endif; ?>
+                    <div class="grid-boxes-caption">
+                        <h3><a href="<?php echo e(url(action('blogController@show',$posts->slug))); ?>"><?php echo e($posts->judul); ?></a></h3>
+                    </div>
+
+                    <div class="waviqKategori">
+                        <ul class="blog-grid-tags">
+                            <?php foreach($posts->kategori as $kategori): ?>
+                                <li><a href="<?php echo e(url(action('KategoriController@showFront', $kategori->namaKategori))); ?>"
+                                       class="tag-<?php echo e($kategori->namaKategori); ?>"><?php echo e($kategori->namaKategori); ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+
+        </div>
+        <!--/container-->
+    </div>
+    <!--=== End Content Part ===-->
+    <hr class="margin-bottom-40">
+
+    <?php echo $__env->yieldContent('Pagination'); ?>
+    <!--Pagination-->
+    <div class="text-center">
+        <ul class="pagination">
+            <?php echo $post->render(); ?>
+
+        </ul>
+    </div>
+    <!--End Pagination-->
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.FrontEnd.Blog.BlogTemplate', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

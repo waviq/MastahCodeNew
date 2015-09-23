@@ -24,7 +24,7 @@ class UserRequest extends Request
     public function rules()
     {
         return [
-            'image' => 'required|unique:image_user|mimes:png|max:1000px'
+            'image' => 'required|unique:image_user|mimes:jpeg|max:1000px'
 
         ];
     }

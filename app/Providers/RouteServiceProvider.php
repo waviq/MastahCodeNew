@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -27,6 +28,8 @@ class RouteServiceProvider extends ServiceProvider
         //
         parent::boot($router);
         $router->model('user','App\User');
+        $router->model('kategori','App\Kategori');
+        $router->model('skill','App\ValueSkill');
     }
 
     /**

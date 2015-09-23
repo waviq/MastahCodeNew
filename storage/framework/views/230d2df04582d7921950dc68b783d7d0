@@ -1,0 +1,15 @@
+<ul class="list-unstyled">
+    <li style="margin-left: -5px;">
+        <a class="pointer" id="folder_top" data-id="/" onclick="clickRoot()">
+            <i class="fa fa-folder-open" data-id="/"></i> Files
+        </a>
+    </li>
+    <?php foreach($dirs as $key => $dir): ?>
+        <li>
+            <a class="pointer" id="folder_<?php echo e($key); ?>" data-id="<?php echo e($dir); ?>" onclick="clickFolder('folder_<?php echo e($key); ?>', 0)">
+                <i class="fa fa-folder folder-item" data-id="<?php echo e($dir); ?>" id="<?php echo e($dir); ?>-folder"></i> <?php echo $dir; ?>
+
+            </a>
+        </li>
+    <?php endforeach; ?>
+</ul>

@@ -145,6 +145,9 @@ return [
         Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
         UxWeb\SweetAlert\SweetAlertServiceProvider::class,
+        Vinkla\Hashids\HashidsServiceProvider::class,
+        AdamWathan\BootForms\BootFormsServiceProvider::class,
+        Roumen\Disqus\DisqusServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -152,6 +155,7 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ViewComposerProvider::class,
 
 
     ],
@@ -204,6 +208,10 @@ return [
         'Markdown'  => AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra::class,
         'Image'     => Intervention\Image\Facades\Image::class,
         'Alert'     => UxWeb\SweetAlert\SweetAlert::class,
+        'Uuid'      => Webpatser\Uuid\Uuid::class,
+        'Hashids'   => Vinkla\Hashids\Facades\Hashids::class,
+        'Gate'      => Illuminate\Support\Facades\Gate::class,
+        'BootForm'  => AdamWathan\BootForms\Facades\BootForm::class,
 
 
 

@@ -1,0 +1,48 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Information Profile</h2>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <div class="col-md-9">
+        <?php echo Form::open(['url'=>'user/job','files'=>true]); ?>
+
+        <?php echo csrf_field(); ?>
+
+            <!--Job form input-->
+            <div class="form-group">
+                <?php echo Form::label('job','Job:'); ?>
+
+                <?php echo Form::text('Job',null,['class'=>'form-control','placeholder'=>'Web Developer']); ?>
+
+            </div>
+        
+            <!--Position form input-->
+            <div class="form-group">
+                <?php echo Form::label('position','Position:'); ?>
+
+                <?php echo Form::text('position',null,['class'=>'form-control','placeholder'=>'Web Designer']); ?>
+
+            </div>
+        
+            <!--Description form input-->
+            <div class="form-group">
+                <?php echo Form::label('description','Description:'); ?>
+
+                <?php echo Form::textarea('description',null,['class'=>'form-control','placeholder'=>'description job about your self ']); ?>
+
+            </div>
+        
+            <!--save Button Submit-->
+            <div class="form-group">
+                <?php echo Form::submit('save', ['class' =>'btn btn-primary form-control']); ?>
+
+            </div>
+
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

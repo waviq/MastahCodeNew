@@ -1,0 +1,16 @@
+<?php $__env->startSection('kontent'); ?>
+
+    <div class="col-md-12">
+
+        <h1>Nama Kategori :<?php echo e($kategori->namaKategori); ?></h1>
+
+
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

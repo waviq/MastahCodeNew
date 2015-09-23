@@ -26,6 +26,7 @@ class UsersTable extends Migration
             $table->unsignedInteger('role_id')->nullable();
             $table->boolean('seen')->default(false);
             $table->boolean('valid')->default(false);
+            $table->timestamp('lastLogin');
             $table->timestamps();
             $table->rememberToken();
         });

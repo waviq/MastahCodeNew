@@ -1,41 +1,26 @@
 <?php $__env->startSection('kontent'); ?>
 
     <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-
-    <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
+    <div class="col-md-12">
 
         <h1>Edit: <?php echo $post->judul; ?></h1>
 
-        <?php echo Form::model($post,['method' => 'PATCH', 'action'=>['blogController@update', $post->id]]); ?>
+        <?php echo Form::model($post,['method' => 'PATCH', 'action'=>['blogController@update', $post->id],'files'=>true]); ?>
 
-
-        <?php /*<div  class="form-group">
-            <label>Judul :</label>
-            <input type="text" ng-model="slug" class="form-control">
-        </div>*/ ?>
 
 
         <!--Judul form input-->
         <div class="form-group">
             <?php echo Form::label('Judul','Judul:'); ?>
 
-            <?php echo Form::text('judul',null,['class'=>'form-control']); ?>
+            <?php echo Form::text('judul',null,['class'=>'form-control','readonly']); ?>
 
         </div>
 
-        <?php /*<!--Konten form input-->
-        <div class="form-group">
-            <?php echo Form::label('ringkasan','Ringkasan:'); ?>
-
-            <?php echo Form::textarea('ringkasan',null,['class'=>'ckeditor']); ?>
-
-        </div>*/ ?>
-
-        <!--Konten form input-->
         <div class="form-group">
             <?php echo Form::label('kontenFull','Konten Lengkap:'); ?>
 
-            <?php echo Form::textarea('kontenFull',null,['class'=>'ckeditor']); ?>
+            <?php echo Form::textarea('kontenFull',null,['class'=>'form-control']); ?>
 
         </div>
 
@@ -47,8 +32,6 @@
 
         </div>
 
-
-
         <!--Add Artikel Button Submit-->
         <div class="form-group">
             <?php echo Form::submit('Simpan', ['class' =>'btn btn-primary form-control']); ?>
@@ -59,6 +42,7 @@
 
 
         <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
 
     </div>
 

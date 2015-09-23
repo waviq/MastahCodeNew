@@ -1,0 +1,106 @@
+
+<?php echo Form::open(['url'=>'/auth/register','id'=>'ValidasiRegistrasi','class'=>'reg-page']); ?>
+
+
+<input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+
+<div class="reg-header">
+    <h2>Register a new account</h2>
+    <p>Already Signed Up? Click <a href="<?php echo e(url(action('LoginUserController@getLogin'))); ?>" class="color-green">Sign In</a> to login your account.</p>
+</div>
+
+<!--username form input-->
+<div class="form-group">
+    <?php echo Form::label('username','Username:'); ?>
+
+    <?php echo Form::text('username',null,['class'=>'form-control margin-bottom-20']); ?>
+
+</div>
+
+<!--Nama lengkap form input-->
+<div class="form-group">
+    <?php echo Form::label('nama','Nama lengkap:'); ?>
+
+    <?php echo Form::text('name',null,['class'=>'form-control margin-bottom-20']); ?>
+
+</div>
+
+<!--gender form input-->
+<div class="form-group">
+    <?php echo Form::label('jenisKelamin','Jenis Kelamin:'); ?>
+
+    <?php echo Form::select('jenisKelamin', array('0' => '--Pilih--', '1' => 'Pria', '2' => 'Wanita'), null, array('class' => 'form-control margin-bottom-20')); ?>
+
+</div>
+
+<!--Tanggal Lahir form input-->
+<div class="form-group">
+    <?php echo Form::label('tanggalLahir','Tanggal Lahir:'); ?>
+
+    <?php echo Form::text('tanggalLahir',null,['class'=>'form-control','id'=>'date']); ?>
+
+</div>
+
+<!--Alamat lengkap form input-->
+<div class="form-group ">
+    <?php echo Form::label('Alamat','Alamat Lengkap:'); ?>
+
+    <?php echo Form::text('alamat',null,['class'=>'form-control margin-bottom-20']); ?>
+
+</div>
+
+<!--NomorTelfon form input-->
+<div class="form-group">
+    <?php echo Form::label('nomorTelfon','Nomor Telfon/HP:'); ?>
+
+    <?php echo Form::text('nomorTelfon',null,['class'=>'form-control margin-bottom-20']); ?>
+
+</div>
+
+<!--Email form input-->
+<div class="form-group">
+    <?php echo Form::label('email','Email:'); ?>
+
+    <?php echo Form::email('email',null,['class'=>'form-control margin-bottom-20']); ?>
+
+</div>
+
+<div class="row">
+    <!-- form input password-->
+    <div class="col-sm-6">
+        <?php echo Form::label('password','Password:'); ?>
+
+        <?php echo Form::password('password',['class'=>'form-control margin-bottom-20']); ?>
+
+    </div>
+
+    <!-- form input password-->
+    <div class="col-sm-6">
+        <?php echo Form::label('password_confirmation','Korfimasi Password:'); ?>
+
+        <?php echo Form::password('password_confirmation',['class'=>'form-control margin-bottom-20']); ?>
+
+    </div>
+</div>
+
+<?php echo app('captcha')->display(); ?>
+
+
+<hr>
+
+<div class="row">
+    <div class="col-lg-6 checkbox">
+        <label>
+            <?php echo Form::checkbox('agree', 1, null); ?>
+
+            I read <a href="page_terms.html" class="color-green">Terms and Conditions</a>
+        </label>
+    </div>
+    <!-- Button Register-->
+    <div class="col-md-6">
+        <?php echo Form::submit('Register', ['class' =>'btn-u pull-right']); ?>
+
+    </div>
+</div>
+<?php echo Form::close(); ?>
+

@@ -1,0 +1,7 @@
+Hallo <?php echo e($username); ?>
+
+<br><br>
+
+to actived please click this link
+
+<?php echo e($link); ?>

@@ -1,0 +1,17 @@
+<?php $__env->startSection('title'); ?> Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('bredTtitle'); ?> Home <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredLinkTitle'); ?> <?php echo e(URL::action('HalamanUtamaController@index')); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle2'); ?> Artikel <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle0'); ?> Artikel <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+    <?php echo $__env->make('Page.FrontEnd.Blog.partials.searchGet', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('barKanan'); ?>
+    <?php echo $__env->make('Page.FrontEnd.Blog.partials.barKanan', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.FrontEnd.Blog.BlogTemplate', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -8,11 +8,16 @@ class Kategori extends Model
 {
 
     protected $table = 'kategori';
-    protected $fillable = ['namaKategori'];
+    protected $fillable = ['namaKategori','image'];
 
-    public function post(){
-        return $this->belongsToMany('App\Post');
+    public function posts(){
+        return $this->belongsToMany(Post::class,'detail_kategori');
     }
+
+
+
+
+
 
 
 }

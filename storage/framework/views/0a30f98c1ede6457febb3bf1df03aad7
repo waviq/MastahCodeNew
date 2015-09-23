@@ -23,7 +23,7 @@
         <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="<?php echo e(url('/auth/logout')); ?>" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+font-size: 16px;"> Last access : <?php echo e(auth()->user()->lastLogin); ?> &nbsp; <a href="<?php echo e(url('/auth/logout')); ?>" class="btn btn-danger square-btn-adjust">Logout</a> </div>
     </nav>
     <!-- /. NAV TOP  -->
     <nav class="navbar-default navbar-side" role="navigation">
@@ -31,7 +31,7 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="<?php echo e(url(
             <ul class="nav" id="main-menu">
                 <li class="text-center">
                     <?php if(($user = Auth::user()) and Auth::user()->imageUser()->count()): ?>
-                        <img src="/img/<?php echo e($user->imageUser->image); ?>" class="user-image img-responsive"/>
+                        <img src="<?php echo e(asset('/img/'.$user->imageUser->image)); ?>" class="user-image img-responsive"/>
                     <?php else: ?>
                         <img src="<?php echo e(asset('img/default.png')); ?>" class="user-image img-responsive"/>
                     <?php endif; ?>
@@ -42,19 +42,33 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="<?php echo e(url(
                     <a  href="<?php echo e(url('profile')); ?>"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                 </li>
 
-                <li  >
-                    <a  href="<?php echo e(url('/blog')); ?>"><i class="fa fa-file-text-o  fa-3x"></i>Artikel </a>
+                <li>
+                    <a  href="#"><i class="fa  fa-paper-plane fa-3x"></i> Artikel<span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="<?php echo e(url(action('blogController@index'))); ?>"><i class="fa fa-file-text-o  fa-3x"></i>Lihat Artikel </a>
+                        </li>
+
+                        <?php if(Auth::user()->hasRole('admin')): ?>
+                        <li>
+                            <a  href="<?php echo e(url(action('blogController@SeeAllArtikel'))); ?>"><i class="fa fa-file-text-o  fa-3x"></i>Lihat Semua Artikel </a>
+                        </li>
+                        <?php endif; ?>
+
+                        <li>
+                            <a  href="<?php echo e(url(action('blogController@create'))); ?>"><i class="fa fa-edit fa-3x "></i> Tulis Artikel </a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li  >
-                    <a  href="<?php echo e(url('/blog/create')); ?>"><i class="fa fa-edit fa-3x "></i> Tulis Artikel </a>
-                </li>
 
-                <li  >
+                <li>
                     <a  href="#"><i class="fa fa-users fa-3x"></i> Users<span class="fa arrow"></span> </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a  href="<?php echo e(url('/user')); ?>"><i class="fa fa-qq fa-2x"></i> Liat User </a>
+                            <?php if(Auth::user()->hasRole('admin')): ?>
+                            <a  href="<?php echo e(url('/user')); ?>"><i class="fa fa-qq fa-2x"></i> Liat Semua User </a>
+                            <?php endif; ?>
                         </li>
                         <li>
                             <a  href="<?php echo e(url('/user/create')); ?>"><i class="fa  fa-user fa-2x"></i> Create User </a>
@@ -65,8 +79,30 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="<?php echo e(url(
                         <li>
                             <a  href="<?php echo e(URL::action('UserController@tambahFoto')); ?>"><i class="fa   fa-file-image-o  fa-2x"></i> Add|Edit Foto </a>
                         </li>
+                        <li>
+                            <a  href="<?php echo e(URL::action('JobUserController@create')); ?>"><i class="fa   fa-gavel   fa-2x"></i> Add Job </a>
+                        </li>
+                        <li>
+                            <a  href="<?php echo e(URL::action('SosialMediaController@create')); ?>"><i class="fa   fa-reddit   fa-2x"></i> Add Sosial Contacts </a>
+                        </li>
+                        <li>
+                            <a  href="<?php echo e(URL::action('SkillController@create')); ?>"><i class="fa    fa-terminal    fa-2x"></i> Add Skill Information </a>
+                        </li>
                     </ul>
                 </li>
+
+                <li>
+                    <a  href="#"><i class="fa fa-users fa-3x"></i> Kategori<span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="<?php echo e(url(action('KategoriController@index'))); ?>"><i class="fa fa-qq fa-2x"></i>Kategori </a>
+                        </li>
+                        <li>
+                            <a  href="<?php echo e(url(action('KategoriController@create'))); ?>"><i class="fa fa-qq fa-2x"></i> create kategori </a>
+                        </li>
+                    </ul>
+                </li>
+
                 <li  >
                     <a  href="<?php echo e(url('/blog/create')); ?>"><i class="fa  fa-comment-o  fa-3x "></i> Comment </a>
                 </li>
@@ -83,15 +119,14 @@ font-size: 16px;"> Last access : 24 Maret 1990 &nbsp; <a href="<?php echo e(url(
         <div id="page-inner">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Welcome <?php echo e(Auth::user()->name); ?> , Love to see you back</h2>
+                    <?php echo $__env->yieldContent('header'); ?>
+                    <?php /*<h2>Welcome <?php echo e(Auth::user()->name); ?> , Love to see you back</h2>*/ ?>
                 </div>
             </div>
             <!-- /. ROW  -->
             <hr />
 
             <?php /*Content*/ ?>
-
-
             <?php echo $__env->yieldContent('kontent'); ?>
 
 

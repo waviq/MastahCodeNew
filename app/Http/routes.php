@@ -11,6 +11,8 @@
 |
 */
 
+use App\Post;
+
 Route::group(array('middleware'=>'guest'), function(){
     Route::get('auth/login','LoginUserController@getLogin');
     Route::post('auth/login','LoginUserController@postLogin');
@@ -24,13 +26,7 @@ Route::group(array('middleware'=>'guest'), function(){
     Route::post('auth/reset-password','ResetPasswordController@postResetPassword');
     Route::get('auth/recover-password/{code}', 'ResetPasswordController@getRecoverPassword');
 
-
 });
-
-Route::group(array('middleware'=>'cekAktif'), function(){
-
-});
-
 
 Route::group(array('middleware'=>'auth'), function(){
     Route::get('auth/logout','LoginUserController@getLogout');
@@ -41,15 +37,32 @@ Route::group(array('before' => 'csrf'),function(){
     Route::post('user/SavePassword','UserController@savePassword');
 });
 Route::get('user/gantipassword',[
-    'middleware'    =>'role:Admin',
     'as' => 'ganti-password',
     'uses' => 'UserController@gantiPassword'
 ]);
 
-
+Route::resource('user/formal-edu','EducationController');
 Route::get('user/tambahfoto','UserController@tambahFoto');
+Route::get('user/job/{user_id}/editJob','JobUserController@getEditJob');
+Route::resource('user/job','JobUserController');
+Route::resource('user/sosmed','SosialMediaController');
+
+Route::get('user/skill/add-skill','SkillController@addSkill');
+Route::post('user/skill/add-skill','SkillController@postNewSkillList');
+Route::resource('user/skill','SkillController');
+
 Route::resource('user','UserController');
 
+
+/*
+ * Kategori
+*/
+
+Route::get('kategori','KategoriController@indexFront');
+Route::get('kategori/{namaKategori}','KategoriController@showFront');
+Route::resource('back/kategori','KategoriController');
+
+Route::resource('tutorial','TutorialController');
 
 Route::group(array('middleware' => 'auth'), function ()
 {
@@ -76,15 +89,25 @@ Route::get('coba', function(){
     return view('CobaCoba.coba', compact('user')) ;
 });
 Route::get('artikel','blogController@indexFront');
+Route::get('artikel/by/{username}','blogController@getByArtikel');
+Route::get('blog/all-artikel','blogController@SeeAllArtikel');
+Route::get('blog/{id}/EditAll','blogController@editAll');
+Route::get('artikel/search', 'blogController@search');
 Route::resource('blog', 'blogController');
 
 
-Route::resource('profile','ProfileController');
+
+Route::get('profile','ProfileController@index');
+Route::get('profile/{username}','ProfileController@indexFront');
+
+
 
 Route::get('/ajax/artikel', function(){
    $post = Post::paginate(2);
     return view('Page.Blog', compact('post'))->render();
 });
+
+Route::get('sync-comments','CommentDisqusController@index');
 
 
 

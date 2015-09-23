@@ -1,0 +1,66 @@
+<?php $__env->startSection('title'); ?> Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('bredTtitle'); ?> Home <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredLinkTitle'); ?> <?php echo e(URL::action('HalamanUtamaController@index')); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle2'); ?> Artikel <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle0'); ?> Artikel <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+
+
+    <!--=== Blog Posts ===-->
+    <div class="container content-md">
+        <?php foreach($post as $posts): ?>
+
+            <div class="row margin-bottom-20">
+                <div class="col-sm-5 sm-margin-bottom-20">
+                    <img class="img-responsive" src="<?php echo e(asset('/img/artikel/'.$posts->image)); ?>" alt="">
+                </div>
+                <div class="col-sm-7">
+                    <div class="news-v3">
+                        <ul class="list-inline posted-info">
+                            <li><?php echo e($posts->user->name); ?></li>
+                            <?php foreach($posts->kategori as $kategori): ?>
+                                <li>
+                                    <a href="#"><?php echo e($kategori->namaKategori); ?></a>
+                                </li>
+                            <?php endforeach; ?>
+
+                            <li>Posted January 24, 2015</li>
+                        </ul>
+                        <h2><a href="<?php echo e(URL::action('blogController@show',$posts->slug)); ?>"><?php echo e($posts->judul); ?></a></h2>
+                        <p><?php echo Markdown::parse(str_limit($posts->kontenFull, 200)); ?></p>
+                        <p><a class="btn-u btn-u-sm" href="<?php echo e(URL::action('blogController@show',$posts->slug)); ?>">Read
+                                More <i class="fa fa-angle-double-right margin-left-5"></i></a></p>
+                        <ul class="post-shares">
+                            <li>
+                                <a href="<?php echo e(URL::action('blogController@show',$posts->slug)); ?>" data-disqus-identifier="<?php echo e($posts->slug); ?>">
+                                    <i class="rounded-x icon-speech"></i>
+                                    <span class="disqus-comment-count" data-disqus-url="<?php echo e(URL::action('blogController@show',$posts->slug)); ?>"></span>
+                                </a>
+                            </li>
+                            <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
+                            <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/end row-->
+            <div class="clearfix margin-bottom-20"><hr></div>
+        <?php endforeach; ?>
+
+                <!--Pagination-->
+            <div class="text-center">
+                <ul class="pagination">
+                    <?php echo $post->render(); ?>
+
+                </ul>
+            </div>
+            <!--End Pagination-->
+
+    </div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.FrontEnd.Blog.BlogTemplate', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

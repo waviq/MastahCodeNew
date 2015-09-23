@@ -1,0 +1,39 @@
+<div class="col-md-5">
+    <div class="form-group input-group">
+        <span class="input-group-addon"><i class="icon-prepend fa  fa-envelope"></i></span>
+        <?php echo Form::email('email',null,['class'=>'form-control','placeholder'=>'Email']); ?>
+
+    </div>
+    <div class="form-group input-group input-group">
+        <span class="input-group-addon"><i class="icon-prepend fa fa-facebook-square"></i></span>
+        <?php echo Form::text('facebook',null,['class'=>'form-control','placeholder'=>'Facebook']); ?>
+
+    </div>
+
+    <div class="form-group input-group input-group">
+        <span class="input-group-addon"><i class="icon-prepend fa fa-twitter"></i></span>
+        <?php echo Form::text('twitter',null,['class'=>'form-control','placeholder'=>'Twitter']); ?>
+
+    </div>
+
+    <div class="form-group input-group input-group">
+        <span class="input-group-addon"><i class="icon-prepend fa fa-linkedin"></i></span>
+        <?php echo Form::text('linkedin',null,['class'=>'form-control','placeholder'=>'Linkedin']); ?>
+
+    </div>
+
+    <div class="form-group input-group input-group">
+        <span class="input-group-addon"><i class="icon-prepend fa fa-skype"></i></span>
+        <?php echo Form::text('skype',null,['class'=>'form-control','placeholder'=>'Skype']); ?>
+
+    </div>
+
+    <!--submit Button Submit-->
+    <div class="form-group">
+        <?php echo Form::submit($namaTombol, ['class' =>'btn btn-primary form-control']); ?>
+
+    </div>
+
+    <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</div>
+

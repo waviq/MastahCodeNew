@@ -1,0 +1,21 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Sosial Contacts</h2>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('kontent'); ?>
+
+
+    <?php echo Form::open(['url'=>'user/sosmed']); ?>
+
+
+    <?php echo $__env->make('Page.BackEnd.Users.Sosmed.partials.FormSosmed',['namaTombol' => 'Submit'], array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <?php echo Form::close(); ?>
+
+
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

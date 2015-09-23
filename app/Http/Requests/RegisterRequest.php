@@ -30,7 +30,9 @@ class RegisterRequest extends Request
             'password' => 'required|confirmed|min:6',
             'alamat' =>'required|min:15|max:100',
             'nomorTelfon' =>'required|unique:users|min:6|max:100',
-            'g-recaptcha-response' => 'required|captcha'
+            'g-recaptcha-response' => 'required|captcha',
+            'jenisKelamin'  => 'required|not_in:0',
+            'agree' =>  'required'
         ];
     }
 }

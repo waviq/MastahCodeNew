@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="row">
+
+        <?php if((sizeof($files) > 0) || (sizeof($directories) > 0)): ?>
+
+            <?php foreach($directories as $key => $dir): ?>
+                <div class="col-sm-6 col-md-2">
+                    <div class="thumbnail text-center";" data-id="<?php echo e(basename($dir)); ?>">
+                        <a id="large_folder_<?php echo e($key); ?>" data-id="<?php echo e($dir); ?>"
+                           onclick="clickFolder('large_folder_<?php echo e($key); ?>',1)"
+                           class="folder-icon pointer">
+                            <?php /*<i class="fa fa-folder-o fa-5x"></i>*/ ?>
+                            <img src="/vendor/laravel-filemanager/img/folder.jpg">
+                        </a>
+                    </div>
+                    <div class="caption text-center">
+                        <div class="btn-group">
+                            <button type="button" onclick="clickFolder('large_folder_<?php echo e($key); ?>',1)"
+                                    class="btn btn-default btn-xs">
+                                <?php echo str_limit(basename($dir), $limit = 10, $end = '...'); ?>
+
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle btn-xs" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="javascript:rename('<?php echo basename($dir); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.rename'); ?></a></li>
+                                <li><a href="javascript:trash('<?php echo basename($dir); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.delete'); ?></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+            <?php foreach($files as $key => $file): ?>
+
+                <div class="col-sm-6 col-md-2 img-row">
+
+                    <div class="thumbnail thumbnail-img" data-id="<?php echo e(basename($file)); ?>" id="img_thumbnail_<?php echo e($key); ?>">
+                        <img id="<?php echo $file; ?>"
+                             src="<?php echo e($dir_location); ?><?php echo e($base); ?>/thumbs/<?php echo e(basename($file)); ?>?r=<?php echo e(str_random(40)); ?>"
+                             alt="">
+                    </div>
+
+                    <div class="caption text-center">
+                        <div class="btn-group ">
+                            <button type="button" onclick="useFile('<?php echo basename($file); ?>')" class="btn btn-default btn-xs">
+                                <?php echo str_limit(basename($file), $limit = 10, $end = '...'); ?>
+
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle btn-xs" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="javascript:rename('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.rename'); ?></a></li>
+                                <li><a href="javascript:fileView('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.view'); ?></a></li>
+                                <li><a href="javascript:download('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.download'); ?></a></li>
+                                <li class="divider"></li>
+                                <?php /*<li><a href="javascript:notImp()">Rotate</a></li>*/ ?>
+                                <li><a href="javascript:resizeImage('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.resize'); ?></a></li>
+                                <li><a href="javascript:cropImage('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.crop'); ?></a></li>
+                                <li class="divider"></li>
+                                <li><a href="javascript:trash('<?php echo basename($file); ?>')"><?php echo Lang::get('laravel-filemanager::lfm.delete'); ?></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            <?php endforeach; ?>
+
+        <?php else: ?>
+            <div class="col-md-12">
+                <p>Folder is empty.</p>
+            </div>
+        <?php endif; ?>
+
+    </div>
+</div>

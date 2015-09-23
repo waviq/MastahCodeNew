@@ -23,11 +23,29 @@ class BlogRequest extends Request
      */
     public function rules()
     {
-        return [
-            'judul' => 'required|unique:posts',
-            //'ringkasan' => 'required|min:5',
-            'kontenFull' => 'required|min:20',
-            'kategori_list' => 'required'
-        ];
+        switch($this->method())
+        {
+            case 'POST':
+            {
+                return [
+                    'judul' => 'required|unique:posts',
+                    'kontenFull' => 'required|min:20',
+                    'kategori_list' => 'required',
+                    'image'        => 'mimes:jpeg,png|max:1000px'
+                ];
+            }
+            case 'PATCH':
+            {
+                return [
+                    'kontenFull' => 'required|min:20',
+                    'kategori_list' => 'required',
+                    'image'        => 'mimes:jpeg,png|max:1000px'
+                ];
+            }
+            default:
+                break;
+        }
+        return redirect()->back();
+
     }
 }

@@ -45,7 +45,8 @@ hr.hr-xs {
 .blog-grid-tags {
     padding-left: 0;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    background-color: white;
 }
 
 .blog-grid-tags li {
@@ -65,14 +66,82 @@ hr.hr-xs {
 .blog-grid-tags li a {
     color: #fff;
     font-size: 12px;
-    background: #999;
+    background: #a632ff;
     padding: 3px 10px;
     text-transform: uppercase;
 }
 
+.blog-grid-tags li a.tag-PHP{
+    color: #fff;
+    font-size: 12px;
+    background: #6d98ed;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.blog-grid-tags li a.tag-Java{
+    color: #fff;
+    font-size: 12px;
+    background: #ff4c4c;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.blog-grid-tags li a.tag-Laravel{
+    color: #fff;
+    font-size: 12px;
+    background: #f97f72;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
 .blog-grid-tags li a:hover {
+    background: #5fb611;
+    text-decoration: none;
+}
+.blog-grid-tags li a.tag-PHP:hover {
+    background: #4765a0;
+    text-decoration: none;
+}
+.blog-grid-tags li a.tag-Laravel:hover {
     background: #e74c3c;
     text-decoration: none;
+}
+.blog-grid-tags li a.tag-Java:hover {
+    background: #ff0000;
+    text-decoration: none;
+}
+
+/*Link Mension Css*/
+.linkMension a{
+    font-weight:bold;
+}
+h3{
+    text-align: center;
+}
+
+.waviqKategori{
+    text-align: right;
+
 }
 
 /*# sourceMappingURL=all.css.map */

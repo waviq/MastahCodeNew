@@ -1,5 +1,5 @@
 <?php $__env->startSection('kontent'); ?>
-
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <div ng-app="MyAplications" ng-controller="MyController" class="col-md-12">
         <?php echo Form::open(['url'=>'user','files'=>true]); ?>
 

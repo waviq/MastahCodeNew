@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 class HalamanUtamaController extends Controller {
@@ -15,6 +16,8 @@ class HalamanUtamaController extends Controller {
 	{
 		return view('Page.FrontEnd.Home.Home');
 	}
+
+
 
 
 }

@@ -1,0 +1,59 @@
+<?php $__env->startSection('title'); ?> Home
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('bredTtitle'); ?> Home <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredLinkTitle'); ?> <?php echo e(URL::action('HalamanUtamaController@index')); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle2'); ?> Artikel <?php $__env->stopSection(); ?>
+<?php $__env->startSection('bredTtitle0'); ?> Artikel <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+
+    <!--=== Content Part ===-->
+    <div class="blog_masonry_3col">
+        <div class="container content grid-boxes">
+            <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <?php foreach($post as $posts): ?>
+
+                <div class="grid-boxes-in linkMension">
+                    <?php if(!empty($posts->image)): ?>
+                        <img class="img-responsive" src="/img/artikel/<?php echo e($posts->image); ?>"
+                             alt="">
+                    <?php else: ?>
+                        <img class="img-responsive" src="<?php echo e(asset('/img/artikel/mastah code tutorial.png')); ?>"
+                             alt="">
+                    <?php endif; ?>
+
+                    <div class="grid-boxes-caption">
+                        <h3><a href="<?php echo e(url(action('blogController@show',$posts->slug))); ?>"><?php echo e($posts->judul); ?></a></h3>
+                    </div>
+
+                </div>
+
+            <?php endforeach; ?>
+            <?php /*<div class="grid-boxes-in linkMension">
+                <?php foreach($post as $posts): ?>
+                    <h1><?php echo e($posts->judul); ?></h1>
+                    <h3><?php echo Markdown::parse(str_limit($posts->kontenFull, 300)); ?></h3>
+                <?php endforeach; ?>
+            </div>*/ ?>
+
+        </div>
+        <!--/container-->
+    </div>
+
+    <hr class="margin-bottom-40">
+
+
+    <!--Pagination-->
+    <div class="text-center">
+        <ul class="pagination">
+            <?php echo $post->render(); ?>
+
+        </ul>
+    </div>
+    <!--=== End Content Part ===-->
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.FrontEnd.Blog.BlogTemplate', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

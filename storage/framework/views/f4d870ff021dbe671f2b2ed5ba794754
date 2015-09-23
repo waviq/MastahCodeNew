@@ -1,0 +1,45 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Information Skills</h2>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <?php if(count($valueSkill)): ?>
+        <div class="col-md-9">
+
+            <?php echo Form::model($valueSkill,['method'=>'PATCH', 'action'=>['SkillController@update',$valueSkill->id]]); ?>
+
+
+            <!--NamaSkill form input-->
+            <div class="form-group">
+                <?php echo Form::label('namaSkill','Nama Skill:'); ?>
+
+                <?php echo Form::text('namaSkill',$skill,['class'=>'form-control','readOnly']); ?>
+
+                <?php /*<?php echo Form::select('namaSkill[]', $sekil, null,['id'=>'namaSkill', 'class'=>'form-control','multiple']); ?>*/ ?>
+            </div>
+
+            <!--Value form input-->
+            <div class="form-group">
+                <?php echo Form::label('value','Value:'); ?>
+
+                <?php echo Form::text('value',null,['class'=>'form-control']); ?>
+
+            </div>
+
+            <footer>
+                <button type="submit" name="save_finish" class="btn-u btn-u-red">Edit & Save</button>
+            </footer>
+
+            <?php echo Form::close(); ?>
+
+            <?php else: ?>
+                <h2>Tidak ada Informasi skill yang disimpan</h2>
+
+                <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        </div>
+    <?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
