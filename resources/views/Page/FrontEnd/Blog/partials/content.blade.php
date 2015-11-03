@@ -10,8 +10,8 @@
             <div class="col-md-12">
                 <h2><a href="#"></a></h2>
                 <ul class="list-unstyled list-inline blog-info">
-                    <li><i class="fa fa-calendar"></i> {{$posts->created_at}}</li>
-                    <li><i class="fa fa-comments"></i> <a href="#">24 Comments</a></li>
+                    <li><i class="fa fa-calendar"></i> {{$posts->created_at->format('d M, Y')}}</li>
+                    {{--<li><i class="fa fa-comments"></i> <a href="#">24 Comments</a></li>--}}
 
                     @foreach($posts->kategori as $kategori)
                         <li><i class="fa fa-tags"></i> {{$kategori->namaKategori}}</li>

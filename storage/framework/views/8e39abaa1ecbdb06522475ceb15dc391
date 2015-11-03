@@ -1,0 +1,63 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Information Skills</h2>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('kontent'); ?>
+
+    <?php if(count($pendidikan)): ?>
+        <div class="col-md-12">
+            <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <table class="table table-striped table-bordered tex">
+                <thead>
+                <th>Pendidikan</th>
+                <th>Nama Pendidikan, Tempat</th>
+                <th>Tahun Mulai</th>
+                <th>Tahun Selesai</th>
+                <th>Tampilkan</th>
+                <th>Edit</th>
+                <th>Delete</th>
+
+                </thead>
+
+                <tbody>
+                <?php foreach($pendidikan as $pendidikans): ?>
+                    <tr>
+                        <td>
+                            <?php foreach($pendidikans->pendidikan as $pendidikanst): ?>
+                                <?php echo e($pendidikanst->namaPendidikan); ?>
+
+                            <?php endforeach; ?>
+                        </td>
+                        <td><?php echo e($pendidikans->namaSekolah_kota); ?></td>
+                        <td><?php echo e($pendidikans->start); ?></td>
+                        <td><?php echo e($pendidikans->finish); ?></td>
+
+                        <?php if($pendidikans->published == null): ?>
+                            <td>No</td>
+                        <?php else: ?>
+                            <td>Yes</td>
+                        <?php endif; ?>
+
+                        <td><?php echo HTML::linkAction('EducationController@edit','Edit',array($pendidikans->id),['class' =>'btn btn-info']); ?></td>
+                        <td>
+                            <?php echo Form::open(array('action'=>array('EducationController@destroy',$pendidikans->id),'method'=>'delete')); ?>
+
+                            <?php echo Form::submit('Delete', ['class' =>'btn btn-danger']); ?>
+
+                            <?php echo Form::close(); ?>
+
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+
+            </table>
+            <?php else: ?>
+                <h3 align="center">Tidak ada informasi pendidikan yang tersedia</h3>
+
+        </div>
+    <?php endif; ?>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

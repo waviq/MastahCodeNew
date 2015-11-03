@@ -1,8 +1,14 @@
 @extends('Page.FrontEnd.Blog.BlogTemplate')
 
-@section('title') Home
+@section('title')
+    Kategori tutorial|Mastahcode.com
 @endsection
 
+@section('meta')
+    {!! SEOMeta::generate() !!}
+    {!! OpenGraph::generate() !!}
+    {!! Twitter::generate() !!}
+@endsection
 
 @include('flash::message')
 

@@ -282,7 +282,48 @@ h3.title-v3-xs {
     font-size: 14px;
     margin-bottom: 0;
 }
+/*Headline Biasa*/
+.headline-biasa {
+    text-align: left;
+    position: relative;
+}
+.headline-biasa h2 {
+    color: #555;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
 
+.headline-biasa h2:after {
+    left: 1%;
+    z-index: 1;
+    width: 30px;
+    height: 2px;
+    content: " ";
+    bottom: -5px;
+    margin-left: -15px;
+    text-align: left;
+    position: absolute;
+    background: #72c02c;
+}
+
+.headline-biasa p {
+    /*color: #999;*/
+    font-size: 14px; /*padding: 0 150px;*/
+}
+@media (max-width: 991px) {
+    .headline-biasa p {
+        padding: 0 50px;
+    }
+}
+.headline-biasa.headline-light h2 {
+    color: #fff;
+}
+
+.headline-biasa.headline-light p {
+    color: #eee;
+}
 /*Headline Center*/
 .headline-center {
     text-align: center;

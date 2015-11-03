@@ -13,8 +13,8 @@
 <script src="{{asset('assets/js/select2.min.js')}}"></script>
 {{--<script src="{{asset('assets/plugins/select2/select2.min.js')}}"></script>--}}
 {{--AngularJs--}}
-<script src="{{asset('assets/js/AngularJs.js')}}"></script>
-<script src="{{asset('assets/js/Angular/custom.js')}}"></script>
+{{--<script src="{{asset('assets/js/AngularJs.js')}}"></script>
+<script src="{{asset('assets/js/Angular/custom.js')}}"></script>--}}
 
 
 <script>
@@ -27,7 +27,7 @@
         allowClear: true
     });
 
-    $(".kategoriList").select2();
+    //$(".kategoriList").select2();
 
     $('#flash-overlay-modal').modal();
 </script>
@@ -56,8 +56,16 @@
                 theme:'monokai'
             }
         });
+    });
+    $(document).ready(function () {
+        $('#isi').summernote({
 
-
+            height:250,
+            tabsize: 2,
+            codemirror:{
+                theme:'monokai'
+            }
+        });
     });
 </script>
 

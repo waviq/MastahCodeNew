@@ -1,0 +1,75 @@
+<?php $__env->startSection('header'); ?>
+    <h2>Form Information Skills</h2>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+    <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <?php if(count($pendidikan)): ?>
+        <div class="col-md-9">
+
+            <?php echo Form::model($pendidikan,['method'=>'PATCH', 'action'=>['EducationController@update',$pendidikan->id]]); ?>
+
+
+            <div class="span6 pull-right" style="text-align:right">
+                <!--Published form input-->
+                <div class="form-group">
+                    <?php echo Form::label('published','Published:'); ?>
+
+                    <?php if($pendidikan->published == 1): ?>
+                        <?php echo Form::checkbox('active',$pendidikan->published,isset($pendidikan->published)); ?>
+
+                    <?php else: ?>
+                        <?php echo Form::checkbox('active'); ?>
+
+                    <?php endif; ?>
+                </div>
+            </div>
+
+            <!--NamaPendidikan form input-->
+            <div class="form-group">
+                <?php echo Form::label('namaPendidikan','Nama Pendidikan:'); ?>
+
+                <?php echo Form::text('namaPendidikan',$pendidikans,['class'=>'form-control','readOnly']); ?>
+
+            </div>
+
+            <div class="form-group input-group">
+                <span class="input-group-addon"><i class="icon-prepend fa fa-map-marker"></i></span>
+                <?php echo Form::text('namaSekolah_kota',null,['class'=>'form-control','placeholder'=>'Nama Sekolah/Pendidikan, Kota']); ?>
+
+            </div>
+
+            <!--Description form input-->
+            <div class="form-group">
+                <?php echo Form::label('description','Description:'); ?>
+
+                <?php echo Form::textarea('description',null,['class'=>'form-control']); ?>
+
+            </div>
+
+            <div class="form-group input-group">
+                <span class="input-group-addon"><i class="icon-prepend fa  fa-calendar"></i></span>
+                <?php echo Form::text('start',null,['class'=>'form-control','placeholder'=>'Tahun Mulai']); ?>
+
+                <span class="input-group-addon"><i class="icon-prepend fa fa-minus-square-o"></i></span>
+                <?php echo Form::text('finish',null,['class'=>'form-control','placeholder'=>'Tahun Selesai']); ?>
+
+            </div>
+
+
+            <footer>
+                <button type="submit" name="save_finish" class="btn-u btn-u-red">Edit & Save</button>
+            </footer>
+
+            <?php echo Form::close(); ?>
+
+            <?php else: ?>
+                <h2>Tidak ada Informasi Pendidikan yang disimpan</h2>
+
+        </div>
+    <?php endif; ?>
+    <br>
+    <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,35 @@
+<?php $__env->startSection('content'); ?>
+
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <h1 class="pull-left">Registration</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="<?php echo e(url('/')); ?>">Home</a></li>
+                <li><a href="">Pages</a></li>
+                <li class="active">Registration</li>
+            </ul>
+        </div>
+        <!--/container-->
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
+
+    <!--=== Content Part ===-->
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+
+                <?php echo $__env->make('Page.partials.alertValidasi', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+                <?php echo $__env->make('Page.partials.FormRegistrasi', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+            </div>
+        </div>
+        <!--/row-->
+    </div><!--/container-->
+    <!--=== End Content Part ===-->
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Page.FrontEnd.Home.HalamanUtama', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

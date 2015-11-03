@@ -19,6 +19,7 @@ class PostTable extends Migration
             $tabel->text('ringkasan');
             $tabel->string('kataKunci');
             $tabel->text('kontenFull');
+            $tabel->boolean('published')->default(false);
             $tabel->boolean('seen')->default(false);
             $tabel->boolean('active')->default(false);
             $tabel->integer('user_id')->unsigned();

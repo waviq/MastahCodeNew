@@ -1,0 +1,56 @@
+<?php $__env->startSection('header'); ?>
+    <h1>Form untuk membuat artikel baru</h1>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+
+    <div class="col-md-12">
+        <?php echo $__env->make('flash::message', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <?php echo Form::open(['url'=>'backend/FAQs','files'=>true]); ?>
+
+        
+        <!--Title form input-->
+        <div class="form-group">
+            <?php echo Form::label('title','Title:'); ?>
+
+            <?php echo Form::text('title',null,['class'=>'form-control']); ?>
+
+        </div>
+
+
+        <div class="form-group">
+            <?php echo Form::label('isi','Isi:'); ?>
+
+            <?php echo Form::textarea('isi',null,['class'=>'form-control']); ?>
+
+        </div>
+
+
+        <?php /*<!--Image form input-->
+        <div class="form-group">
+            <?php echo Form::label('image','Image:'); ?>
+
+            <?php echo Form::file('image',null,['class'=>'form-control']); ?>
+
+        </div>*/ ?>
+
+
+        <!--Add Artikel Button Submit-->
+        <div class="form-group">
+            <?php echo Form::submit('Simpan', ['class' =>'btn btn-primary form-control']); ?>
+
+        </div>
+
+        <?php echo Form::close(); ?>
+
+
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+
+
+
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

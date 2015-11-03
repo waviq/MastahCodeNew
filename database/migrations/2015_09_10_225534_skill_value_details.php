@@ -11,7 +11,7 @@ class SkillValueDetails extends Migration
         Schema::create('skill_value', function(Blueprint $kolom){
             $kolom->increments('id');
             $kolom->unsignedInteger('skill_id')->nullable();
-            $kolom->unsignedInteger('value_id')->nullable();
+            $kolom->unsignedInteger('value_skill_id')->nullable();
         });
 
         Schema::table('skill_value', function(Blueprint $kolom){
@@ -21,7 +21,7 @@ class SkillValueDetails extends Migration
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
 
-            $kolom->foreign('value_id')
+            $kolom->foreign('value_skill_id')
                 ->references('id')
                 ->on('ValueSkill')
                 ->onDelete('cascade')

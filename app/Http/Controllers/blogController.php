@@ -16,17 +16,22 @@ use Illuminate\Support\Str;
 use Image;
 use Input;
 
+use Markdown;
+use OpenGraph;
 use Request;
+use SEOMeta;
+use Twitter;
 use View;
 
 class blogController extends Controller {
 
     protected $commentRepo;
+
     public function __construct(CommentRepository $commentRepo)
     {
         $this->commentRepo = $commentRepo;
-        $this->middleware('auth', ['except' => ['indexFront', 'show', 'search','getByArtikel']]);
-        $this->middleware('role:admin', ['only' => ['SeeAllArtikel','editAll']]);
+        $this->middleware('auth', ['except' => ['indexFront', 'show', 'search', 'getByArtikel']]);
+        $this->middleware('role:admin', ['only' => ['SeeAllArtikel', 'editAll']]);
         parent::__construct();
     }
 
@@ -48,14 +53,16 @@ class blogController extends Controller {
     public function indexFront()
     {
 
-        $post = Post::latest('created_at')->paginate(5);
+        $post = Post::latest('created_at')->where('published',1)->paginate(5);
         $posted = Post::with('kategori')->first();
         $recentPost = Post::latest('created_at')->paginate(3);
         $kate = Kategori::all();
 
         $comment = CommentDisqus::latest('date')->take(7)->get();
 
-        return view('Page.FrontEnd.Blog.Blog', compact('post', 'kate', 'recentPost','comment','posted'));
+        $this->ArtikelIndexSEO();
+
+        return view('Page.FrontEnd.Blog.Blog', compact('post', 'kate', 'recentPost', 'comment', 'posted'));
 
     }
 
@@ -83,6 +90,14 @@ class blogController extends Controller {
 
         $posts = new Post($request->all());
 
+        $published = Input::get('active');
+        if($published == null){
+            $published = 0;
+        }
+        if($published == 1){
+            $published = 1;
+        }
+
         $posts->judul = Input::get('judul');
         //$posts->ringkasan = Input::get('ringkasan');
         $posts->kontenFull = Input::get('kontenFull');
@@ -90,6 +105,7 @@ class blogController extends Controller {
         $posts->published_at = Carbon::now();
         $posts->user_id = Auth::user()->id;
         $posts->image = $filename;
+        $posts->published = $published;
         $posts->save();
 
         $posts->kategori()->attach($request->input('kategori_list'));
@@ -103,8 +119,8 @@ class blogController extends Controller {
 
     public function show($slug)
     {
-        $recentPost = Post::latest('created_at')->paginate(4);
-        $post = Post::with('kategori')->whereSlug($slug)->firstorFail();
+        $recentPost = Post::latest('created_at')->paginate(4)->where('published',1);
+        $post = Post::with('kategori')->whereSlug($slug)->where('published',1)->firstorFail();
         $kategori = Request::get('kategori');
 
         $comment = CommentDisqus::latest('date')->take(7)->get();
@@ -114,22 +130,26 @@ class blogController extends Controller {
             $kategori = Kategori::whereKategori($kategori)->firstOrFail();
         }
 
-        $this->commentRepo->showCode();
+        //$this->commentRepo->showCode();
 
+        $this->SEOfullArtikel($post);
 
-        return view('Page.FrontEnd.Blog.ShowArtikel', compact('post', 'kategori', 'recentPost','comment'));
+        return view('Page.FrontEnd.Blog.ShowArtikel', compact('post', 'kategori', 'recentPost', 'comment'));
     }
 
     public function edit($id)
     {
         $post = Post::findOrFail($id);
+
+        $ListKategori = $post->kategori->lists('id')->toArray();
+
         $idFkUser = $post->user_id;
         $idUser = Auth::id();
         if ($idUser == $idFkUser)
         {
             $kategori = Kategori::lists('namaKategori', 'id');
 
-            return view('Page.BackEnd.Artikel.EditArtikel', compact('post', 'kategori'));
+            return view('Page.BackEnd.Artikel.EditArtikel', compact('post', 'kategori','ListKategori'));
         } else
         {
             return abort(401, 'Unauthorized');
@@ -140,10 +160,11 @@ class blogController extends Controller {
     public function editAll($id)
     {
         $post = Post::findOrFail($id);
+        $ListKategori = $post->kategori->lists('id')->toArray();
 
         $kategori = Kategori::lists('namaKategori', 'id');
 
-        return view('Page.BackEnd.Artikel.EditArtikel', compact('post', 'kategori'));
+        return view('Page.BackEnd.Artikel.EditArtikel', compact('post', 'kategori','ListKategori'));
 
     }
 
@@ -161,7 +182,10 @@ class blogController extends Controller {
 
     public function destroy($id)
     {
-        Post::find($id)->delete();
+        $post = Post::findOrFail($id);
+        $post->delete();
+
+        flash()->success('sukses menghapus');
 
         return Redirect('blog');
     }
@@ -191,8 +215,7 @@ class blogController extends Controller {
             //dd(count($postSearch));
 
 
-
-            return view('Page.FrontEnd.Blog.search', compact('postSearch','page'));
+            return view('Page.FrontEnd.Blog.search', compact('postSearch', 'page'));
         }
         /*$ambilInput = Input::get('keyword');
         $postSearch = Post::search($ambilInput)->get();
@@ -209,13 +232,72 @@ class blogController extends Controller {
 
     public function getByArtikel($username)
     {
-        $parameter = User::where('username','=',$username)->firstOrFail();
+        $parameter = User::where('username', '=', $username)->firstOrFail();
 
         $post = $parameter->posts()->paginate(3);
 
-        return view('Page.FrontEnd.Blog.byUsername',compact('post'));
+        return view('Page.FrontEnd.Blog.byUsername', compact('post'));
     }
 
+    /**
+     * @param $post
+     */
+    private function SEOfullArtikel($post)
+    {
+        SEOMeta::setDescription(Markdown::parse(str_limit($post->kontenFull, 200)));
+        SEOMeta::addMeta('articlepublished_time', $post->created_at->toW3CString());
+        foreach ($post->kategori as $katagoro)
+        {
+            SEOMeta::addMeta('article:section', $katagoro->namaKategori, 'property');
+        }
+        $keyword = str_slug($post->judul, $separator = ',');
+        SEOMeta::addKeyword($keyword);
+
+        OpenGraph::setDescription(Markdown::parse(str_limit($post->kontenFull, 200)));
+        OpenGraph::setTitle($post->judul);
+        OpenGraph::setUrl(url(action('blogController@show', $post->slug)));
+        foreach ($post->kategori as $katagoro)
+        {
+            OpenGraph::addProperty('kategori', $katagoro->namaKategori);
+        }
+        OpenGraph::setSiteName('Mastahcode');
+        OpenGraph::addProperty('locale', 'pt-br');
+        OpenGraph::addProperty('type', 'articles');
+        OpenGraph::addImage(asset('img/artikel/' . $post->image));
+        OpenGraph::addImage(asset('img/users/' . $post->user->imageUser->image));
+
+        Twitter::setTitle($post->judul);
+        foreach ($post->kategori as $katagoro)
+        {
+            Twitter::addValue('Kategori', $katagoro->namaKategori);
+        }
+        Twitter::setDescription(Markdown::parse(str_limit($post->kontenFull, 200)));
+        Twitter::setSite('@mastahcode');
+        Twitter::setUrl(url(action('blogController@show', $post->slug)));
+        Twitter::setType('articles');
+    }
+
+    private function ArtikelIndexSEO()
+    {
+        SEOMeta::setDescription('Kumpulan artikel tutorial PHP,
+            Laravel, Java, Java Spring, Java Hibernate,AngularJs,dll');
+        SEOMeta::addKeyword(['tutorial laravel', 'tutorial PHP', 'tutorial java',
+            'tutorial java hibernate', 'tutorial java spring', 'tutorial angularJs']);
+
+        OpenGraph::setDescription('Kumpulan artikel tutorial PHP,
+            Laravel, Java, Java Spring, Java Hibernate,AngularJs,dll');
+        OpenGraph::setTitle('Kumpulan artikel tutorial|Mastahcode.com');
+        OpenGraph::setUrl(url(action('blogController@indexFront')));
+        OpenGraph::setSiteName('Mastahcode.com');
+        OpenGraph::addProperty('type', 'articles tutorial');
+
+        Twitter::setTitle('Kumpulan artikel tutorial|Mastahcode.com');
+        Twitter::setDescription('Kumpulan artikel tutorial PHP,
+            Laravel, Java, Java Spring, Java Hibernate,AngularJs,dll');
+        Twitter::setSite('@mastahcode');
+        Twitter::setUrl(url(action('blogController@indexFront')));
+        Twitter::setType('Tutorial articles');
+    }
 
 
 }

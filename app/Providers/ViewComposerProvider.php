@@ -33,12 +33,12 @@ class ViewComposerProvider extends ServiceProvider
     {
         view()->composer('Page.partials.Footer', function ($view)
         {
-            $view->with('posting', Post::latest('created_at')->take(3)->get());
+            $view->with('posting', Post::latest('created_at')->where('published',1)->take(3)->get());
         });
 
         view()->composer('Page.FrontEnd.Blog.partials.barKanan', function ($view)
         {
-            $view->with('recentPost', Post::latest('created_at')->paginate(4));
+            $view->with('recentPost', Post::latest('created_at')->where('published',1)->paginate(4));
             $view->with('kate', Kategori::all());
             $view->with('posted', Post::with('kategori')->first());
             $view->with('comment',CommentDisqus::latest('date')->take(7)->get());

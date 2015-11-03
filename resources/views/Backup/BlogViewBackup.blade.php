@@ -166,7 +166,7 @@
 
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="{{asset('assets/img/testimonials/img3.jpg')}}" alt="" />
+                                <img class="media-object" src="{{asset('12.jpg')}}" alt="" />
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">Media heading <span>2 days ago / <a href="#">Reply</a></span></h4>

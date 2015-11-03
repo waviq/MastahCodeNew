@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 
+use App\PendidikanValue;
+use App\Post;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -27,9 +29,11 @@ class RouteServiceProvider extends ServiceProvider
     {
         //
         parent::boot($router);
+        //$router->model('blog',Post::class);
         $router->model('user','App\User');
         $router->model('kategori','App\Kategori');
         $router->model('skill','App\ValueSkill');
+        $router->model('edu',PendidikanValue::class);
     }
 
     /**

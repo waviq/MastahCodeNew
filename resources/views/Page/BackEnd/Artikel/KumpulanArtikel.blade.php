@@ -10,8 +10,6 @@
             <table class="table table-striped table-bordered tex">
                 <thead>
                 <th>Judul</th>
-                {{--<th>Deskripsi</th>--}}
-                <th>Artikel dibuat</th>
                 <th>Published</th>
                 <th>Penulis</th>
                 <th>Preview</th>
@@ -23,13 +21,8 @@
                 @foreach($artikel as $artikels)
                     <tr>
                         <td>{{$artikels->judul}}</td>
-                        {{--<td>{!! substr($artikels->kontenFull, 0, 50). '[...]'!!}</td>--}}
-                        <td>{{$artikels->created_at->diffForHumans()}}</td>
-                        <td></td>
+                        <td>{{$artikels->published_at}}</td>
                         <td>{{$artikels->user->name}}</td>
-                        {{--@foreach($post as $postss)
-                            <td>{{$postss->name}}</td>
-                        @endforeach--}}
                         <td>{!!HTML::linkAction('blogController@show','View',array($artikels->slug),['class' =>'btn btn-info'])!!}</td>
                         <td>{!!HTML::linkAction('blogController@edit','Edit', [$artikels->id],['class'=>'btn btn-warning'])!!}</td>
                         <td>

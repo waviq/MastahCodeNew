@@ -52,10 +52,10 @@ class Post extends Model
         return Post::belongsToMany('App\Kategori','detail_kategori')->withTimestamps();
     }
 
-    public function getCreatedAtAttribute($value)
+  /*  public function getCreatedAtAttribute($value)
     {
         return Carbon::parse($value)->format('d M, Y');
-    }
+    }*/
 
     /*public static function search($keyword)
     {

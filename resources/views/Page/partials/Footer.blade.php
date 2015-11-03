@@ -5,9 +5,10 @@
             <div class="row">
                 <!-- About -->
                 <div class="col-md-3 md-margin-bottom-40">
-                    <a href="index.html"><img id="logo-footer" class="footer-logo" src={{asset('assets/img/LogoOkePutihKecil.png')}} alt=""></a>
-                    <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
-                    <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>
+                    <a href="{{url(action('HalamanUtamaController@index'))}}"><img id="logo-footer" class="footer-logo" src={{asset('assets/img/footer.png')}} alt="MastahcodeLogoKecil"></a>
+                    <p>Dimulai dari <a href="{{url(action('ProfileController@indexFront','waviq'))}}">Saya</a> yang sering kali lupa tentang apa yang saya pelajari, dengan menuliskanya dan membagikannya kepada orang lain ilmu pengetahuan kita,
+                        Insyallah ilmu dan pengetahuan kita akan selalu membekas, dan ilmu yang kita bagikan akan Abadi serta dapat Pahala, Amin..</p>
+
                 </div><!--/col-md-3-->
                 <!-- End About -->
 
@@ -19,7 +20,7 @@
                             @foreach($posting as $postings)
                                 <li>
                                     <a href="{{url(action('blogController@show', $postings->slug))}}">{{$postings->judul}}</a>
-                                    <small>{{$postings->created_at}}</small>
+                                    <small>{{$postings->created_at->format('d M, Y')}}</small>
                                 </li>
                             @endforeach
 

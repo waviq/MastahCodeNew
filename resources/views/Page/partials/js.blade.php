@@ -54,6 +54,7 @@
         FancyBox.initFancybox();
         OwlCarousel.initOwlCarousel();
         RevolutionSlider.initRSfullWidth();
+        //BlogSlider.initWaviqBlog();
         Masking.initMasking();
         Datepicker.initDatepicker();
         Validation.initValidation();
@@ -94,21 +95,43 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
-{{--<script>
-    $(document).ready(function() {
-        $(#disqus_thread).on('#submit', function(e) {
-            var url = "{{url(action('CommentDisqusController@index'))}}";
-            $.ajax({
-                url: url,
-                type: 'POST',
-                data: $form.serialize(),
-                success: function(result) {
-                    // ... Process the result ...
-                }
-            });
+
+<script>
+    $('#regForm').submit(function(e){
+        $.ajaxSetup({
+          header:$('meta')
         });
     });
-</script>--}}
+</script>
+<script>
+    $("#regForm").submit(function(event){
+        event.preventDefault();
+
+        var $form = $(this),
+                data = $form.serialize(),
+                url = $form.attr("action");
+
+        var posting = $.post(url,{formData:data});
+        posting.done(function(data){
+            if(data.fail){
+                $.each(data.errors, function(index, value){
+                    var errorDiv = '#'+index+'_error';
+                    $(errorDiv).addClass('required');
+                    $(errorDiv).empty().append(value);
+                });
+                $('#successMessage').empty();
+            }
+            if(data.success){
+                /*$('.register').fadeOut();
+                var successContent = '<div class="message"><h3>Registration berhasil</h3>' +
+                        '<h4> please Login with following details</h4><div class="userDetails">' +
+                        '<p><span>Email:</span>'+data.email+'</p><p><span>Password:******</span></p></div></div>';
+                $('#successMessage').html(successContent);*/
+                return window.location.href = '/artikel';
+            }
+        });
+    });
+</script>
 
 
 

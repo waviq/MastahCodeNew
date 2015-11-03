@@ -1,12 +1,20 @@
 @extends('Page.FrontEnd.Blog.BlogTemplate')
 
-@section('title') Home
-@endsection
 
 @section('bredTtitle') Home @endsection
 @section('bredLinkTitle') {{URL::action('HalamanUtamaController@index')}} @endsection
 @section('bredTtitle2') Artikel @endsection
 @section('bredTtitle0') Artikel @endsection
+
+@section('title')
+    Tutorial {{$kategoriParamLink->namaKategori}}|Mastahcode.com
+@endsection
+
+@section('meta')
+    {!! SEOMeta::generate() !!}
+    {!! OpenGraph::generate() !!}
+    {!! Twitter::generate() !!}
+@endsection
 
 @section('content')
 
@@ -14,7 +22,14 @@
     <div class="blog_masonry_3col">
         <div class="container content grid-boxes">
             @include('flash::message')
+            @if(!count($post))
+                <div class="alert alert-danger fade in">
+                    <strong>Maaf mastah!</strong> artikel yang mastah cari tidak ditemukan.
+                </div>
+            @endif
             @foreach($post as $posts)
+
+
 
                 <div class="grid-boxes-in linkMension">
                     @if(!empty($posts->image))
@@ -28,16 +43,11 @@
                     <div class="grid-boxes-caption">
                         <h3><a href="{{url(action('blogController@show',$posts->slug))}}">{{$posts->judul}}</a></h3>
                     </div>
-
                 </div>
 
+
+
             @endforeach
-            {{--<div class="grid-boxes-in linkMension">
-                @foreach($post as $posts)
-                    <h1>{{$posts->judul}}</h1>
-                    <h3>{!!Markdown::parse(str_limit($posts->kontenFull, 300))!!}</h3>
-                @endforeach
-            </div>--}}
 
         </div>
         <!--/container-->

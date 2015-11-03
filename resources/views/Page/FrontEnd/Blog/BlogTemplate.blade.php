@@ -5,24 +5,27 @@
     @include('Page.Headers')
 
 
-
-
-
 </div>
 
-<!--=== Breadcrumbs ===-->
-<div class="breadcrumbs">
+<!--=== Breadcrumbs v3 ===-->
+<div class="breadcrumbs-v3 img-v3 text-center">
     <div class="container">
-        <h1 class="pull-left">@yield('bredTtitle0')</h1>
-        <ul class="pull-right breadcrumb">
-            <li><a href="@yield('bredLinkTitle')">@yield('bredTtitle')</a></li>
-            <li class="active">@yield('bredTtitle2')</li>
-            {{--<li><a href="@yield('bredLinkTitle3')">@yield('bredTtitle3')</a></li>--}}
-        </ul>
-    </div>
-</div><!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
 
+        <h1>Bagikan ilmu walaupun sedikit, Yakinlah Ilmu anda akan bertambah dan tidak akan pernah berkurang</h1>
+
+        <p>(Ali bin Abi Thalib dan cendikiawan)</p>
+        <br>
+        @if(!Auth::check())
+            <a href="{{url(action('RegisterUserController@getRegister'))}}"
+               class="btn-u btn-brd btn-brd-hover btn-u-light">Gabung Sekarang</a>
+        @endif
+        <a href="{{url(action('blogController@create'))}}" class="btn-u">Mulai Menulis</a>
+
+
+    </div>
+    <!--/end container-->
+</div>
+<!--=== End Breadcrumbs v3 ===-->
 
 
 <div class="container content">
@@ -38,7 +41,6 @@
 @include('Page.partials.Footer')
 
 @include('Page.partials.js')
-
 
 
 @include('Page.FrontEnd.Blog.partials.footer')

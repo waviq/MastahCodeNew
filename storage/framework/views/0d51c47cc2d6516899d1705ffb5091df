@@ -1,0 +1,28 @@
+<?php /*<!-- BOOTSTRAP STYLES-->*/ ?>
+<link rel="stylesheet" href="<?php echo e(asset('assets/plugins/bootstrap/css/bootstrap.min.css')); ?>">
+<?php /*<!-- FONTAWESOME STYLES-->*/ ?>
+<link rel="stylesheet" href="<?php echo e(asset('assets/plugins/font-awesome/css/font-awesome.min.css')); ?>">
+
+<?php /*<!-- CUSTOM STYLES-->*/ ?>
+<link href="<?php echo e(asset('assets/css/custom_profile.css')); ?>" rel="stylesheet" />
+<?php /*<!-- GOOGLE FONTS-->*/ ?>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+<?php /*button*/ ?>
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/app.css')); ?>">
+
+<?php /*selectTagCss*/ ?>
+<link href="<?php echo e(asset('assets/css/select2.min.css')); ?>" rel="stylesheet" />
+<?php /*<link href="<?php echo e(asset('assets/plugins/select2/select2.css')); ?>" rel="stylesheet" />*/ ?>
+<?php /*<link href="<?php echo e(asset('https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css')); ?>" rel="stylesheet" />*/ ?>
+
+<?php /*inspira*/ ?>
+<link href="<?php echo e(asset('assets/Inspira/css/animate.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('assets/Inspira/css/codemirror.min.css')); ?>" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo e(asset('assets/code-prettify/src/prettify.css')); ?>">
+<link href="<?php echo e(asset('assets/Inspira/css/monokai.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('assets/Inspira/css/summernote.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('assets/Inspira/css/summernote-bs3.css')); ?>" rel="stylesheet">
+
+<?php /*<link href="<?php echo e(asset('assets/Inspira/css/style.css')); ?>" rel="stylesheet">*/ ?>
+

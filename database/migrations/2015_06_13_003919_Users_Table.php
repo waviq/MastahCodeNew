@@ -19,8 +19,8 @@ class UsersTable extends Migration
             $table->string('name');
             $table->date('tanggalLahir');
             $table->enum('JenisKelamin', array('Pria','Wanita'));
-            $table->string('alamat');
-            $table->string('nomorTelfon')->unique();
+            $table->string('alamat')->nullable();
+            $table->string('nomorTelfon')->unique()->nullable();
             $table->string('email')->unique();
             $table->string('password', 60);
             $table->unsignedInteger('role_id')->nullable();

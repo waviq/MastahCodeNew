@@ -3,9 +3,11 @@
     <div class="tp-banner">
         <ul>
             <!-- SLIDE -->
-            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000"
+                data-title="Slide 1">
                 <!-- MAIN IMAGE -->
-                <img src="{{asset('assets/img/sliders/4.jpg')}}"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="{{asset('assets/img/sliders/12.jpg')}}" alt="darkblurbg" data-bgfit="cover"
+                     data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
                      data-x="center"
@@ -16,7 +18,7 @@
                      data-easing="Back.easeInOut"
                      data-endeasing="Power1.easeIn"
                      data-endspeed="300">
-                    Introducing Unify Template
+                    Bagikan ilmu untuk kami, ilmu akan mengalir abadi dan tidak pernah musnah
                 </div>
 
                 <!-- LAYER -->
@@ -31,8 +33,7 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    We are creative technology company providing <br/>
-                    key digital services on web and mobile.
+                    (Ali bin Abi Thalib)
                 </div>
 
                 <!-- LAYER -->
@@ -47,16 +48,21 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
-                    <a href="#" class="btn-u">Our Work</a>
+                    @if(!Auth::check())
+                        <a href="{{url(action('RegisterUserController@getRegister'))}}"
+                           class="btn-u btn-brd btn-brd-hover btn-u-light">Gabung Sekarang</a>
+                    @endif
+                    <a href="{{url(action('blogController@create'))}}" class="btn-u">Mulai Menulis</a>
                 </div>
             </li>
             <!-- END SLIDE -->
 
             <!-- SLIDE -->
-            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000"
+                data-title="Slide 2">
                 <!-- MAIN IMAGE -->
-                <img src="{{asset('assets/img/sliders/2.jpg')}}"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="{{asset('assets/img/sliders/2.jpg')}}" alt="darkblurbg" data-bgfit="cover"
+                     data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
                      data-x="center"
@@ -67,7 +73,7 @@
                      data-easing="Back.easeInOut"
                      data-endeasing="Power1.easeIn"
                      data-endspeed="300">
-                    Kami akan ajarkan anda sampai bisa
+                    Ikatlah ilmu dengan menuliskannya
                 </div>
 
                 <!-- LAYER -->
@@ -82,8 +88,7 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    We are creative technology company providing <br/>
-                    key digital services on web and mobile.
+                    (Ali bin Abi Thalib)
                 </div>
 
                 <!-- LAYER -->
@@ -98,16 +103,21 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
-                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                    @if(!Auth::check())
+                        <a href="{{url(action('RegisterUserController@getRegister'))}}"
+                           class="btn-u btn-brd btn-brd-hover btn-u-light">Gabung Sekarang</a>
+                    @endif
+                    <a href="{{url(action('blogController@create'))}}" class="btn-u">Mulai Menulis</a>
                 </div>
             </li>
             <!-- END SLIDE -->
 
             <!-- SLIDE -->
-            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3">
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000"
+                data-title="Slide 3">
                 <!-- MAIN IMAGE -->
-                <img src="{{asset('assets/img/sliders/3.jpg')}}"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="{{asset('assets/img/sliders/5.jpg')}}" alt="darkblurbg" data-bgfit="cover"
+                     data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
                      data-x="center"
@@ -118,7 +128,7 @@
                      data-easing="Back.easeInOut"
                      data-endeasing="Power1.easeIn"
                      data-endspeed="300">
-                    Over 12000+ Satisfied Users
+                    Saat anda memiliki ilmu, maka anda harus mengajarkanya kepada orang lain
                 </div>
 
                 <!-- LAYER -->
@@ -133,8 +143,7 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    We are creative technology company providing <br/>
-                    key digital services on web and mobile.
+                    (Pepatah)
                 </div>
 
                 <!-- LAYER -->
@@ -149,8 +158,11 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
-                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                    @if(!Auth::check())
+                        <a href="{{url(action('RegisterUserController@getRegister'))}}"
+                           class="btn-u btn-brd btn-brd-hover btn-u-light">Gabung Sekarang</a>
+                    @endif
+                    <a href="{{url(action('blogController@create'))}}" class="btn-u">Mulai Menulis</a>
                 </div>
             </li>
             <!-- END SLIDE -->

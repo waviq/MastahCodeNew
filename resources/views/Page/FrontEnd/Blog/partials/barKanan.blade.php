@@ -72,7 +72,7 @@
 
                         <div class="testimonial-info">
                             <img class="rounded-x"
-                                 src="{{asset('/img/users/'.$posted->user->imageUser->image)}}"
+                                 src="{{asset('/img/users/1.jpg')}}"
                                  alt="">
                                         <span class="testimonial-author">
                                             Waviq

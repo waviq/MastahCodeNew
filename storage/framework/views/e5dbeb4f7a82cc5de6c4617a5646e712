@@ -1,0 +1,48 @@
+<?php $__env->startSection('title'); ?>
+    Kumpulan artikel tutorial|Mastahcode.com
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('meta'); ?>
+    <?php echo SEOMeta::generate(); ?>
+
+    <?php echo OpenGraph::generate(); ?>
+
+    <?php echo Twitter::generate(); ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+    <div class="col-md-9">
+        <div class="headline"><h2>General Questions</h2></div>
+        <div class="panel-group acc-v1 margin-bottom-40" id="accordion">
+            <?php foreach($faqs as $key => $faq): ?>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                               href="#<?php echo e($faq->id); ?>">
+                                <?php echo e($key+1); ?>. <?php echo e($faq->title); ?>
+
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="<?php echo e($faq->id); ?>" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <?php echo $faq->isi; ?>
+
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+        </div>
+        <!--/acc-v1-->
+        <!-- End Other Questions -->
+    </div><!--/col-md-9-->
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('barKanan'); ?>
+    <?php echo $__env->make('Page.FrontEnd.Blog.partials.barKanan', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('Page.FrontEnd.Blog.BlogTemplate', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

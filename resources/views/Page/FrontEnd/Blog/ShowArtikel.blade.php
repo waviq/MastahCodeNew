@@ -1,8 +1,15 @@
 @extends('Page.FrontEnd.Blog.BlogTemplate')
 
-@section('title') {{$post->judul}}
+@section('title')
+    {{$post->judul}}|Mastahcode.com
 @endsection
 
+@section('meta')
+    {!! SEOMeta::generate() !!}
+    {!! OpenGraph::generate() !!}
+    {!! Twitter::generate() !!}
+
+@endsection
 
 
 @section('bredTtitle') Home @endsection

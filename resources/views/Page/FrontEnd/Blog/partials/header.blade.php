@@ -8,20 +8,19 @@
 
 <head>
 
-    <title>@yield('title')| Blog</title>
+    <title>@yield('title')</title>
 
     {{--Meta--}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="@yield('description')">
-    <meta name="author" content="@yield('keywords')">
-    <meta name="author" content="@yield('author')">
+    <meta name="author" content="Waviq Own Mastahcode">
+    @yield('meta')
 
     {{--favicon--}}
     <link rel="shortcut icon" href="{{asset('icon/icon.ico')}}">
 
     {{--Web Font--}}
-    <link rel='stylesheet' type='text/css' href='{{asset('//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin')}}'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
     @include('Page.partials.css')
 

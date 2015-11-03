@@ -14,8 +14,15 @@
 use App\Post;
 
 Route::group(array('middleware'=>'guest'), function(){
+
     Route::get('auth/login','LoginUserController@getLogin');
     Route::post('auth/login','LoginUserController@postLogin');
+
+    Route::get('/auth/facebook','LoginUserController@getFacebook');
+    Route::get('/callback','LoginUserController@getDataFacebook');
+
+    Route::get('auth/registerSosial','LoginUserController@getRegisterSosial');
+    Route::post('auth/registerSosial','LoginUserController@postRegisSosial');
 
     Route::get('auth/register','RegisterUserController@getRegister');
     Route::post('auth/register','RegisterUserController@postRegister');
@@ -41,7 +48,7 @@ Route::get('user/gantipassword',[
     'uses' => 'UserController@gantiPassword'
 ]);
 
-Route::resource('user/formal-edu','EducationController');
+Route::resource('user/edu','EducationController');
 Route::get('user/tambahfoto','UserController@tambahFoto');
 Route::get('user/job/{user_id}/editJob','JobUserController@getEditJob');
 Route::resource('user/job','JobUserController');
@@ -100,7 +107,8 @@ Route::resource('blog', 'blogController');
 Route::get('profile','ProfileController@index');
 Route::get('profile/{username}','ProfileController@indexFront');
 
-
+Route::get('FAQs','FAQsController@indexFront');
+Route::resource('backend/FAQs','FAQsController');
 
 Route::get('/ajax/artikel', function(){
    $post = Post::paginate(2);

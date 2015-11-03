@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.1.11 (LTS) on 2015-09-17.
+ * Generated for Laravel 5.1.11 (LTS) on 2015-10-19.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -12363,6 +12363,543 @@ namespace {
          */
         public static function openHorizontal($columnSizes){
             return \AdamWathan\BootForms\BootForm::openHorizontal($columnSizes);
+        }
+        
+    }
+
+
+    class Socialite extends \Laravel\Socialite\Facades\Socialite{
+        
+        /**
+         * Get a driver instance.
+         *
+         * @param string $driver
+         * @return mixed 
+         * @static 
+         */
+        public static function with($driver){
+            return \Laravel\Socialite\SocialiteManager::with($driver);
+        }
+        
+        /**
+         * Build an OAuth 2 provider instance.
+         *
+         * @param string $provider
+         * @param array $config
+         * @return \Laravel\Socialite\Two\AbstractProvider 
+         * @static 
+         */
+        public static function buildProvider($provider, $config){
+            return \Laravel\Socialite\SocialiteManager::buildProvider($provider, $config);
+        }
+        
+        /**
+         * Format the Twitter server configuration.
+         *
+         * @param array $config
+         * @return array 
+         * @static 
+         */
+        public static function formatConfig($config){
+            return \Laravel\Socialite\SocialiteManager::formatConfig($config);
+        }
+        
+        /**
+         * Get the default driver name.
+         *
+         * @throws \InvalidArgumentException
+         * @return string 
+         * @static 
+         */
+        public static function getDefaultDriver(){
+            return \Laravel\Socialite\SocialiteManager::getDefaultDriver();
+        }
+        
+        /**
+         * Get a driver instance.
+         *
+         * @param string $driver
+         * @return mixed 
+         * @static 
+         */
+        public static function driver($driver = null){
+            //Method inherited from \Illuminate\Support\Manager            
+            return \Laravel\Socialite\SocialiteManager::driver($driver);
+        }
+        
+        /**
+         * Register a custom driver creator Closure.
+         *
+         * @param string $driver
+         * @param \Closure $callback
+         * @return $this 
+         * @static 
+         */
+        public static function extend($driver, $callback){
+            //Method inherited from \Illuminate\Support\Manager            
+            return \Laravel\Socialite\SocialiteManager::extend($driver, $callback);
+        }
+        
+        /**
+         * Get all of the created "drivers".
+         *
+         * @return array 
+         * @static 
+         */
+        public static function getDrivers(){
+            //Method inherited from \Illuminate\Support\Manager            
+            return \Laravel\Socialite\SocialiteManager::getDrivers();
+        }
+        
+    }
+
+
+    class SEOMeta extends \Artesaos\SEOTools\Facades\SEOMeta{
+        
+        /**
+         * Generates meta tags
+         *
+         * @return string 
+         * @static 
+         */
+        public static function generate(){
+            return \Artesaos\SEOTools\SEOMeta::generate();
+        }
+        
+        /**
+         * Sets the title
+         *
+         * @param string $title
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function setTitle($title){
+            return \Artesaos\SEOTools\SEOMeta::setTitle($title);
+        }
+        
+        /**
+         * Sets the separator for the title tag.
+         *
+         * @param string $separator
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function setTitleSeparator($separator){
+            return \Artesaos\SEOTools\SEOMeta::setTitleSeparator($separator);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $description
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function setDescription($description){
+            return \Artesaos\SEOTools\SEOMeta::setDescription($description);
+        }
+        
+        /**
+         * Sets the list of keywords, you can send an array or string separated with commas
+         * also clears the previously set keywords
+         *
+         * @param string|array $keywords
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function setKeywords($keywords){
+            return \Artesaos\SEOTools\SEOMeta::setKeywords($keywords);
+        }
+        
+        /**
+         * Add a keyword
+         *
+         * @param string|array $keyword
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function addKeyword($keyword){
+            return \Artesaos\SEOTools\SEOMeta::addKeyword($keyword);
+        }
+        
+        /**
+         * Remove a metatag.
+         *
+         * @param string $key
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function removeMeta($key){
+            return \Artesaos\SEOTools\SEOMeta::removeMeta($key);
+        }
+        
+        /**
+         * Add a custom meta tag.
+         *
+         * @param string|array $meta
+         * @param string $value
+         * @param string $name
+         * @return \Artesaos\SEOTools\MetaTagsContract 
+         * @static 
+         */
+        public static function addMeta($meta, $value = null, $name = 'name'){
+            return \Artesaos\SEOTools\SEOMeta::addMeta($meta, $value, $name);
+        }
+        
+        /**
+         * Takes the title formatted for display
+         *
+         * @return string 
+         * @static 
+         */
+        public static function getTitle(){
+            return \Artesaos\SEOTools\SEOMeta::getTitle();
+        }
+        
+        /**
+         * takes the title that was set
+         *
+         * @return string 
+         * @static 
+         */
+        public static function getTitleSession(){
+            return \Artesaos\SEOTools\SEOMeta::getTitleSession();
+        }
+        
+        /**
+         * takes the title that was set
+         *
+         * @return string 
+         * @static 
+         */
+        public static function getTitleSeperator(){
+            return \Artesaos\SEOTools\SEOMeta::getTitleSeperator();
+        }
+        
+        /**
+         * Get the Meta keywords.
+         *
+         * @return array 
+         * @static 
+         */
+        public static function getKeywords(){
+            return \Artesaos\SEOTools\SEOMeta::getKeywords();
+        }
+        
+        /**
+         * Get all metatags
+         *
+         * @return array 
+         * @static 
+         */
+        public static function getMetatags(){
+            return \Artesaos\SEOTools\SEOMeta::getMetatags();
+        }
+        
+        /**
+         * Get the Meta description.
+         *
+         * @return string 
+         * @static 
+         */
+        public static function getDescription(){
+            return \Artesaos\SEOTools\SEOMeta::getDescription();
+        }
+        
+        /**
+         * Reset all data.
+         *
+         * @return void 
+         * @static 
+         */
+        public static function reset(){
+            \Artesaos\SEOTools\SEOMeta::reset();
+        }
+        
+    }
+
+
+    class OpenGraph extends \Artesaos\SEOTools\Facades\OpenGraph{
+        
+        /**
+         * Generates open graph tags.
+         *
+         * @return string 
+         * @static 
+         */
+        public static function generate(){
+            return \Artesaos\SEOTools\OpenGraph::generate();
+        }
+        
+        /**
+         * Add or update property.
+         *
+         * @param string $key
+         * @param string|array $value
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function addProperty($key, $value){
+            return \Artesaos\SEOTools\OpenGraph::addProperty($key, $value);
+        }
+        
+        /**
+         * Remove property.
+         *
+         * @param string $key
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function removeProperty($key){
+            return \Artesaos\SEOTools\OpenGraph::removeProperty($key);
+        }
+        
+        /**
+         * Add image to properties.
+         *
+         * @param string $url
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function addImage($url){
+            return \Artesaos\SEOTools\OpenGraph::addImage($url);
+        }
+        
+        /**
+         * Add images to properties.
+         *
+         * @param array $urls
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function addImages($urls){
+            return \Artesaos\SEOTools\OpenGraph::addImages($urls);
+        }
+        
+        /**
+         * Define title property.
+         *
+         * @param $title
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function setTitle($title){
+            return \Artesaos\SEOTools\OpenGraph::setTitle($title);
+        }
+        
+        /**
+         * Define description property.
+         *
+         * @param string $description
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function setDescription($description){
+            return \Artesaos\SEOTools\OpenGraph::setDescription($description);
+        }
+        
+        /**
+         * Define url property.
+         *
+         * @param string $url
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function setUrl($url){
+            return \Artesaos\SEOTools\OpenGraph::setUrl($url);
+        }
+        
+        /**
+         * Define site_name property
+         *
+         * @param string $name
+         * @return \Artesaos\SEOTools\OpenGraphContract 
+         * @static 
+         */
+        public static function setSiteName($name){
+            return \Artesaos\SEOTools\OpenGraph::setSiteName($name);
+        }
+        
+    }
+
+
+    class Twitter extends \Artesaos\SEOTools\Facades\TwitterCard{
+        
+        /**
+         * 
+         *
+         * @return string 
+         * @static 
+         */
+        public static function generate(){
+            return \Artesaos\SEOTools\TwitterCards::generate();
+        }
+        
+        /**
+         * 
+         *
+         * @oaram string $key
+         * @oaram string|array $key
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function addValue($key, $value){
+            return \Artesaos\SEOTools\TwitterCards::addValue($key, $value);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $title
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setTitle($title){
+            return \Artesaos\SEOTools\TwitterCards::setTitle($title);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $type
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setType($type){
+            return \Artesaos\SEOTools\TwitterCards::setType($type);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $site
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setSite($site){
+            return \Artesaos\SEOTools\TwitterCards::setSite($site);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $description
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setDescription($description){
+            return \Artesaos\SEOTools\TwitterCards::setDescription($description);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $description
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setUrl($url){
+            return \Artesaos\SEOTools\TwitterCards::setUrl($url);
+        }
+        
+        /**
+         * 
+         *
+         * @param string|array $image
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function addImage($image){
+            return \Artesaos\SEOTools\TwitterCards::addImage($image);
+        }
+        
+        /**
+         * 
+         *
+         * @param string|array $images
+         * @return \Artesaos\SEOTools\TwitterCardsContract 
+         * @static 
+         */
+        public static function setImages($images){
+            return \Artesaos\SEOTools\TwitterCards::setImages($images);
+        }
+        
+    }
+
+
+    class SEO extends \Artesaos\SEOTools\Facades\SEOTools{
+        
+        /**
+         * 
+         *
+         * @return \Artesaos\SEOTools\Contracts\MetaTags 
+         * @static 
+         */
+        public static function metatags(){
+            return \Artesaos\SEOTools\SEOTools::metatags();
+        }
+        
+        /**
+         * 
+         *
+         * @return \Artesaos\SEOTools\Contracts\OpenGraph 
+         * @static 
+         */
+        public static function opengraph(){
+            return \Artesaos\SEOTools\SEOTools::opengraph();
+        }
+        
+        /**
+         * 
+         *
+         * @return \Artesaos\SEOTools\Contracts\TwitterCards 
+         * @static 
+         */
+        public static function twitter(){
+            return \Artesaos\SEOTools\SEOTools::twitter();
+        }
+        
+        /**
+         * Setup title for all seo providers
+         *
+         * @param string $title
+         * @return \Artesaos\SEOTools\Contracts\SEOTools 
+         * @static 
+         */
+        public static function setTitle($title){
+            return \Artesaos\SEOTools\SEOTools::setTitle($title);
+        }
+        
+        /**
+         * Setup description for all seo providers
+         *
+         * @param $description
+         * @return \Artesaos\SEOTools\Contracts\SEOTools 
+         * @static 
+         */
+        public static function setDescription($description){
+            return \Artesaos\SEOTools\SEOTools::setDescription($description);
+        }
+        
+        /**
+         * 
+         *
+         * @param array|string $urls
+         * @return \Artesaos\SEOTools\Contracts\SEOTools 
+         * @static 
+         */
+        public static function addImages($urls){
+            return \Artesaos\SEOTools\SEOTools::addImages($urls);
+        }
+        
+        /**
+         * Generate from all seo providers
+         *
+         * @return string 
+         * @static 
+         */
+        public static function generate(){
+            return \Artesaos\SEOTools\SEOTools::generate();
         }
         
     }

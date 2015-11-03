@@ -3,9 +3,10 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+
+use App\PendidikanValue;
 use App\User;
-use Auth;
-use Illuminate\Http\Request;
+
 
 class ProfileController extends Controller {
 
@@ -24,13 +25,12 @@ class ProfileController extends Controller {
         $cariUser = User::where('username', '=', $username)->firstOrFail();
 
         $valueSkill = $cariUser->valueSkill()->get()->where('user_id', $cariUser->id, true);
-        //dd($valueSkill->first());
+
+        $valuePendidikan = $cariUser->valuePendidikan()->get()->where('user_id',$cariUser->id, true)->where('published',1);
+        //dd(count($valuePendidikan));
 
 
-        //dd($cariUser->posts()->get());
-
-        //dd($cariUser->jobs()->first());
-        return view('Page.FrontEnd.Profile.userPublicProfile', compact('cariUser','valueSkill'));
+        return view('Page.FrontEnd.Profile.userPublicProfile', compact('cariUser','valueSkill','valuePendidikan'));
     }
 
 }

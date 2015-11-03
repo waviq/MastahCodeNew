@@ -10,21 +10,23 @@
         <table class="table table-striped table-bordered tex">
             <thead>
             {{--<th>Deskripsi</th>--}}
+            <th>Post</th>
             <th>Informasi Job</th>
             <th>Social Contacts</th>
             <th>Skill</th>
-            <th>Liat</th>
-            <th>Edit</th>
-            <th>Hapus</th>
+            <th>Pendidikan</th>
+            <th>FAQs</th>
             </thead>
 
             <tbody>
 
                 <tr>
-                    {{--{{dd($jobs)}}--}}
-                    <td>{!!HTML::linkAction('JobUserController@getEditJob','Edit',array(Hashids::encode(Auth::id())),['class' =>'btn btn-info'])!!}</td>
+                    <td><a class="btn-u btn-u-brown" href="{{url(action('blogController@index'))}}">Edit</a> </td>
+                    <td>{!!HTML::linkAction('JobUserController@getEditJob','Edit',array(Hashids::encode(Auth::id())),['class' =>'btn-u'])!!}</td>
                     <td>{!!HTML::linkAction('SosialMediaController@edit','Edit',array(Hashids::encode(Auth::id())),['class' =>'btn btn-info'])!!}</td>
                     <td><a class=" btn-u btn-u-green" href="{{url(action('SkillController@index'))}}">Edit</a> </td>
+                    <td><a class=" btn-u btn-u-purple" href="{{url(action('EducationController@index'))}}">Edit</a> </td>
+                    <td><a class="btn-u btn-u-brown" href="{{url(action('FAQsController@index'))}}">Edit</a> </td>
                 </tr>
 
 

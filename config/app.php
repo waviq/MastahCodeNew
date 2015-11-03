@@ -148,6 +148,8 @@ return [
         Vinkla\Hashids\HashidsServiceProvider::class,
         AdamWathan\BootForms\BootFormsServiceProvider::class,
         Roumen\Disqus\DisqusServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -212,6 +214,13 @@ return [
         'Hashids'   => Vinkla\Hashids\Facades\Hashids::class,
         'Gate'      => Illuminate\Support\Facades\Gate::class,
         'BootForm'  => AdamWathan\BootForms\Facades\BootForm::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+
+        /*SEO TOOL*/
+        'SEOMeta'   => Artesaos\SEOTools\Facades\SEOMeta::class,
+        'OpenGraph' => Artesaos\SEOTools\Facades\OpenGraph::class,
+        'Twitter'   => Artesaos\SEOTools\Facades\TwitterCard::class,
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
 
 
 

@@ -3,8 +3,8 @@
     <div class="container">
 
         {{--Logo--}}
-        <a class="logo" href="#">
-            <img src="{{asset('assets/img/LogoOkeKecil.png')}}" alt="Logo">
+        <a class="logo" href="{{url(action('HalamanUtamaController@index'))}}">
+            <img src="{{asset('assets/img/logo mastahcode kecil.png')}}" alt="Logo">
         </a>
         {{--End Logo--}}
 
@@ -13,14 +13,14 @@
             <ul class="loginbar pull-right">
                 <li class="hoverSelector">
                     <i class="fa fa-globe"></i>
-                    <a>Languages</a>
-                    <ul class="languages hoverSelectorBlock">
+                    <a>Indonesia Campur</a>
+                    {{--<ul class="languages hoverSelectorBlock">
                         <li class="active">
                             <a href="#">English <i class="fa fa-check"></i></a>
                         </li>
                         <li><a href="#">Indonesia</a></li>
                         <li><a href="#">Jawa Tegal</a></li>
-                    </ul>
+                    </ul>--}}
                 </li>
 
                 <li class="topbar-devider"></li>
@@ -85,8 +85,13 @@
                 </li>
 
                 <li class="dropdown active">
+                    <a href="{{url(action('FAQsController@indexFront'))}}">
+                        FAQs
+                    </a>
+                </li>
+                <li class="dropdown active">
                     <a href="{{url(action('TutorialController@index'))}}">
-                        Tutorial
+                        Kritik & Saran
                     </a>
                 </li>
 

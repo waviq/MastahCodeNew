@@ -104,9 +104,9 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         return $this->hasMany(ValueSkill::class);
     }
 
-    public function educations()
+    public function valuePendidikan()
     {
-        $this->hasOne(FormalEdu::class);
+        return $this->hasMany(PendidikanValue::class);
     }
 
     public function getLastLoginAttribute($value)

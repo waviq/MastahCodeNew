@@ -1,64 +1,67 @@
 {{--Provide--}}
 <div class="container">
     <div class="headline-center margin-bottom-60">
-        <h2>What We Provide</h2>
-        <p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
-    </div><!--/end Headline Center-->
+        <h2>Mengapa kita membuat mastahcode</h2>
 
-    <div class="row margin-bottom-40">
-        <div class="col-md-4">
-            <div class="content-boxes-v5 margin-bottom-30">
-                <i class="rounded-x icon-layers"></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">Responsive Layout</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+        <p>
+            Dimulai penyakit saya yang sering lupa tentang apa yang saya pelajari,
+            tidak adanya dokumentasi apa yang saya lakukan ketika belajar. Itu semua membuat saya
+            ingin menuliskan sesuatu hasil belajar saya dan membagikan (share) ke orang lain juga
+            tentang apa yang saya pelajari. Dengan membagikan pengetahuan kita kepada orang lain, Saya sangat
+            yakin Insyalllah ilmu kita akan lebih bermanfaat dan ilmu yang kita miliki akan abadi serta
+            mendapatkan Pahala, amin
+        </p>
+
+        <br>
+        <blockquote>
+            <p><em>"Ingatlah, sekecil apapun ilmu yang kamu tulis dan bagikan, itu semua akan bermanfaat bagi orang lain
+                    dan hal yang sangat sederhana yang kamu tulis juga bisa bermanfaat bagi orang lain"</em></p>
+        </blockquote>
+    </div>
+    <!--/end Headline Center-->
+
+    <div class="headline-biasa margin-bottom-60">
+        <h2>Join Us</h2>
+
+        <p>
+            Mastahcode dibangun untuk siapapun, kami sangat ingin kamu ikut <a
+                    href="{{url(action('RegisterUserController@getRegister'))}}">Bergabung</a>
+            dengan kami dan mulai <a href="{{url(action('blogController@search'))}}">Menuliskan</a> ilmu anda yang
+            sangat luar biasa untuk kita semua
+        </p>
+
+        <p>Terimakasih</p>
+    </div>
+
+    <hr>
+    <div class="row">
+        <div class="margin-bottom-10">
+            <div id="testimonials-1" class="carousel slide testimonials testimonials-v1">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="{{url(action('ProfileController@indexFront','waviq'))}}">
+                            <div class="testimonial-info">
+                                <img class="rounded-x"
+                                     src="{{asset('/img/users/1.jpg')}}"
+                                     alt="">
+                                <span class="testimonial-author">
+                                        Waviq Subhi
+                                        <em>Developer Mastahcode</em>
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
-            </div>
-            <div class="content-boxes-v5 md-margin-bottom-30">
-                <i class="rounded-x icon-settings"></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">Color Options</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-                </div>
+
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="content-boxes-v5 margin-bottom-30">
-                <i class="rounded-x icon-earphones-alt "></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">Outstanding Support</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-                </div>
-            </div>
-            <div class="content-boxes-v5 md-margin-bottom-30">
-                <i class="rounded-x icon-user "></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">User Friendly</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="content-boxes-v5 margin-bottom-30">
-                <i class="rounded-x icon-wrench"></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">Customizable Design</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-                </div>
-            </div>
-            <div class="content-boxes-v5 md-margin-bottom-30">
-                <i class="rounded-x icon-star"></i>
-                <div class="overflow-h">
-                    <h3 class="no-top-space">Free Updates</h3>
-                    <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-                </div>
-            </div>
-        </div>
-    </div><!--/end row-->
+    </div>
+    
+    <hr>
+
 </div><!--/end container-->
 
-<!-- Image Mouse -->
-<img class="img-responsive img-mouse margin-bottom-60" src="assets/img/mockup/3.png" alt="">
-<!-- End Image Mouse -->
+
 
 {{--end service provide--}}

@@ -1,0 +1,72 @@
+<?php $__env->startSection('header'); ?>
+    <h1>Form untuk membuat artikel baru</h1>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('kontent'); ?>
+
+    <div class="col-md-12">
+        <?php echo Form::open(['url'=>'blog','files'=>true]); ?>
+
+        <?php /*<?php echo Form::token(); ?>*/ ?>
+
+        <div class="span6 pull-right" style="text-align:right">
+            <!--Published form input-->
+            <div class="form-group">
+                <?php echo Form::label('published','Published'); ?>
+
+                <?php echo Form::checkbox('active'); ?>
+
+            </div>
+        </div>
+        <!--Judul form input-->
+        <div class="form-group">
+            <?php echo Form::label('Judul','Judul:'); ?>
+
+            <?php echo Form::text('judul',null,['class'=>'form-control', 'ng-model'=>'slug']); ?>
+
+        </div>
+
+        <?php /*<label>URL: <?php echo e(url('/') . '/blog/'); ?>{{ slug|spasi }}</label>*/ ?>
+
+
+        <div class="form-group">
+            <?php echo Form::label('kontenFull','Konten Lengkap:'); ?>
+
+            <?php echo Form::textarea('kontenFull',null,['class'=>'form-control']); ?>
+
+        </div>
+
+        <!--Kategori form input-->
+        <div class="form-group">
+            <?php echo Form::select('kategori_list[]', $kategori, null,['id'=>'kategoriList', 'class'=>'form-control','multiple']); ?>
+
+        </div>
+
+        <!--Image form input-->
+        <div class="form-group">
+            <?php echo Form::label('image','Image:'); ?>
+
+            <?php echo Form::file('image',null,['class'=>'form-control']); ?>
+
+        </div>
+
+        <br>
+        <footer>
+            <button type="submit" name="simpan" class="btn-u btn-u-red">Simpan</button>
+
+            <?php echo Form::close(); ?>
+
+            <?php echo $__env->make('Page.BackEnd.Artikel.partials.addKategoriModal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        </footer>
+
+        <br>
+        <?php echo $__env->make('Page.BackEnd.Partials.ErrorMessage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    </div>
+
+
+
+
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('Page.BackEnd.Profile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
