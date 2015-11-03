@@ -2,103 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0454b5c5-6234-4496-9afd-2b84d23c6c30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sliders/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/kategori/mastah code tutorial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/partials/addKategoriModal.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/blog-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/FAQs/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/form.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/FAQs/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/modal.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/slider.blade.php" />
-      <change type="DELETED" beforePath="L:\PROJECT\PHP\MastahCodeNew\app\FormalEdu.php" afterPath="" />
-      <change type="DELETED" beforePath="L:\PROJECT\PHP\MastahCodeNew\app\YearsEdu.php" afterPath="" />
-      <change type="DELETED" beforePath="L:\PROJECT\PHP\MastahCodeNew\resources\views\Page\BackEnd\Users\FormalEdu\create.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/08041132b9d768ae12d245562a8b3ca9" afterPath="$PROJECT_DIR$/storage/framework/views/08041132b9d768ae12d245562a8b3ca9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/0a30f98c1ede6457febb3bf1df03aad7" afterPath="$PROJECT_DIR$/storage/framework/views/0a30f98c1ede6457febb3bf1df03aad7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/13284f280e584685f53ec7b2cf175aca" afterPath="$PROJECT_DIR$/storage/framework/views/13284f280e584685f53ec7b2cf175aca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1851e9a008ba1aaee24f91b81e79b36e" afterPath="$PROJECT_DIR$/storage/framework/views/1851e9a008ba1aaee24f91b81e79b36e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1c9ce75430e94318197128343f6816d0" afterPath="$PROJECT_DIR$/storage/framework/views/1c9ce75430e94318197128343f6816d0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_13_003919_Users_Table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_13_003919_Users_Table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_15_021439_Post_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_15_021439_Post_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_09_10_225534_skill_value_details.php" afterPath="$PROJECT_DIR$/database/migrations/2015_09_10_225534_skill_value_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4216ae280bd94539d8ef75cf110520b9" afterPath="$PROJECT_DIR$/storage/framework/views/4216ae280bd94539d8ef75cf110520b9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4b3015081d34e71ebb8cd8e29976654b" afterPath="$PROJECT_DIR$/storage/framework/views/4b3015081d34e71ebb8cd8e29976654b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/52115cabb83706449a2e1285183ad6ca" afterPath="$PROJECT_DIR$/storage/framework/views/52115cabb83706449a2e1285183ad6ca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/5efe7cbc9fffe16ab99bdc83acab2150" afterPath="$PROJECT_DIR$/storage/framework/views/5efe7cbc9fffe16ab99bdc83acab2150" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/6e32d9b112cc9b996d4bac7dd85397d3" afterPath="$PROJECT_DIR$/storage/framework/views/6e32d9b112cc9b996d4bac7dd85397d3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/710cd28c5bb3a5ce2b4c7d6f50e29af3" afterPath="$PROJECT_DIR$/storage/framework/views/710cd28c5bb3a5ce2b4c7d6f50e29af3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/754106aa75a897d6e78af0919bd6307b" afterPath="$PROJECT_DIR$/storage/framework/views/754106aa75a897d6e78af0919bd6307b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7abbf71dd716c1b6eb58b85b91c714c0" afterPath="$PROJECT_DIR$/storage/framework/views/7abbf71dd716c1b6eb58b85b91c714c0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/Blog.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/BlogRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/BlogRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php" afterPath="$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/EducationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EducationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/Footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/Footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HalamanUtamaController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HalamanUtamaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/Headers.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/Headers.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Kategori.php" afterPath="$PROJECT_DIR$/app/Kategori.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/KategoriController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/KategoriController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MastahCodeNew.iml" afterPath="$PROJECT_DIR$/.idea/MastahCodeNew.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/Provides.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/Provides.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/ServiceBlock.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/ServiceBlock.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/Slide.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/Slide.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ViewComposerProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ViewComposerProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a7f4a1668b0529a23d05eb7bd4f3d0ce" afterPath="$PROJECT_DIR$/storage/framework/views/a7f4a1668b0529a23d05eb7bd4f3d0ce" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a95bbfe378bb35e50b7f3aa58316d6d6" afterPath="$PROJECT_DIR$/storage/framework/views/a95bbfe378bb35e50b7f3aa58316d6d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/addSkill.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/addSkill.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/app.css" afterPath="$PROJECT_DIR$/public/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/barKanan.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/barKanan.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/blogController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/blogController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c382085ca8f5b9732ac627cd12b6530f" afterPath="$PROJECT_DIR$/storage/framework/views/c382085ca8f5b9732ac627cd12b6530f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/ce90c956cfa692db96d2ad51fe5a3b94" afterPath="$PROJECT_DIR$/storage/framework/views/ce90c956cfa692db96d2ad51fe5a3b94" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cf94f9bc35f8d335f1a27d1b11718a4b" afterPath="$PROJECT_DIR$/storage/framework/views/cf94f9bc35f8d335f1a27d1b11718a4b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/content.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/content.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/custom.css" afterPath="$PROJECT_DIR$/public/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/df3ee9950d3040f210da74f4c3cd6e44" afterPath="$PROJECT_DIR$/storage/framework/views/df3ee9950d3040f210da74f4c3cd6e44" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/dfea98ff857849d11709defd2831eb61" afterPath="$PROJECT_DIR$/storage/framework/views/dfea98ff857849d11709defd2831eb61" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e1e0fbdfb93595b17f16196a3003d204" afterPath="$PROJECT_DIR$/storage/framework/views/e1e0fbdfb93595b17f16196a3003d204" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e72eb9b9a25d449820276abb04d6b1be" afterPath="$PROJECT_DIR$/storage/framework/views/e72eb9b9a25d449820276abb04d6b1be" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f2dda32dbcfdca0e7f7b1f1584feadbb" afterPath="$PROJECT_DIR$/storage/framework/views/f2dda32dbcfdca0e7f7b1f1584feadbb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f77e3a9f5d74355a8b7c1c32047fa3af" afterPath="$PROJECT_DIR$/storage/framework/views/f77e3a9f5d74355a8b7c1c32047fa3af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/jsProfile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/kategori.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/kategori.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/partials/loginForm.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/partials/loginForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Profile/userPublicProfile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Profile/userPublicProfile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MastahCodeNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,8 +38,8 @@
       <file leaf-file-name="LoginUserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06784661">
-              <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5103245">
+              <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
               <folding>
                 <element signature="e#41#80#0#PHP" expanded="true" />
               </folding>
@@ -289,9 +193,9 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/partials/loginForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/partials/js.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" />
       </list>
     </option>
   </component>
@@ -1011,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06784661">
-          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5103245">
+          <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
           <folding>
             <element signature="e#41#80#0#PHP" expanded="true" />
           </folding>
