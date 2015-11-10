@@ -33,7 +33,6 @@ class TutorialRequestController extends Controller
         $rt->save();
 
         flash()->success('Request Mastah Telah Diterima, Terimakasih....');
-        
         return redirect()->back();
     }
 
