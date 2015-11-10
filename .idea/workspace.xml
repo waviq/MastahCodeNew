@@ -2,528 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0454b5c5-6234-4496-9afd-2b84d23c6c30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/01c414211c5656c714e804805110b134" afterPath="$PROJECT_DIR$/storage/framework/views/01c414211c5656c714e804805110b134" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/031c72f3d34605df8c3e59d9d8d70345" afterPath="$PROJECT_DIR$/storage/framework/views/031c72f3d34605df8c3e59d9d8d70345" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/0465eb81faa71a33280aa6da7eb08d87" afterPath="$PROJECT_DIR$/storage/framework/views/0465eb81faa71a33280aa6da7eb08d87" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/0478eecc04e3d6f806245465598a746e" afterPath="$PROJECT_DIR$/storage/framework/views/0478eecc04e3d6f806245465598a746e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/08041132b9d768ae12d245562a8b3ca9" afterPath="$PROJECT_DIR$/storage/framework/views/08041132b9d768ae12d245562a8b3ca9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1220efa77dcb425e3929973eed820fb7" afterPath="$PROJECT_DIR$/storage/framework/views/1220efa77dcb425e3929973eed820fb7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/132f9740d97397be03ef69cd0dd6ccb6" afterPath="$PROJECT_DIR$/storage/framework/views/132f9740d97397be03ef69cd0dd6ccb6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1851e9a008ba1aaee24f91b81e79b36e" afterPath="$PROJECT_DIR$/storage/framework/views/1851e9a008ba1aaee24f91b81e79b36e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1b1f47c8df2b4104f57118f146553372" afterPath="$PROJECT_DIR$/storage/framework/views/1b1f47c8df2b4104f57118f146553372" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1b60c115b4be342d857f32443440ab00" afterPath="$PROJECT_DIR$/storage/framework/views/1b60c115b4be342d857f32443440ab00" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1c9ce75430e94318197128343f6816d0" afterPath="$PROJECT_DIR$/storage/framework/views/1c9ce75430e94318197128343f6816d0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1f8f81ee01f2b1e1a2a9dabcc3ed093e" afterPath="$PROJECT_DIR$/storage/framework/views/1f8f81ee01f2b1e1a2a9dabcc3ed093e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/1febb1ba84000c77eb0b4445a66bc8bb" afterPath="$PROJECT_DIR$/storage/framework/views/1febb1ba84000c77eb0b4445a66bc8bb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/20819439d99fe7c3d069296442f8f8ad" afterPath="$PROJECT_DIR$/storage/framework/views/20819439d99fe7c3d069296442f8f8ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/21bfe077c3db8774e0a88302c25e958a" afterPath="$PROJECT_DIR$/storage/framework/views/21bfe077c3db8774e0a88302c25e958a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/22443078216dd937acb9dd8de538ff2c" afterPath="$PROJECT_DIR$/storage/framework/views/22443078216dd937acb9dd8de538ff2c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/230d2df04582d7921950dc68b783d7d0" afterPath="$PROJECT_DIR$/storage/framework/views/230d2df04582d7921950dc68b783d7d0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/24132b76a7c4ca3420af2f5c941061da" afterPath="$PROJECT_DIR$/storage/framework/views/24132b76a7c4ca3420af2f5c941061da" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/274f00e30647a07c47375c96f30f9c69" afterPath="$PROJECT_DIR$/storage/framework/views/274f00e30647a07c47375c96f30f9c69" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/2b3458640844bb55efc42cd2d9f64864" afterPath="$PROJECT_DIR$/storage/framework/views/2b3458640844bb55efc42cd2d9f64864" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/3024-day.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/3024-day.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/3024-night.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/3024-night.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/32dbd7fdf31f1988a3e0a2f64f303fb2" afterPath="$PROJECT_DIR$/storage/framework/views/32dbd7fdf31f1988a3e0a2f64f303fb2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/35a74cb48a3117f2015677ce8fe08639" afterPath="$PROJECT_DIR$/storage/framework/views/35a74cb48a3117f2015677ce8fe08639" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/39d2ef79eeff4c9385e917a744defacc" afterPath="$PROJECT_DIR$/storage/framework/views/39d2ef79eeff4c9385e917a744defacc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/3bb862d63b7cd4e406a30f5c458e5659" afterPath="$PROJECT_DIR$/storage/framework/views/3bb862d63b7cd4e406a30f5c458e5659" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/3d262e9073fd84136c25d71cb4fd0c17" afterPath="$PROJECT_DIR$/storage/framework/views/3d262e9073fd84136c25d71cb4fd0c17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/3e8bc2c571ee597e99f1817dc26804f4" afterPath="$PROJECT_DIR$/storage/framework/views/3e8bc2c571ee597e99f1817dc26804f4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/401.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/401.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4216ae280bd94539d8ef75cf110520b9" afterPath="$PROJECT_DIR$/storage/framework/views/4216ae280bd94539d8ef75cf110520b9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/42f34ab1a3243891d2bafc17b2905b22" afterPath="$PROJECT_DIR$/storage/framework/views/42f34ab1a3243891d2bafc17b2905b22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/431e3081868dd18e6362026278b35960" afterPath="$PROJECT_DIR$/storage/framework/views/431e3081868dd18e6362026278b35960" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/47a1286c97523c30fff395d57bfac8d0" afterPath="$PROJECT_DIR$/storage/framework/views/47a1286c97523c30fff395d57bfac8d0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/486674ce8964ad282a937b81c6e48eea" afterPath="$PROJECT_DIR$/storage/framework/views/486674ce8964ad282a937b81c6e48eea" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/490251e81faeb00043c8b71487b60859" afterPath="$PROJECT_DIR$/storage/framework/views/490251e81faeb00043c8b71487b60859" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4b3015081d34e71ebb8cd8e29976654b" afterPath="$PROJECT_DIR$/storage/framework/views/4b3015081d34e71ebb8cd8e29976654b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4da843346dc9f825deb4f505786692a0" afterPath="$PROJECT_DIR$/storage/framework/views/4da843346dc9f825deb4f505786692a0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/52115cabb83706449a2e1285183ad6ca" afterPath="$PROJECT_DIR$/storage/framework/views/52115cabb83706449a2e1285183ad6ca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/543366a02b66016251f570975853f585" afterPath="$PROJECT_DIR$/storage/framework/views/543366a02b66016251f570975853f585" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/5605668e572412e4513100344df2b174" afterPath="$PROJECT_DIR$/storage/framework/views/5605668e572412e4513100344df2b174" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/597619caeef228ddc055e291043c9e08" afterPath="$PROJECT_DIR$/storage/framework/views/597619caeef228ddc055e291043c9e08" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/5980ab2bbb7bd963bb0297a3f01f241a" afterPath="$PROJECT_DIR$/storage/framework/views/5980ab2bbb7bd963bb0297a3f01f241a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/5dd5be53b4b03e10c2c248aa1954aceb" afterPath="$PROJECT_DIR$/storage/framework/views/5dd5be53b4b03e10c2c248aa1954aceb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/5f4fe71759875c56ee7eee244ea1e081" afterPath="$PROJECT_DIR$/storage/framework/views/5f4fe71759875c56ee7eee244ea1e081" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/63a5652075340a451a3a8b4bc780791e" afterPath="$PROJECT_DIR$/storage/framework/views/63a5652075340a451a3a8b4bc780791e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/6700e5227e487fe568af974c118a0c4a" afterPath="$PROJECT_DIR$/storage/framework/views/6700e5227e487fe568af974c118a0c4a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/679321839afef1ea19417282e9d8411f" afterPath="$PROJECT_DIR$/storage/framework/views/679321839afef1ea19417282e9d8411f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/691793d79395cfa2ef4f8b392593a703" afterPath="$PROJECT_DIR$/storage/framework/views/691793d79395cfa2ef4f8b392593a703" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/69d22b1270916edffc13c8c1950632aa" afterPath="$PROJECT_DIR$/storage/framework/views/69d22b1270916edffc13c8c1950632aa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/6e32d9b112cc9b996d4bac7dd85397d3" afterPath="$PROJECT_DIR$/storage/framework/views/6e32d9b112cc9b996d4bac7dd85397d3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/70bf77ed7c951251d854684bd9379434" afterPath="$PROJECT_DIR$/storage/framework/views/70bf77ed7c951251d854684bd9379434" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/710cd28c5bb3a5ce2b4c7d6f50e29af3" afterPath="$PROJECT_DIR$/storage/framework/views/710cd28c5bb3a5ce2b4c7d6f50e29af3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/711f409f3ca3de0d2e89467306f0ad08" afterPath="$PROJECT_DIR$/storage/framework/views/711f409f3ca3de0d2e89467306f0ad08" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7574cf6f9c6802735d0b6fda72d3d2db" afterPath="$PROJECT_DIR$/storage/framework/views/7574cf6f9c6802735d0b6fda72d3d2db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/76d7cd2d8b76618442698bc7e88f2a3c" afterPath="$PROJECT_DIR$/storage/framework/views/76d7cd2d8b76618442698bc7e88f2a3c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7abbf71dd716c1b6eb58b85b91c714c0" afterPath="$PROJECT_DIR$/storage/framework/views/7abbf71dd716c1b6eb58b85b91c714c0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7d8dac7692cf355992ea90dba7e5541a" afterPath="$PROJECT_DIR$/storage/framework/views/7d8dac7692cf355992ea90dba7e5541a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7f396391bc4589634c93a25d41b35bb5" afterPath="$PROJECT_DIR$/storage/framework/views/7f396391bc4589634c93a25d41b35bb5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/8469b144ceb5d944386c61a20a5344fa" afterPath="$PROJECT_DIR$/storage/framework/views/8469b144ceb5d944386c61a20a5344fa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/8abbc2057072b22fa4fc947bde938567" afterPath="$PROJECT_DIR$/storage/framework/views/8abbc2057072b22fa4fc947bde938567" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/8e39abaa1ecbdb06522475ceb15dc391" afterPath="$PROJECT_DIR$/storage/framework/views/8e39abaa1ecbdb06522475ceb15dc391" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/90853089cee35414d62590c2076c0389" afterPath="$PROJECT_DIR$/storage/framework/views/90853089cee35414d62590c2076c0389" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/9660b6a73f5d9376fda9e9b64390f4ae" afterPath="$PROJECT_DIR$/storage/framework/views/9660b6a73f5d9376fda9e9b64390f4ae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/97a881b1abb517a59c6e163299abf816" afterPath="$PROJECT_DIR$/storage/framework/views/97a881b1abb517a59c6e163299abf816" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/98bafec2f7a101510a30e170bf5f4cc6" afterPath="$PROJECT_DIR$/storage/framework/views/98bafec2f7a101510a30e170bf5f4cc6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/99c33f6b7cac422fe20256ac8ae9912c" afterPath="$PROJECT_DIR$/storage/framework/views/99c33f6b7cac422fe20256ac8ae9912c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/AllArtikelUsers.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/AllArtikelUsers.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/CobaCoba/Angular.blade.php" afterPath="$PROJECT_DIR$/resources/views/CobaCoba/Angular.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/AngularJs.js" afterPath="$PROJECT_DIR$/public/assets/js/AngularJs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/BlogRepository.php" afterPath="$PROJECT_DIR$/app/Repository/BlogRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/BlogTemplate.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php" afterPath="$PROJECT_DIR$/resources/views/Backup/BlogViewBackup.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/Breadcrumb.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/Breadcrumb.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/traits/BuatScreensotTanya.php" afterPath="$PROJECT_DIR$/app/traits/BuatScreensotTanya.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/chartJs/Chart.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/chartJs/Chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/plugins/CkEditor.js" afterPath="$PROJECT_DIR$/public/assets/js/plugins/CkEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/CommentRepository.php" afterPath="$PROJECT_DIR$/app/Repository/CommentRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/CreateArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/CreateImage.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/CreateImage.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/CssInspiraTemplate.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/CssInspiraTemplate.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/EditArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/ErrorMessage.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/ErrorMessage.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/partials/FormSosmed.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/partials/FormSosmed.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/GantiPassword.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/GantiPassword.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/Headers.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/Headers.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.html" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/Home2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/CobaCoba/ImageInput.blade.php" afterPath="$PROJECT_DIR$/resources/views/CobaCoba/ImageInput.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/KategoriReposiotry.php" afterPath="$PROJECT_DIR$/app/Repository/KategoriReposiotry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/KumpulanArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginUserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/ModelExeption.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/ModelExeption.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/Panel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Partials/Panel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/README.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/RoleRepository.php" afterPath="$PROJECT_DIR$/app/Repository/RoleRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/traits/SearchableTrait.php" afterPath="$PROJECT_DIR$/app/traits/SearchableTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/ShowArtikel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/SkillRepository.php" afterPath="$PROJECT_DIR$/app/Repository/SkillRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/Template.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/Template.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_colorpanel.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_colorpanel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_elementspath.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_elementspath.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_mainui.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_mainui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_menu.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_panel.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_presets.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_presets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_reset.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_reset.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_richcombo.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_richcombo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_toolbar.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/_toolbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a0d83cabc48c7ad91bf03ac1ce59ecbe" afterPath="$PROJECT_DIR$/storage/framework/views/a0d83cabc48c7ad91bf03ac1ce59ecbe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a2312358e7f48abae126e1722a5361b4" afterPath="$PROJECT_DIR$/storage/framework/views/a2312358e7f48abae126e1722a5361b4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a95bbfe378bb35e50b7f3aa58316d6d6" afterPath="$PROJECT_DIR$/storage/framework/views/a95bbfe378bb35e50b7f3aa58316d6d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/a9cb658cc56b3574c509c59ae550f9a4" afterPath="$PROJECT_DIR$/storage/framework/views/a9cb658cc56b3574c509c59ae550f9a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/email_templates/action.html" afterPath="$PROJECT_DIR$/public/assets/backend/email_templates/action.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/Emails/actived.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/Emails/actived.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/addImageKategori.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/addImageKategori.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/partials/addKategoriModal.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Artikel/partials/addKategoriModal.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/addSkill.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/addSkill.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/ae68723a2a36a7881c66cff0ebf8dd36" afterPath="$PROJECT_DIR$/storage/framework/views/ae68723a2a36a7881c66cff0ebf8dd36" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/ajax.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/ajax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/email_templates/alert.html" afterPath="$PROJECT_DIR$/public/assets/backend/email_templates/alert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css" afterPath="$PROJECT_DIR$/public/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ambiance-mobile.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ambiance-mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ambiance.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ambiance.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/css/animate.css" afterPath="$PROJECT_DIR$/public/assets/Inspira/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/animate.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/api.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/app.css" afterPath="$PROJECT_DIR$/public/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/appendto.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/appendto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/artikelFull.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/artikelFull.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b03aa33303edf437342b7a9ec6249dfc" afterPath="$PROJECT_DIR$/storage/framework/views/b03aa33303edf437342b7a9ec6249dfc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b0e35bd66d4ce3af3d38e4aa299c4d39" afterPath="$PROJECT_DIR$/storage/framework/views/b0e35bd66d4ce3af3d38e4aa299c4d39" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b21cc019ec54e2d3f634aa8a4dab4f33" afterPath="$PROJECT_DIR$/storage/framework/views/b21cc019ec54e2d3f634aa8a4dab4f33" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b521575efa117fb81ee312116ecf20a3" afterPath="$PROJECT_DIR$/storage/framework/views/b521575efa117fb81ee312116ecf20a3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b60ad8729d94f22e61a47fe4d126c3d6" afterPath="$PROJECT_DIR$/storage/framework/views/b60ad8729d94f22e61a47fe4d126c3d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b6dd468a8e88405a9e6f839ad4d21f06" afterPath="$PROJECT_DIR$/storage/framework/views/b6dd468a8e88405a9e6f839ad4d21f06" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/b7e5309648805d20d5bad9394c12b5ce" afterPath="$PROJECT_DIR$/storage/framework/views/b7e5309648805d20d5bad9394c12b5ce" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/badgets_labels.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/badgets_labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/barKanan.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/barKanan.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/base.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/base16-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/base16-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/base16-light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/base16-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/bec1b24cf2fa377fbc305c77284dfd0f" afterPath="$PROJECT_DIR$/storage/framework/views/bec1b24cf2fa377fbc305c77284dfd0f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/email_templates/billing.html" afterPath="$PROJECT_DIR$/public/assets/backend/email_templates/billing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/blackboard.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/blackboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/plugins/blog-slider.js" afterPath="$PROJECT_DIR$/public/assets/js/plugins/blog-slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/pages/blog_masonry_3col.css" afterPath="$PROJECT_DIR$/public/assets/css/pages/blog_masonry_3col.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/sample/bootstrapck-sample.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/sample/bootstrapck-sample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/buttons.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/byUsername.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/byUsername.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c01287034e81a9f4134ef86d3eac2901" afterPath="$PROJECT_DIR$/storage/framework/views/c01287034e81a9f4134ef86d3eac2901" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c033456b06f835e7737b037a492879ab" afterPath="$PROJECT_DIR$/storage/framework/views/c033456b06f835e7737b037a492879ab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c24852b3a447544fdfd9e688851c2323" afterPath="$PROJECT_DIR$/storage/framework/views/c24852b3a447544fdfd9e688851c2323" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c303303b2f9978ea8865255030dcaf53" afterPath="$PROJECT_DIR$/storage/framework/views/c303303b2f9978ea8865255030dcaf53" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c78fc9608358c6e6d3f6acbdd6fb7920" afterPath="$PROJECT_DIR$/storage/framework/views/c78fc9608358c6e6d3f6acbdd6fb7920" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/ca47b65055d69eeed2037c8ed895a5f2" afterPath="$PROJECT_DIR$/storage/framework/views/ca47b65055d69eeed2037c8ed895a5f2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cac2161f3748493ddedcdea856767f90" afterPath="$PROJECT_DIR$/storage/framework/views/cac2161f3748493ddedcdea856767f90" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cb3d473ac96fde6f20d6deaf6e24ee74" afterPath="$PROJECT_DIR$/storage/framework/views/cb3d473ac96fde6f20d6deaf6e24ee74" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/ce90c956cfa692db96d2ad51fe5a3b94" afterPath="$PROJECT_DIR$/storage/framework/views/ce90c956cfa692db96d2ad51fe5a3b94" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cef6c16882cfa4ba69e351e0279a1101" afterPath="$PROJECT_DIR$/storage/framework/views/cef6c16882cfa4ba69e351e0279a1101" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cefa7ad52f0f86b6695d1e5f6feebecd" afterPath="$PROJECT_DIR$/storage/framework/views/cefa7ad52f0f86b6695d1e5f6feebecd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/cf94f9bc35f8d335f1a27d1b11718a4b" afterPath="$PROJECT_DIR$/storage/framework/views/cf94f9bc35f8d335f1a27d1b11718a4b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/chartjs-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/chartjs-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/chat.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/chat.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/chosen/chosen.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/chosen/chosen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/chosen/chosen.jquery.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/chosen/chosen.jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/ckfinder.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/ckfinder.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ckfinder.php" afterPath="$PROJECT_DIR$/config/ckfinder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/CobaCoba/coba.blade.php" afterPath="$PROJECT_DIR$/resources/views/CobaCoba/coba.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/cobalt.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/cobalt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/codemirror.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/codemirror.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/css/codemirror.min.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/css/codemirror.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/codesnippet/codesnippet.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/codesnippet/codesnippet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/colorforth.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/colorforth.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/content.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/content.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/contents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/createKategori.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/createKategori.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/crop.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/crop.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/cropper.min.css" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/cropper.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/cropper.min.js" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/cropper.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/kcfinder/lang/cs.php" afterPath="$PROJECT_DIR$/public/assets/kcfinder/lang/cs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/cssWaviq.css" afterPath="$PROJECT_DIR$/resources/assets/css/cssWaviq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/curvedLines.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/curvedLines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/iCheck/custom.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/iCheck/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/custom.css" afterPath="$PROJECT_DIR$/public/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/Angular/custom.js" afterPath="$PROJECT_DIR$/public/assets/js/Angular/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/custom.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/custom.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/custom_profile.css" afterPath="$PROJECT_DIR$/public/assets/css/custom_profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/d13a334deebc885b9aafd31c278844fc" afterPath="$PROJECT_DIR$/storage/framework/views/d13a334deebc885b9aafd31c278844fc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/rickshaw/vendor/d3.v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/d52390f909345a5ae8b2dbdd1652a26b" afterPath="$PROJECT_DIR$/storage/framework/views/d52390f909345a5ae8b2dbdd1652a26b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/d878038b00bc695e9037b9d40ab33d04" afterPath="$PROJECT_DIR$/storage/framework/views/d878038b00bc695e9037b9d40ab33d04" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/dashboard-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/dashboard-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/dataTables/dataTables.bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/dataTables/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/dataTables/dataTables.responsive.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/dataTables/dataTables.responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/dataTables/dataTables.responsive.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/dataTables/dataTables.responsive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/datafiltering.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/datafiltering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/db7b897e78f893027553c98fd0e3c1e4" afterPath="$PROJECT_DIR$/storage/framework/views/db7b897e78f893027553c98fd0e3c1e4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/dd03b51baf8f4f143e566599b808de28" afterPath="$PROJECT_DIR$/storage/framework/views/dd03b51baf8f4f143e566599b808de28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/code-prettify/styles/desert.css" afterPath="$PROJECT_DIR$/public/assets/code-prettify/styles/desert.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/df3ee9950d3040f210da74f4c3cd6e44" afterPath="$PROJECT_DIR$/storage/framework/views/df3ee9950d3040f210da74f4c3cd6e44" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/dfea98ff857849d11709defd2831eb61" afterPath="$PROJECT_DIR$/storage/framework/views/dfea98ff857849d11709defd2831eb61" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/dialog/dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/dialog/dialog.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/dialog/dialog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie/dialog_ie.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie/dialog_ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/dialog_ie7.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/dialog_ie7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/dialog_ie8.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/dialog_ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/dialog_iequirks.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/dialog_iequirks.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/opera/dialog_opera.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/opera/dialog_opera.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/divreplace.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/divreplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/dropzone/dropzone.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/dropzone/dropzone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e5dbeb4f7a82cc5de6c4617a5646e712" afterPath="$PROJECT_DIR$/storage/framework/views/e5dbeb4f7a82cc5de6c4617a5646e712" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e602c0452b580ae71bf42b6a187b2bff" afterPath="$PROJECT_DIR$/storage/framework/views/e602c0452b580ae71bf42b6a187b2bff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e647d420e41470a797f3a93c4d739536" afterPath="$PROJECT_DIR$/storage/framework/views/e647d420e41470a797f3a93c4d739536" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e86db4c6728968348610c3861ca0f5bf" afterPath="$PROJECT_DIR$/storage/framework/views/e86db4c6728968348610c3861ca0f5bf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/eclipse.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/eclipse.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Sosmed/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/editUser.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/editUser.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/editor.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/components/editor.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/gecko/editor_gecko.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/gecko/editor_gecko.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie/editor_ie.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie/editor_ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/editor_ie7.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie7/editor_ie7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/editor_ie8.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/ie8/editor_ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/editor_iequirks.scss" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/scss/browser-specific/iequirks/editor_iequirks.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/eeab1b3833e2c73b95dc8d6a9c71a6f0" afterPath="$PROJECT_DIR$/storage/framework/views/eeab1b3833e2c73b95dc8d6a9c71a6f0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/elegant.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/elegant.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/elements.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/elements.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/enterkey/enterkey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/erlang-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/erlang-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f325b2637d6da9011f45cb7c156fa5c1" afterPath="$PROJECT_DIR$/storage/framework/views/f325b2637d6da9011f45cb7c156fa5c1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f4d870ff021dbe671f2b2ed5ba794754" afterPath="$PROJECT_DIR$/storage/framework/views/f4d870ff021dbe671f2b2ed5ba794754" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f522710ba5368e4497abb6e274debb88" afterPath="$PROJECT_DIR$/storage/framework/views/f522710ba5368e4497abb6e274debb88" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/f77e3a9f5d74355a8b7c1c32047fa3af" afterPath="$PROJECT_DIR$/storage/framework/views/f77e3a9f5d74355a8b7c1c32047fa3af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/ff64ed54158fc641e052ae24309633a8" afterPath="$PROJECT_DIR$/storage/framework/views/ff64ed54158fc641e052ae24309633a8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/files-list.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/files-list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/files.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/files.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/flot-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/flot-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/flot-demo2.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/flot-demo2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/User/partials/formResetPassword.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/User/partials/formResetPassword.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/wysiwygarea/fullpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ar.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-bg.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cat.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cn.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cs.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-da.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-de.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-dk.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-dk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-el.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-es.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fa.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fi.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fr.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-gl.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-he.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hr.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hu.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-id.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-is.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ja.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-kr.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-kr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-lt.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-mne.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-mne.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-nl.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-no.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pl.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pt.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ro.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ru.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sk.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sr.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sv.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-th.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-tr.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-tw.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ua.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-ua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-vi.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jqGrid/i18n/grid.locale-vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Home/partials/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/iCheck/icheck.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/iCheck/icheck.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/idle-timer/idle-timer.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/idle-timer/idle-timer.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/images-list.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/images-list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/images.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/images.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/FAQs/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Profile/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Pendidikan/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Skills/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/FAQs/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/FAQs/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Tutorial/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Tutorial/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/index.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/index.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/indexBackKategori.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/indexBackKategori.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlineall.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlineall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlinebycode.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlinebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlinetextarea.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/inlinetextarea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/inspinia.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/inspinia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/inspinia.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/inspinia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/kcfinder/lang/it.php" afterPath="$PROJECT_DIR$/public/assets/kcfinder/lang/it.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/jquery-2.1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/easypiechart/jquery.easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/jquery.flot.spline.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/jquery.flot.spline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/flot/jquery.flot.tooltip.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/jquery.form.min.js" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/jquery.form.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/jquery.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jeditable/jquery.jeditable.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jeditable/jquery.jeditable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/justified-gallery/jquery.justifiedgallery.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/justified-gallery/jquery.justifiedgallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jsKnob/jquery.knob.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jsKnob/jquery.knob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/metisMenu/jquery.metisMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/nestable/jquery.nestable.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/nestable/jquery.nestable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/nouslider/jquery.nouislider.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/nouslider/jquery.nouislider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/peity/jquery.peity.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/peity/jquery.peity.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/jquery.slimscroll.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/sparkline/jquery.sparkline.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/steps/jquery.steps.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/steps/jquery.steps.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/validate/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/validate/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/kategori.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/kategori.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/laravel-bootstrap-modal-form.js" afterPath="$PROJECT_DIR$/public/assets/js/laravel-bootstrap-modal-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/lesser-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/lesser-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/lfm.css" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/lfm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/liquibyte.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/liquibyte.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/magicline/magicline.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/magicline/magicline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/mbo.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/mbo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/mdn-like.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/mdn-like.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/media.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/midnight.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/midnight.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/mixins.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/modal.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/LoginSosials/facebook/modal.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/css/monokai.css" afterPath="$PROJECT_DIR$/public/assets/Inspira/css/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/monokai.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/morris/morris-0.4.3.min.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/morris/morris-0.4.3.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/morris-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/morris-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/dialog/assets/my_dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/navigation.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/navigation.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/neat.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/neat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/neo.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/neo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/night.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/night.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/htmlwriter/outputforflash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/htmlwriter/outputhtml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/pace.min.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/pace.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/pace/pace.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/pace/pace.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/pages.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/pages.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/paraiso-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/paraiso-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/paraiso-light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/paraiso-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/pastel-on-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/pastel-on-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/peity-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/peity-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/assets/posteddata.php" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/assets/posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/readme.md" afterPath="$PROJECT_DIR$/public/assets/ckeditor/skins/bootstrapck/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/readonly.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/readonly.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/replacebyclass.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/replacebyclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/replacebycode.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/replacebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/User/resetPassword.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/User/resetPassword.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/Emails/resetSendEmail.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/Emails/resetSendEmail.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/resize.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/resize.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/video/responsible-video.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/video/responsible-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/rickshaw-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/rickshaw-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/rickshaw/rickshaw.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/rickshaw/rickshaw.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/rtl.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/rtl.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/rubyblue.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/rubyblue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/js/sample.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/js/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample_posteddata.php" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sample_posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/css/samples.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/css/samples.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/script.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Templates/partials/script.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/search.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/search.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/searchGet.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/searchGet.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/public/assets/js/select2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Kategori/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Kategori/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/sidebar.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/sidebar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/skins.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/skins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/slider.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Blog/partials/slider.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/social-buttons/social-buttons.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/social-buttons/social-buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/solarized.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/solarized.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/code-prettify/styles/sons-of-obsidian.css" afterPath="$PROJECT_DIR$/public/assets/code-prettify/styles/sons-of-obsidian.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sourcedialog/sourcedialog.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/sourcedialog/sourcedialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/demo/sparkline-demo.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/demo/sparkline-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/spinners.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/spinners.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/css/style.css" afterPath="$PROJECT_DIR$/public/assets/Inspira/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/style.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/email_templates/styles.css" afterPath="$PROJECT_DIR$/public/assets/backend/email_templates/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/styles.js" afterPath="$PROJECT_DIR$/public/assets/ckeditor/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/css/summernote-bs3.css" afterPath="$PROJECT_DIR$/public/assets/Inspira/css/summernote-bs3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/summernote-ext-highlight.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/summernote-ext-highlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/css/summernote.css" afterPath="$PROJECT_DIR$/public/assets/Inspira/css/summernote.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/summernote/summernote.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/summernote/summernote.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.css" afterPath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/summernote.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/summernote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.js" afterPath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Inspira/js/summernote.min.js" afterPath="$PROJECT_DIR$/public/assets/Inspira/js/summernote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.min.js" afterPath="$PROJECT_DIR$/public/assets/summernote/dist/summernote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/switchery/switchery.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/switchery/switchery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/tabindex.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/tabindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/tambahFoto.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/tambahFoto.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/tambahJob.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/BackEnd/Users/Job/tambahJob.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/the-matrix.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/the-matrix.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/theme-config.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/theme-config.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/tinycon/tinycon.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/tinycon/tinycon.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/toastr/toastr.min.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/toastr/toastr.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/js/plugins/toastr/toastr.min.js" afterPath="$PROJECT_DIR$/public/assets/backend/js/plugins/toastr/toastr.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/tomorrow-night-bright.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/tomorrow-night-eighties.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/toolbar/toolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/top_navigation.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/top_navigation.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/tree.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-filemanager/tree.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ttcn.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/ttcn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/twilight.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/twilight.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/typography.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/typography.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/css/plugins/jqGrid/ui.jqgrid.css" afterPath="$PROJECT_DIR$/public/assets/backend/css/plugins/jqGrid/ui.jqgrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/uicolor.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/uicolor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/uilanguages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Profile/userPublicProfile.blade.php" afterPath="$PROJECT_DIR$/resources/views/Page/FrontEnd/Profile/userPublicProfile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/backend/LESS/variables.less" afterPath="$PROJECT_DIR$/public/assets/backend/LESS/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/vibrant-ink.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/vibrant-ink.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/xhtmlstyle.html" afterPath="$PROJECT_DIR$/public/assets/ckeditor/samples/old/xhtmlstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/xq-dark.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/xq-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/xq-light.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/xq-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/zenburn.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codemirror/theme/zenburn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterPath="$PROJECT_DIR$/public/assets/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" />
     </list>
     <ignored path="MastahCodeNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -569,8 +48,8 @@
       <file leaf-file-name="TutorialRequestController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TutorialRequestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22302158">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.5683453">
+              <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -636,10 +115,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="waviq" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="Waviq" target-branch="master" />
+    </push-targets>
   </component>
   <component name="GulpTreeLayoutManager">
     <layout place="tools.popup">
@@ -697,9 +184,9 @@
         <option value="$PROJECT_DIR$/app/RequestTutorial.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_10_033232_RequestTutorialTable.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_10_223400_TabelRequestTutorial.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TutorialRequestController.php" />
         <option value="$PROJECT_DIR$/resources/views/Page/FrontEnd/RequestTutorial/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/RequestTutorialRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TutorialRequestController.php" />
       </list>
     </option>
   </component>
@@ -1172,7 +659,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436858202284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="post request tutorial form + perbaikan tabel migrasi requestTutorial">
+      <created>1447195522269</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1447195522269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1196,12 +689,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.4483871" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21474358" sideWeight="0.5516129" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20224719" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1211,7 +705,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1260,7 +753,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ckeditor" />
-    <option name="LAST_COMMIT_MESSAGE" value="ckeditor" />
+    <MESSAGE value="post request tutorial form + perbaikan tabel migrasi requestTutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="post request tutorial form + perbaikan tabel migrasi requestTutorial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1460,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24734983">
           <caret line="7" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,6 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.7586207">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,6 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3415" column="12" selection-start-line="3415" selection-start-column="12" selection-end-line="3415" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,6 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.103448">
           <caret line="87" column="74" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,8 +1151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TutorialRequestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22302158">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.5683453">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
           <folding />
         </state>
       </provider>
