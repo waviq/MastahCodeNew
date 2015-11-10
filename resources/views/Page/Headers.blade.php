@@ -85,6 +85,12 @@
                 </li>
 
                 <li class="dropdown active">
+                    <a href="{{url(action('TutorialRequestController@index'))}}">
+                        Request Tutorial
+                    </a>
+                </li>
+
+                <li class="dropdown active">
                     <a href="{{url(action('FAQsController@indexFront'))}}">
                         FAQs
                     </a>

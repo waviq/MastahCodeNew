@@ -70,6 +70,7 @@ Route::get('kategori/{namaKategori}','KategoriController@showFront');
 Route::resource('back/kategori','KategoriController');
 
 Route::resource('tutorial','TutorialController');
+Route::resource('request-tutorial','TutorialRequestController');
 
 Route::group(array('middleware' => 'auth'), function ()
 {

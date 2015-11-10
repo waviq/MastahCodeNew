@@ -182,7 +182,7 @@ class LoginUserController extends Controller {
             'password'  =>  $formFields['password'],
             'password_confirmation' =>  $formFields[ 'password_confirmation'],
         );
-        
+
         $rules = array(
             'name'      =>  'required',
             'email'     =>  'required|email|unique:users',

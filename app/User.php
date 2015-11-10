@@ -114,5 +114,10 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         return Carbon::parse($value)->format('d/m/Y');
     }
 
+    public function requestTutorial()
+    {
+        return $this->hasMany(RequestTutorial::class);
+    }
+
 
 }

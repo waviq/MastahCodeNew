@@ -3411,6 +3411,10 @@ img.image-md {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.center_div{
+    margin: 0 auto;
+    width:100% /* value of your choice which suits your alignment */
+}
 
 .content-sm {
     padding-top: 60px;
