@@ -85,7 +85,7 @@
                 </li>
 
                 <li class="dropdown active">
-                    <a href="<?php echo e(url(action('TutorialRequestController@index'))); ?>">
+                    <a href="<?php echo e(url(action('TutorialRequestController@indexFront'))); ?>">
                         Request Tutorial
                     </a>
                 </li>

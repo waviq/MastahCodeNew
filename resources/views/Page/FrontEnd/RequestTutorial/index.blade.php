@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 @include('flash::message')
-                {!! Form::open(['url'=>'request-tutorial','class'=>'sky-form']) !!}
+                {!! Form::open(['url'=>'admin/request-tutorial','class'=>'sky-form']) !!}
 
                     <header>Form Request Tutorial</header>
                     <fieldset>

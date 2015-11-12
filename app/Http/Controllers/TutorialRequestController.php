@@ -18,9 +18,13 @@ class TutorialRequestController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function indexFront()
     {
         return view('Page.FrontEnd.RequestTutorial.index');
+    }
+    public function index()
+    {
+        return view('Page.BackEnd.RequestTutorials.index');
     }
 
 
@@ -33,7 +37,7 @@ class TutorialRequestController extends Controller
         $rt->save();
 
         flash()->success('Request Mastah Telah Diterima, Terimakasih....');
-        return redirect()->back();
+        return redirect(url(action('TutorialRequestController@indexFront')));
     }
 
 
