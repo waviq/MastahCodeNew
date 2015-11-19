@@ -75,9 +75,13 @@ font-size: 16px;"> Last access : <?php echo e(auth()->user()->lastLogin); ?> &nb
                                 <a href="<?php echo e(url('/user')); ?>"><i class="fa fa-qq fa-2x"></i> Liat Semua User </a>
                             <?php endif; ?>
                         </li>
-                        <li>
-                            <a href="<?php echo e(url('/user/create')); ?>"><i class="fa  fa-user fa-2x"></i> Create User </a>
-                        </li>
+
+                        <?php if(Auth::user()->hasRole('admin')): ?>
+                            <li>
+                                <a href="<?php echo e(url('/user/create')); ?>"><i class="fa  fa-user fa-2x"></i> Create User </a>
+                            </li>
+                        <?php endif; ?>
+
                         <li>
                             <a href="<?php echo e(URL::action('UserController@gantiPassword')); ?>"><i
                                         class="fa   fa-unlock-alt  fa-2x"></i> Ganti Password </a>
@@ -121,17 +125,21 @@ font-size: 16px;"> Last access : <?php echo e(auth()->user()->lastLogin); ?> &nb
                     </li>
                 <?php endif; ?>
 
-                <li>
-                    <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> FAQs </a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="<?php echo e(url(action('FAQsController@create'))); ?>"><i class="fa fa-qq fa-2x"></i>Create </a>
-                        </li>
-                        <li>
-                            <a href="<?php echo e(url(action('FAQsController@edit'))); ?>"><i class="fa fa-qq fa-2x"></i> Edit </a>
-                        </li>
-                    </ul>
-                </li>
+                <?php if(Auth::user()->hasRole('admin')): ?>
+                    <li>
+                        <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> FAQs </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="<?php echo e(url(action('FAQsController@create'))); ?>"><i class="fa fa-qq fa-2x"></i>Create
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo e(url(action('FAQsController@edit'))); ?>"><i class="fa fa-qq fa-2x"></i> Edit
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                <?php endif; ?>
 
 
             </ul>
@@ -162,7 +170,6 @@ font-size: 16px;"> Last access : <?php echo e(auth()->user()->lastLogin); ?> &nb
 </div>
 <!-- /. WRAPPER  -->
 <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-
 
 
 <?php echo $__env->make('Page.partials.jsProfile', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

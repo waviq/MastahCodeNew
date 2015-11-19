@@ -24,7 +24,8 @@
 <script src="<?php echo e(asset('assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js')); ?>"></script>
 <?php /*JS Untuk Profile Page*/ ?>
 <script type="text/javascript" src="<?php echo e(asset('assets/plugins/circles-master/circles.js')); ?>"></script>
-<script type="text/javascript" src="<?php echo e(asset('assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js')); ?>"></script>
+<script type="text/javascript"
+        src="<?php echo e(asset('assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js')); ?>"></script>
 
 
 <!-- JS Customization -->
@@ -97,41 +98,74 @@
 </script>
 
 <script>
-    $('#regForm').submit(function(e){
+    $('#regForm').submit(function (e) {
         $.ajaxSetup({
-          header:$('meta')
+            header: $('meta')
         });
     });
 </script>
 <script>
-    $("#regForm").submit(function(event){
+    $("#regForm").submit(function (event) {
         event.preventDefault();
 
         var $form = $(this),
                 data = $form.serialize(),
                 url = $form.attr("action");
 
-        var posting = $.post(url,{formData:data});
-        posting.done(function(data){
-            if(data.fail){
-                $.each(data.errors, function(index, value){
-                    var errorDiv = '#'+index+'_error';
+        var posting = $.post(url, {formData: data});
+
+        posting.done(function (data) {
+            if (data.fail) {
+                $.each(data.errors, function (index, value) {
+                    var errorDiv = '#' + index + '_error';
                     $(errorDiv).addClass('required');
                     $(errorDiv).empty().append(value);
                 });
                 $('#successMessage').empty();
             }
-            if(data.success){
-                /*$('.register').fadeOut();
-                var successContent = '<div class="message"><h3>Registration berhasil</h3>' +
-                        '<h4> please Login with following details</h4><div class="userDetails">' +
-                        '<p><span>Email:</span>'+data.email+'</p><p><span>Password:******</span></p></div></div>';
-                $('#successMessage').html(successContent);*/
-                return window.location.href = '/artikel';
+            if (data.success) {
+                 /*$('.masuk').fadeOut();
+                 var successContent = '<div class="message"><h3>Registration berhasil</h3>' +
+                 '<h4> please Login with following details</h4><div class="userDetails">' +
+                 '<p><span>Email:</span>'+data.email+'</p><p><span>Password:******</span></p></div></div>';
+                 $('#successMessage').html(successContent);*/
+
+                return window.location.href = '/home';
             }
         });
     });
 </script>
+
+
+
+<?php /*<script>
+    $("#contactForm").submit(function (event) {
+        event.preventDefault();
+        submitForm();
+    })
+
+    function submitForm() {
+        //inisialisasi variabel form
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+
+        $.ajax({
+            type: "POST",
+            url: "testAjax/login",
+            data: "name=" + name + "email=" + email + "&message=" + message,
+            success: function (text) {
+                if (text == "success") {
+                    formSuccess();
+                }
+            }
+        });
+
+        function formSuccess() {
+            $("#msgSubmit").removeClass("hidden");
+        }
+    }
+</script>*/ ?>
 
 
 

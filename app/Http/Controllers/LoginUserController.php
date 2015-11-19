@@ -3,22 +3,22 @@
 namespace App\Http\Controllers;
 
 
+use App\Http\Requests;
 use App\Http\Requests\LoginUserRequest;
-use App\Http\Requests\RegisterSosialMediaRequest;
 use App\User;
 use Auth;
 use DateTime;
-use DB;
 use Hash;
 use Illuminate\Foundation\Auth\RedirectsUsers;
-use App\Http\Requests;
 use Input;
-use Redirect;
 use Laravel\Socialite\Facades\Socialite;
+use Redirect;
+use Response;
 use Validator;
 
 
-class LoginUserController extends Controller {
+class LoginUserController extends Controller
+{
 
     use RedirectsUsers;
 
@@ -35,11 +35,9 @@ class LoginUserController extends Controller {
             'username' => $request->username,
             'password' => $request->password,
         ], $remember)
-        )
-        {
+        ) {
 
-            if (Auth::check() && Auth::user()->active == 1)
-            {
+            if (Auth::check() && Auth::user()->active == 1) {
 
                 Auth::user()->lastLogin = new DateTime();
                 Auth::user()->save();
@@ -47,22 +45,19 @@ class LoginUserController extends Controller {
                 flash()->overlay('Selamat sukses login');
 
                 return Redirect::intended('profile');
-            } else
-            {
+            } else {
                 flash()->overlay('Akun anda belum aktif, cek email anda dan segera aktifkan');
                 Auth::logout();
 
                 return Redirect::back();
             }
         } elseif (Auth::attempt([
-            'email'    => $request->username,
+            'email' => $request->username,
             'password' => $request->password,
         ], $remember)
-        )
-        {
+        ) {
 
-            if (Auth::check() && Auth::user()->active == 1)
-            {
+            if (Auth::check() && Auth::user()->active == 1) {
 
                 Auth::user()->lastLogin = new DateTime();
                 Auth::user()->save();
@@ -70,16 +65,14 @@ class LoginUserController extends Controller {
                 flash()->overlay('Selamat sukses login');
 
                 return Redirect::intended('profile');
-            } else
-            {
+            } else {
                 flash()->overlay('Akun anda belum aktif, cek email anda dan segera aktifkan');
                 Auth::logout();
 
                 return Redirect::back();
             }
 
-        } else
-        {
+        } else {
             flash()->error('Gagal Login, cek kembali Username dan Password anda');
 
             return Redirect::back();
@@ -104,8 +97,7 @@ class LoginUserController extends Controller {
     {
         $cekEmail = User::where('email', '=', Input::get('email'))->first();
         $cekCode = User::where('code')->count();
-        if ($cekEmail)
-        {
+        if ($cekEmail) {
 
             return 'data benar';
             /*$username = Auth::user()->username;
@@ -120,8 +112,7 @@ class LoginUserController extends Controller {
             });*/
 
 
-        } else
-        {
+        } else {
             return 'data salah !!';
         }
     }
@@ -139,13 +130,11 @@ class LoginUserController extends Controller {
 
         $cekEmail = User::where('email', $user->email)->first();
         //dd(empty($cekEmail));
-        if (!empty($cekEmail))
-        {
+        if (!empty($cekEmail)) {
             Auth::login($cekEmail);
 
             return redirect(url(action('HomeController@index')));
-        } else
-        {
+        } else {
             return view('Page.FrontEnd.LoginSosials.facebook.index', compact('user'));
         }
 
@@ -175,37 +164,44 @@ class LoginUserController extends Controller {
         $inputData = Input::get('formData');
         parse_str($inputData, $formFields);
         $userData = array(
-            'name'      => $formFields['name'],
-            'username'  =>  $formFields['username'],
-            'email'     =>  $formFields['email'],
-            'role_id'     =>  2,
-            'password'  =>  $formFields['password'],
-            'password_confirmation' =>  $formFields[ 'password_confirmation'],
+            'name' => $formFields['name'],
+            'username' => $formFields['username'],
+            'email' => $formFields['email'],
+            'role_id' => 2,
+            'password' => $formFields['password'],
+            'password_confirmation' => $formFields['password_confirmation'],
+            'active'    =>1
         );
 
         $rules = array(
-            'name'      =>  'required',
-            'email'     =>  'required|email|unique:users',
-            'password'  =>  'required|min:6|confirmed',
+            'name' => 'required',
+            'username' => 'required|unique:users',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|min:6|confirmed',
         );
-        $validator = Validator::make($userData,$rules);
-        if($validator->fails()){
-            return \Response::json(array(
+        $validator = Validator::make($userData, $rules);
+        if ($validator->fails()) {
+            return Response::json(array(
                 'fail' => true,
                 'errors' => $validator->getMessageBag()->toArray()
             ));
-        }else{
+        } else {
             $password = $userData['password'];
             $userData['password'] = Hash::make($userData['password']);
             unset($userData['password_confirmation']);
 
             //save to DB
-            if(User::create($userData)){
-                return \Response::json(array(
+            if (User::create($userData)) {
+
+                $email = $userData['email'];
+                $userDB = User::where('email', $email)->first();
+                Auth::login($userDB, $remember = true);
+                return Response::json(array(
                     'success' => true,
                     'email' => $userData['email'],
-                    'password'    =>  $password
+                    'password' => $password,
                 ));
+
             }
         }
 
@@ -224,11 +220,7 @@ class LoginUserController extends Controller {
 
         return redirect('home');*/
 
-
+        return false;
     }
 
-    public function create()
-    {
-
-    }
 }

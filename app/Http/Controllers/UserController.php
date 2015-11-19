@@ -31,7 +31,7 @@ class UserController extends Controller {
         $this->role_repo = $role_repo;
 
         $this->middleware('auth');
-        $this->middleware('role:admin',['only'=>['index']]);
+        $this->middleware('role:admin',['only'=>['index','create']]);
         //parent::__construct();
     }
 

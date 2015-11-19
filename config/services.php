@@ -38,7 +38,25 @@ return [
     'facebook' => [
         'client_id' => '1630491227202353',
         'client_secret' => '0b878891c295a0a087365b8e40438e79',
-        'redirect' => 'http://localhost:8000/callback',
+        'redirect' => 'http://localhost:8000/auth/facebook/callback',
+    ],
+
+    'github' => [
+        'client_id' => env('GITHUB_ID'),
+        'client_secret' => env('GITHUB_SECRET'),
+        'redirect' => env('GITHUB_URL'),
+    ],
+
+    'twitter' => [
+        'client_id' => env('TWITTER_ID'),
+        'client_secret' => env('TWITTER_SECRET'),
+        'redirect' => env('TWITTER_URL'),
+    ],
+
+    'linkedin' => [
+        'client_id' => env('LINKEDIN_ID'),
+        'client_secret' => env('LINKEDIN_SECRET'),
+        'redirect' => env('LINKEDIN_URL'),
     ],
 
 ];

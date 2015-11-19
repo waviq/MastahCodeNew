@@ -6,13 +6,13 @@
 
 <div class="input-group margin-bottom-20 {{$errors->has('name_error')?'has-error':''}}">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    {!! Form::text('name',$user->name,['class'=>'form-control','placeholder'=>'Nama Lengkap','required' => 'required']) !!}
+    {!! Form::text('name',$user->nickname,['class'=>'form-control','placeholder'=>'Nama Lengkap','required' => 'required']) !!}
     <span class="validateRegSosial" id ="name_error"></span>
 </div>
 {{--<div class="alert alert-danger" id ="email_error"></div>--}}
 <div class="input-group margin-bottom-20 {{$errors->has('email_error')?'has-error':''}}">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    {!! Form::email('email',$user->email,['class'=>'form-control','placeholder'=>'email','required' => 'required']) !!}
+    {!! Form::email('email',null,['class'=>'form-control','placeholder'=>'email','required' => 'required']) !!}
     <span class="validateRegSosial" id ="email_error"></span>
 </div>
 
@@ -20,7 +20,7 @@
 <!-- form input Username-->
 <div class="input-group margin-bottom-20 {{$errors->has('username')?'has-error':''}}">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    {!! Form::text('username',str_replace(' ','',$user->name),['class'=>'form-control','placeholder'=>'Username','required' => 'required']) !!}
+    {!! Form::text('username',$user->nickname,['class'=>'form-control','placeholder'=>'Username','required' => 'required']) !!}
     <span class="validateRegSosial" id ="username_error"></span>
 </div>
 

@@ -5,38 +5,41 @@
     <h2>Finish creating your Mastahcode account</h2>
 </div>
 
-<div class="input-group margin-bottom-20 <?php echo e($errors->has('name')?'has-error':''); ?>">
+<div class="input-group margin-bottom-20 <?php echo e($errors->has('name_error')?'has-error':''); ?>">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    <?php echo Form::text('name',$user->name,['class'=>'form-control','placeholder'=>'Nama Lengkap']); ?>
+    <?php echo Form::text('name',$user->name,['class'=>'form-control','placeholder'=>'Nama Lengkap','required' => 'required']); ?>
 
-    <div id ="name_error"></div>
+    <span class="validateRegSosial" id ="name_error"></span>
 </div>
-<div class="alert alert-danger" id ="email_error"></div>
-<div class="input-group margin-bottom-20 <?php echo e($errors->has('email')?'has-error':''); ?>">
+<?php /*<div class="alert alert-danger" id ="email_error"></div>*/ ?>
+<div class="input-group margin-bottom-20 <?php echo e($errors->has('email_error')?'has-error':''); ?>">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    <?php echo Form::email('email',$user->email,['class'=>'form-control','placeholder'=>'email']); ?>
+    <?php echo Form::email('email',$user->email,['class'=>'form-control','placeholder'=>'email','required' => 'required']); ?>
 
+    <span class="validateRegSosial" id ="email_error"></span>
 </div>
 
 
 <!-- form input Username-->
 <div class="input-group margin-bottom-20 <?php echo e($errors->has('username')?'has-error':''); ?>">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    <?php echo Form::text('username',str_replace(' ','',$user->name),['class'=>'form-control','placeholder'=>'Username']); ?>
+    <?php echo Form::text('username',str_replace(' ','',$user->name),['class'=>'form-control','placeholder'=>'Username','required' => 'required']); ?>
 
+    <span class="validateRegSosial" id ="username_error"></span>
 </div>
 
 <!--Password form input-->
 <div class="input-group margin-bottom-20 <?php echo e($errors->has('password')?'has-error':''); ?>">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    <?php echo Form::password('password',['class'=>'form-control','placeholder'=>'Password']); ?>
+    <?php echo Form::password('password',['class'=>'form-control','placeholder'=>'Password','required' => 'required']); ?>
 
-    <div id ="password_error"></div>
+    <span class="validateRegSosial" id ="password_error"></span>
 </div>
 <div class="input-group margin-bottom-20 <?php echo e($errors->has('password_confirmation')?'has-error':''); ?>">
     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-    <?php echo Form::password('password_confirmation',['class'=>'form-control','placeholder'=>'Konfirmasi Password']); ?>
+    <?php echo Form::password('password_confirmation',['class'=>'form-control','placeholder'=>'Konfirmasi Password','required' => 'required']); ?>
 
+    <span class="validateRegSosial" id ="password_confirmation"></span>
 </div>
 
 <!-- Button Login-->

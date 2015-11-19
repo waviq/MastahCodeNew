@@ -151,6 +151,7 @@ return [
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
 
+
         /*
          * Application Service Providers...
          */

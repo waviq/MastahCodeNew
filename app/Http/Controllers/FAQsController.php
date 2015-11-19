@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\FAQs;
+use App\Http\Requests;
 use DOMDocument;
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 use Input;
 use Intervention\Image\ImageManagerStatic as Image;
 
@@ -16,8 +14,10 @@ class FAQsController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth',['except'=>['indexFront']]);
+        $this->middleware('auth', ['except' => ['indexFront']]);
+        $this->middleware('role:admin',['except'=>['indexFront']]);
     }
+
     public function index()
     {
         $faqs = FAQs::all();
@@ -45,14 +45,14 @@ class FAQsController extends Controller
         $isi = Input::get('isi');
 
         $dom = new DOMDocument();
-        $dom->loadHTML($isi, LIBXML_HTML_NOIMPLIED|LIBXML_HTML_NODEFDTD);
+        $dom->loadHTML($isi, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
-        foreach($images as $img){
+        foreach ($images as $img) {
             $src = $img->getAttribute('src');
 
-            if(preg_match('/data:image/', $src)){
+            if (preg_match('/data:image/', $src)) {
                 preg_match('/data:image\/(?<mime>.*?)\;/', $src, $groups);
                 $mimetype = $groups['mime'];
 
@@ -64,7 +64,7 @@ class FAQsController extends Controller
                 $image = Image::make($src)
                     // resize if required
                     /* ->resize(300, 200) */
-                    ->encode($mimetype, 100) 	// encode file to the specified mimetype
+                    ->encode($mimetype, 100)// encode file to the specified mimetype
                     ->save(public_path($filepath));
 
                 $new_src = asset($filepath);
@@ -102,14 +102,14 @@ class FAQsController extends Controller
         $isi = Input::get('isi');
 
         $dom = new DOMDocument();
-        $dom->loadHTML($isi, LIBXML_HTML_NOIMPLIED|LIBXML_HTML_NODEFDTD);
+        $dom->loadHTML($isi, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
         $images = $dom->getElementsByTagName('img');
 
-        foreach($images as $img){
+        foreach ($images as $img) {
             $src = $img->getAttribute('src');
 
-            if(preg_match('/data:image/', $src)){
+            if (preg_match('/data:image/', $src)) {
                 preg_match('/data:image\/(?<mime>.*?)\;/', $src, $groups);
                 $mimetype = $groups['mime'];
 
@@ -121,7 +121,7 @@ class FAQsController extends Controller
                 $image = Image::make($src)
                     // resize if required
                     /* ->resize(300, 200) */
-                    ->encode($mimetype, 100) 	// encode file to the specified mimetype
+                    ->encode($mimetype, 100)// encode file to the specified mimetype
                     ->save(public_path($filepath));
 
                 $new_src = asset($filepath);

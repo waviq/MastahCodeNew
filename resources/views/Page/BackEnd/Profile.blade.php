@@ -75,9 +75,13 @@ font-size: 16px;"> Last access : {{auth()->user()->lastLogin}} &nbsp; <a href="{
                                 <a href="{{url('/user')}}"><i class="fa fa-qq fa-2x"></i> Liat Semua User </a>
                             @endif
                         </li>
-                        <li>
-                            <a href="{{url('/user/create')}}"><i class="fa  fa-user fa-2x"></i> Create User </a>
-                        </li>
+
+                        @if(Auth::user()->hasRole('admin'))
+                            <li>
+                                <a href="{{url('/user/create')}}"><i class="fa  fa-user fa-2x"></i> Create User </a>
+                            </li>
+                        @endif
+
                         <li>
                             <a href="{{URL::action('UserController@gantiPassword')}}"><i
                                         class="fa   fa-unlock-alt  fa-2x"></i> Ganti Password </a>
@@ -121,17 +125,21 @@ font-size: 16px;"> Last access : {{auth()->user()->lastLogin}} &nbsp; <a href="{
                     </li>
                 @endif
 
-                <li>
-                    <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> FAQs </a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="{{url(action('FAQsController@create'))}}"><i class="fa fa-qq fa-2x"></i>Create </a>
-                        </li>
-                        <li>
-                            <a href="{{url(action('FAQsController@edit'))}}"><i class="fa fa-qq fa-2x"></i> Edit </a>
-                        </li>
-                    </ul>
-                </li>
+                @if(Auth::user()->hasRole('admin'))
+                    <li>
+                        <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> FAQs </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{{url(action('FAQsController@create'))}}"><i class="fa fa-qq fa-2x"></i>Create
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{url(action('FAQsController@edit'))}}"><i class="fa fa-qq fa-2x"></i> Edit
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                @endif
 
 
             </ul>
@@ -162,7 +170,6 @@ font-size: 16px;"> Last access : {{auth()->user()->lastLogin}} &nbsp; <a href="{
 </div>
 <!-- /. WRAPPER  -->
 <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-
 
 
 @include('Page.partials.jsProfile')

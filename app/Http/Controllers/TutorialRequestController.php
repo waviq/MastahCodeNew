@@ -16,6 +16,7 @@ class TutorialRequestController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('role:admin',['except'=>['indexFront','store']]);
     }
 
     public function indexFront()
@@ -24,7 +25,8 @@ class TutorialRequestController extends Controller
     }
     public function index()
     {
-        return view('Page.BackEnd.RequestTutorials.index');
+        $rt = RequestTutorial::all();
+        return view('Page.BackEnd.RequestTutorials.index', compact('rt'));
     }
 
 
@@ -37,35 +39,39 @@ class TutorialRequestController extends Controller
         $rt->save();
 
         flash()->success('Request Mastah Telah Diterima, Terimakasih....');
+
         return redirect(url(action('TutorialRequestController@indexFront')));
     }
 
 
     public function show($id)
     {
-        //
+
     }
 
 
     public function edit($id)
     {
-        //
+        $rt = RequestTutorial::findOrFail($id);
+        return view('Page.BackEnd.RequestTutorials.edit',compact('rt'));
     }
 
 
     public function update(Request $request, $id)
     {
-        //
+        $rt = RequestTutorial::findOrFail($id);
+        $rt->title = $request->get('title');
+        $rt->description = $request->get('description');
+        $rt->save();
+
+        flash()->success('berhasil update');
+        return redirect(url(action('TutorialRequestController@index')));
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
     public function destroy($id)
     {
-        //
+        RequestTutorial::find($id)->delete();
+        flash()->success('Deleted');
+        return redirect(url(action('TutorialRequestController@index')));
     }
 }

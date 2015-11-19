@@ -18,11 +18,24 @@ Route::group(array('middleware'=>'guest'), function(){
     Route::get('auth/login','LoginUserController@getLogin');
     Route::post('auth/login','LoginUserController@postLogin');
 
+    /*
+     * Sosial Login
+    */
     Route::get('/auth/facebook','LoginUserController@getFacebook');
-    Route::get('/callback','LoginUserController@getDataFacebook');
+    Route::get('auth/facebook/callback','LoginUserController@getDataFacebook');
+
+    Route::get('/auth/github','GithubLoginController@getGithub');
+    Route::get('auth/github/callback','GithubLoginController@getDataGithub');
+
+    Route::get('/auth/twitter','TwitterLoginController@getTwitter');
+    Route::get('auth/twitter/callback','TwitterLoginController@getDataTwitter');
+
+    Route::get('/auth/linkedin','LinkedinLoginController@getLinkedin');
+    Route::get('auth/linkedin/callback','LinkedinLoginController@getDataLinkedin');
 
     Route::get('auth/registerSosial','LoginUserController@getRegisterSosial');
     Route::post('auth/registerSosial','LoginUserController@postRegisSosial');
+    /*End Sosial Login*/
 
     Route::get('auth/register','RegisterUserController@getRegister');
     Route::post('auth/register','RegisterUserController@postRegister');
@@ -125,6 +138,9 @@ Route::get('/ajax/artikel', function(){
 });
 
 Route::get('sync-comments','CommentDisqusController@index');
+
+Route::resource('testAjax','TestController');
+Route::post('testAjax/login', 'TestController@login');
 
 
 
