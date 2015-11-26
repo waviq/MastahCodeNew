@@ -26,7 +26,7 @@ class LinkedinLoginController extends Controller
             return Redirect::to('auth/linkedin');
         }
 
-        dd($user);
+        //dd($user);
         $authUser = $this->findOrCreateUser($user);
         $cekEmail = User::where('email', $user->email)->first();
         $cekUsername = User::where('username',$user->nickname)->first();

@@ -16,6 +16,7 @@ class FAQsController extends Controller
     {
         $this->middleware('auth', ['except' => ['indexFront']]);
         $this->middleware('role:admin',['except'=>['indexFront']]);
+
     }
 
     public function index()

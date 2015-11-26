@@ -91,10 +91,17 @@
                 </li>
 
                 <li class="dropdown active">
+                    <a href="<?php echo e(url(action('HelpCenterController@index'))); ?>">
+                        Help
+                    </a>
+                </li>
+
+                <li class="dropdown active">
                     <a href="<?php echo e(url(action('FAQsController@indexFront'))); ?>">
                         FAQs
                     </a>
                 </li>
+
                 <li class="dropdown active">
                     <a href="<?php echo e(url(action('TutorialController@index'))); ?>">
                         Kritik & Saran

@@ -129,8 +129,15 @@ Route::resource('blog', 'blogController');
 Route::get('profile','ProfileController@index');
 Route::get('profile/{username}','ProfileController@indexFront');
 
-Route::get('FAQs','FAQsController@indexFront');
-Route::resource('backend/FAQs','FAQsController');
+/*
+ * Help Center
+ */
+
+
+Route::get('help-center/FAQs','FAQsController@indexFront');
+Route::get('help-center/writing','WritingController@indexFront');
+Route::resource('help-center','HelpCenterController',['except' => ['create', 'store', 'update', 'destroy','show']]);
+Route::resource('backend/FAQs','FAQsController',['except' => ['show']]);
 
 Route::get('/ajax/artikel', function(){
    $post = Post::paginate(2);

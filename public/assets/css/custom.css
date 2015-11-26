@@ -1,4 +1,103 @@
 /* Add here all your css styles (customizations) */
+
+#gambarFaqs {
+    background:url('../img/help/faqs2.jpg') no-repeat center center ;
+    background-size:cover;
+    width:100%;
+    padding-top:20%;
+    padding-bottom:20%;
+    margin-bottom:20px;
+}
+#gambarWriting {
+    background:url('../img/help/writing3.jpg') no-repeat center center ;
+    background-size:cover;
+    width:100%;
+    padding-top:20%;
+    padding-bottom:20%;
+    margin-bottom:20px;
+}
+#gambarReading {
+    background:url('../img/help/reading.jpg') no-repeat center center ;
+    background-size:cover;
+    width:60%;
+    padding-top:20%;
+    padding-bottom:20%;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+#gambarProfile{
+    background:url('../img/help/profile.jpg') no-repeat center center ;
+    background-size:cover;
+    width:35%;
+    padding-top:20%;
+    padding-bottom:20%;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+#gambarFaqs h2{
+    color: #eff0f2;
+    font-size: 1.3em;
+    top: 200px;
+    left: 3em;
+    width: 100%;
+}
+
+#gambarFaqs h2 span{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+#gambarProfile h2{
+    color: #eff0f2;
+    font-size: 1.3em;
+    top: 200px;
+    left: 3em;
+    width: 100%;
+}
+#gambarProfile h2 span{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+#gambarWriting h2{
+    color: #eff0f2;
+    font-size: 1.3em;
+    top: 200px;
+    left: 3em;
+    width: 100%;
+}
+#gambarWriting h2 span{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+#gambarReading h2{
+    color: white;
+    padding:10%;
+}
+
+#gambarReading h2{
+    top: 200px;
+    left: 3em;
+    width: 100%;
+}
+#gambarReading h2 span{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
 .validateRegSosial{
     display: block;
     margin-top: 6px;
