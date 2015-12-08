@@ -14,7 +14,7 @@
             <th>Skill</th>
             <th>Pendidikan</th>
             <?php if(Auth::user()->hasRole('admin')): ?>
-                <th>FAQs</th>
+                <th>Help-Center</th>
             <?php endif; ?>
             <?php if(Auth::user()->hasRole('admin')): ?>
                 <th>Request Tutorials</th>
@@ -30,7 +30,7 @@
                 <td><a class=" btn-u btn-u-green" href="<?php echo e(url(action('SkillController@index'))); ?>">Edit</a></td>
                 <td><a class=" btn-u btn-u-purple" href="<?php echo e(url(action('EducationController@index'))); ?>">Edit</a></td>
                 <?php if(Auth::user()->hasRole('admin')): ?>
-                    <td><a class="btn-u btn-u-brown" href="<?php echo e(url(action('FAQsController@index'))); ?>">Edit</a></td>
+                    <td><a class="btn-u btn-u-brown" href="<?php echo e(url(action('HelpCenterController@indexBack'))); ?>">Edit</a></td>
                 <?php endif; ?>
 
                 <?php if(Auth::user()->hasRole('admin')): ?>

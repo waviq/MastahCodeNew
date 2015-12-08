@@ -140,6 +140,21 @@ font-size: 16px;"> Last access : <?php echo e(auth()->user()->lastLogin); ?> &nb
                         </ul>
                     </li>
                 <?php endif; ?>
+                <?php if(Auth::user()->hasRole('admin')): ?>
+                    <li>
+                        <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> Writings </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="<?php echo e(url(action('WritingController@create'))); ?>"><i class="fa fa-qq fa-2x"></i>Create
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo e(url(action('WritingController@edit'))); ?>"><i class="fa fa-qq fa-2x"></i> Edit
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                <?php endif; ?>
 
 
             </ul>

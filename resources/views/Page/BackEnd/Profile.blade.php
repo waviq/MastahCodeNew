@@ -140,6 +140,21 @@ font-size: 16px;"> Last access : {{auth()->user()->lastLogin}} &nbsp; <a href="{
                         </ul>
                     </li>
                 @endif
+                @if(Auth::user()->hasRole('admin'))
+                    <li>
+                        <a href="#"><i class="fa  fa-comment-o  fa-3x "></i> Writings </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{{url(action('WritingController@create'))}}"><i class="fa fa-qq fa-2x"></i>Create
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{url(action('WritingController@edit'))}}"><i class="fa fa-qq fa-2x"></i> Edit
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                @endif
 
 
             </ul>

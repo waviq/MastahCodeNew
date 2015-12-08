@@ -16,7 +16,7 @@
             <th>Skill</th>
             <th>Pendidikan</th>
             @if(Auth::user()->hasRole('admin'))
-                <th>FAQs</th>
+                <th>Help-Center</th>
             @endif
             @if(Auth::user()->hasRole('admin'))
                 <th>Request Tutorials</th>
@@ -32,7 +32,8 @@
                 <td><a class=" btn-u btn-u-green" href="{{url(action('SkillController@index'))}}">Edit</a></td>
                 <td><a class=" btn-u btn-u-purple" href="{{url(action('EducationController@index'))}}">Edit</a></td>
                 @if(Auth::user()->hasRole('admin'))
-                    <td><a class="btn-u btn-u-brown" href="{{url(action('FAQsController@index'))}}">Edit</a></td>
+                    <td><a class="btn-u btn-u-brown" href="{{url(action('HelpCenterController@indexBack'))}}">Edit</a>
+                    </td>
                 @endif
 
                 @if(Auth::user()->hasRole('admin'))

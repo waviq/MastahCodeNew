@@ -28,7 +28,7 @@
         </div>
     </a>
 
-    <a href="#">
+    <a href="{{url(action('WritingController@indexFront'))}}">
         <div id="gambarWriting" class="col-md-6">
             <h2><span class="spacer">Writing</span><br>Bagikan ilmu Mastah
                 <br>untuk kami,

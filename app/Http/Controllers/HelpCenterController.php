@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\FAQs;
 use App\Http\Requests;
 
 class HelpCenterController extends Controller
@@ -9,6 +10,11 @@ class HelpCenterController extends Controller
     public function index()
     {
         return view('Page.FrontEnd.HelpCenter.index');
+    }
+
+    public function indexBack()
+    {
+        return view('Page.BackEnd.HelpCenter.index');
     }
 
     public function showFaqs()

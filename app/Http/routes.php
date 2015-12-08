@@ -136,7 +136,9 @@ Route::get('profile/{username}','ProfileController@indexFront');
 
 Route::get('help-center/FAQs','FAQsController@indexFront');
 Route::get('help-center/writing','WritingController@indexFront');
+Route::get('back/help-center','HelpCenterController@indexBack');
 Route::resource('help-center','HelpCenterController',['except' => ['create', 'store', 'update', 'destroy','show']]);
+Route::resource('backend/writing','WritingController',['except' => ['show']]);
 Route::resource('backend/FAQs','FAQsController',['except' => ['show']]);
 
 Route::get('/ajax/artikel', function(){
