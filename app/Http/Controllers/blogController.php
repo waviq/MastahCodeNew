@@ -71,7 +71,6 @@ class blogController extends Controller {
 
         $kategori = Kategori::lists('namaKategori', 'id');
 
-
         return view('Page.BackEnd.Artikel.CreateArtikel', compact('kategori'));
     }
 

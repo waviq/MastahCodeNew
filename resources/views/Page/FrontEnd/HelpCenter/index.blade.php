@@ -1,7 +1,7 @@
 @extends('Page.FrontEnd.Blog.BlogTemplate')
 
 @section('title')
-    Kumpulan artikel tutorial|Mastahcode.com
+    Help Center|Mastahcode.com
 @endsection
 
 @section('meta')
